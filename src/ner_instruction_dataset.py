@@ -11,15 +11,14 @@ label_names = dataset.features["ner_tags"].feature.names
 def ner_to_instruction(example):
     words = example["tokens"]
     tags = example["ner_tags"]
-
     sentence = " ".join(words)
+    
     entities = {}
     current_entity = []
     current_type = None
 
     for word, tag_id in zip(words, tags):
         tag = label_names[tag_id]
-
         if tag == "O":
             if current_entity:
                 entity_str = " ".join(current_entity)
@@ -29,7 +28,6 @@ def ner_to_instruction(example):
             continue
 
         prefix, ent_type = tag.split("-")
-
         if prefix == "B":
             if current_entity:
                 entity_str = " ".join(current_entity)
@@ -48,17 +46,29 @@ def ner_to_instruction(example):
     if current_entity:
         entity_str = " ".join(current_entity)
         entities.setdefault(current_type, []).append(entity_str)
-
-    return {
-        "instruction": f"Extract named entities from the sentence: '{sentence}'",
-        "response": entities  
-    }
+    
+    expected_entities = ["LOC", "MISC", "ORG", "PER"]
+    response = {etype: entities.get(etype, None) for etype in expected_entities}
+    
+    instruction = f"Extract named entities from the sentence: '{sentence}'"
+    response_parts = []
+    for entity_type in expected_entities:
+        ent_list = response.get(entity_type)
+        if ent_list is None:
+            continue
+        if isinstance(ent_list, list) and ent_list:
+            entities_str = ", ".join(ent_list)
+            response_parts.append(f"{entity_type.upper()}: {entities_str}")
+    response_str = "; ".join(response_parts)
+    
+    full_text = f"### Instruction:\n{instruction}\n\n### Response:\n{response_str}"
+    return {"text": full_text}
 
 formatted_dataset = dataset.map(ner_to_instruction)
 
-final_dataset = formatted_dataset.remove_columns(
-    [col for col in formatted_dataset.column_names if col not in ["instruction", "response"]]
+formatted_dataset = formatted_dataset.remove_columns(
+    [col for col in formatted_dataset.column_names if col not in ["text"]]
 )
-with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    json.dump(final_dataset.to_list(), f, indent=2, ensure_ascii=False)
 
+with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    json.dump(formatted_dataset.to_list(), f, indent=2, ensure_ascii=False)

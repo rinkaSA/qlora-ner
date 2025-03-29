@@ -8,22 +8,12 @@ from datasets import load_dataset
 from dotenv import load_dotenv
 from huggingface_hub import login
 
+from codecarbon import EmissionsTracker
+import time
+
 def preprocess_example(example):
-    instruction = example.get("instruction", "")
-    response = example.get("response", {})
-    response_parts = []
-    for entity_type, entities in response.items():
-        if entities is None:
-            continue 
-        if isinstance(entities, list):
-            entities_str = ", ".join(entities)
-        else:
-            entities_str = str(entities)
-        response_parts.append(f"{entity_type.upper()}: {entities_str}")
-    response_str = "; ".join(response_parts)
-    full_text = f"### Instruction:\n{instruction}\n\n### Response:\n{response_str}"
+    full_text = example["text"]
     tokenized = tokenizer(full_text, truncation=True, max_length=512)
-    
     tokenized["text"] = full_text
     return tokenized
 
@@ -70,15 +60,15 @@ dataset = load_dataset("json", data_files="/data/horse/ws/irve354e-uniNer_test/q
 dataset = dataset.map(preprocess_example)
 
 training_args = TrainingArguments(
-    output_dir="./qlora-ner-output",
+    output_dir="./output/qlora-ner-output-3",
     per_device_train_batch_size=4,
     gradient_accumulation_steps=4,
     learning_rate=2e-4,
-    num_train_epochs=2,
+    num_train_epochs=3,
     fp16=True,
-    logging_dir="./logs",
+    logging_dir="./output/logs",
     save_strategy="epoch",
-    report_to="none"
+    report_to="tensorboard"
 )
 
 trainer = SFTTrainer(
@@ -87,4 +77,10 @@ trainer = SFTTrainer(
     args=training_args
 )
 
+tracker = EmissionsTracker(project_name="qlora-ner-finetuning")
+tracker.start()
+start_time = time.time()
 trainer.train()
+end_time = time.time()
+tracker.stop()
+print(f"Total training time: {(end_time - start_time)/60:.2f} minutes")
