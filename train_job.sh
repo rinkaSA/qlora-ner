@@ -9,15 +9,15 @@
 #SBATCH --mem=32G                 
 #SBATCH --cpus-per-task=4     
 
-module load CUDA/11.7.1
+#module load CUDA/11.7.1
 
 
-source /software/rome/r24.04/Miniconda3/24.7.1-0/etc/profile.d/conda.sh
-conda activate universal-ner
+#source /software/rome/r24.04/Miniconda3/24.7.1-0/etc/profile.d/conda.sh
+#conda activate universal-ner
 
 source /data/horse/ws/irve354e-uniNer_test/qlora-ner/qlora-ner/.env
 
-nvidia-smi --query-gpu=timestamp,utilization.gpu,utilization.memory,temperature.gpu --format=csv -l 5 > output/gpu_usage_3.log &
+nvidia-smi --query-gpu=timestamp,utilization.gpu,utilization.memory,temperature.gpu --format=csv -l 5 > output/gpu_usage_4.log &
 gpu_log_pid=$!
 
 singularity run --nv -B /data/horse/ws/irve354e-uniNer_test/qlora-ner/qlora-ner:/workspace lora-train.sif
