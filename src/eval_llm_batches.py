@@ -23,20 +23,32 @@ def np_encoder(obj):
     
 def parse_response(response_text):
     """
-    Given a response text in the format:
-      "PER: Alice, Bob; ORG: Acme Inc, Globex"
-    Returns:
-      A dictionary: { "PER": ["Alice", "Bob"], "ORG": ["Acme Inc", "Globex"] }
+    Given a response text in the new format:
+      "LOC - China
+       MISC - newcomers
+       ORG - Uzbekistan
+       PER - none"
+       
+    This function returns a dictionary, for example:
+      { "LOC": ["China"], "MISC": ["newcomers"], "ORG": ["Uzbekistan"] }
+      
+    Lines with an entity value of "none" are skipped.
     """
     entities = {}
-    response_text = response_text.strip()
-    for part in response_text.split(";"):
-        if ":" in part:
-            entity_type, entity_list = part.split(":", 1)
+    for line in response_text.splitlines():
+        if " - " in line:
+            entity_type, entity_value = line.split(" - ", 1)
             entity_type = entity_type.strip().upper()
-            mentions = [e.strip() for e in entity_list.split(",") if e.strip()]
+            entity_value = entity_value.strip()
+            if entity_value.lower() == "none":
+                continue
+
+            mentions = [e.strip() for e in entity_value.split(",") if e.strip()]
             if mentions:
-                entities[entity_type] = mentions
+                if entity_type in entities:
+                    entities[entity_type].extend(mentions)
+                else:
+                    entities[entity_type] = mentions
     return entities
 
 def get_bio_tags(sentence, entities):
@@ -159,7 +171,7 @@ def evaluate_ner_pipeline_conll03(model, tokenizer, test_dataset, label_list, ma
 
 def main():
     experiment_name = "QLoRA_Evaluation"
-    run_name = "Evaluation_Run_base_model"
+    run_name = "Evaluation_Run_finetuned_model"
     load_dotenv()
     token = os.getenv("HUGGINGFACE_HUB_TOKEN")
     if token:
@@ -187,20 +199,22 @@ def main():
             trust_remote_code=True
         )
         base_model.eval()
-        #model = PeftModel.from_pretrained(base_model, "./output/qlora-ner-output-4")
-        #model.eval()
+        # load the fine-tuned adapter LoRA into the base model
+        model = PeftModel.from_pretrained(base_model, "./output/qlora-ner-output-10/checkpoint-8770")
+        model.eval()
+        model = model.merge_and_unload()
 
-        test_dataset = load_dataset("conll2003", split="test", trust_remote_code=True).select(range(10))
+        test_dataset = load_dataset("conll2003", split="test", trust_remote_code=True).select(range(1000))
         label_list = test_dataset.features["ner_tags"].feature.names
-        
-        metrics, generated_results = evaluate_ner_pipeline_conll03(base_model, tokenizer, test_dataset, label_list, batch_size=8)
+
+        metrics, generated_results = evaluate_ner_pipeline_conll03(model, tokenizer, test_dataset, label_list, batch_size=8)
         print("Evaluation Metrics:")
 
-        metrics_filename = "output/eval/evaluation_metrics.json"
+        metrics_filename = "output/eval/evaluation_metrics_peft.json"
         with open(metrics_filename, "w") as f:
             json.dump(metrics, f, indent=4, default=np_encoder)
 
-        responses_filename = "output/eval/llm_generated_responses.json"
+        responses_filename = "output/eval/llm_generated_responses_peft.json"
         with open(responses_filename, "w") as f:
             json.dump(generated_results, f, indent=4, default=np_encoder)
 
@@ -214,6 +228,7 @@ def main():
                     mlflow.log_metric(f"{entity}_{score_name}", value)
         
         mlflow.log_artifact(metrics_filename)
+        mlflow.log_artifact(responses_filename)
         
         
 if __name__ == "__main__":
