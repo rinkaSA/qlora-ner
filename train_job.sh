@@ -15,13 +15,13 @@
 #source /software/rome/r24.04/Miniconda3/24.7.1-0/etc/profile.d/conda.sh
 #conda activate universal-ner
 
-source /data/horse/ws/irve354e-uniNer_test/qlora-ner/qlora-ner/.env
+#source /data/horse/ws/irve354e-uniNer_test/qlora-ner/qlora-ner/.env
 
 nvidia-smi --query-gpu=timestamp,utilization.gpu,utilization.memory,temperature.gpu --format=csv -l 5 > output/gpu_usage_4.log &
 gpu_log_pid=$!
 
 singularity run --nv -B /data/horse/ws/irve354e-uniNer_test/qlora-ner/qlora-ner:/workspace lora-train.sif
 
-python src/quantize_train.py
+#python src/quantize_train.py
 kill $gpu_log_pid
 

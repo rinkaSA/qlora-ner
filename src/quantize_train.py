@@ -60,15 +60,15 @@ dataset = load_dataset("json", data_files="/data/horse/ws/irve354e-uniNer_test/q
 dataset = dataset.map(preprocess_example)
 
 training_args = TrainingArguments(
-    output_dir="./output/qlora-ner-output-3",
+    output_dir="./output/qlora-ner-output-4",
     per_device_train_batch_size=4,
     gradient_accumulation_steps=4,
     learning_rate=2e-4,
-    num_train_epochs=3,
+    num_train_epochs=10,
     fp16=True,
     logging_dir="./output/logs",
     save_strategy="epoch",
-    report_to="tensorboard"
+    report_to="none" # change to tensorboard but docker rebuilt is needed to include library
 )
 
 trainer = SFTTrainer(

@@ -1,0 +1,34 @@
+[
+    {
+        "prompt": "SOCCER - JAPAN GET LUCKY WIN , CHINA IN SURPRISE DEFEAT .",
+        "generated_response": "In this sentence, we can identify the following named entities:\n\n* LOC: JAPAN (location)\n* MISC: LUCKY (miscellaneous)\n* ORG: SOCCER (organization)\n* PER: CHINA (person)\n\nTherefore, the classification of each named entity in the sentence is:\n\n* JAPAN: LOC\n* LUCKY: MISC\n* SOCCER: ORG\n* CHINA: PER"
+    },
+    {
+        "prompt": "Nadim Ladki",
+        "generated_response": "LOC - Nadim (Location)\nMISC - Ladki (Miscellaneous)"
+    },
+    {
+        "prompt": "AL-AIN , United Arab Emirates 1996-12-06",
+        "generated_response": "I can identify and classify the named entities in the sentence as follows:\n\n* LOC: AL-AIN (location)\n* MISC: United Arab Emirates (miscellaneous)\n* ORG:  (no organization is mentioned)\n* PER:  (no person is mentioned)\n\nTherefore, the classification of each named entity in the sentence is:\n\n* AL-AIN: LOC\n* United Arab Emirates: MISC\n* (no organization or person is mentioned): N/A\n\nPlease provide the next sentence for annotation."
+    },
+    {
+        "prompt": "Japan began the defence of their Asian Cup title with a lucky 2-1 win against Syria in a Group C championship match on Friday .",
+        "generated_response": "LOC - Japan\nMISC - Friday\nORG - Asian Cup\nPER - 2 (the players)\n\nExplanation:\n\n* \"Japan\" is a location, so it is classified as LOC.\n* \"Friday\" is a date, so it is classified as MISC.\n* \"Asian Cup\" is an organization, so it is classified as ORG.\n* \"2\" is a number, so it is not a person, so it is classified as PER.\n\nNote: In this example, the named entities are annotated based on their semantic meaning in the sentence. The classification may vary depending on the context and"
+    },
+    {
+        "prompt": "But China saw their luck desert them in the second match of the group , crashing to a surprise 2-0 defeat to newcomers Uzbekistan .",
+        "generated_response": "LOC - China\nMISC - newcomers\nORG - Uzbekistan\nPER - none"
+    },
+    {
+        "prompt": "China controlled most of the match and saw several chances missed until the 78th minute when Uzbek striker Igor Shkvyrin took advantage of a misdirected defensive header to lob the ball over the advancing Chinese keeper and into an empty net .",
+        "generated_response": "LOC - China\nMISC - match\nORG - Chinese keeper\nPER - Igor Shkvyrin"
+    },
+    {
+        "prompt": "Oleg Shatskiku made sure of the win in injury time , hitting an unstoppable left foot shot from just outside the area .",
+        "generated_response": "LOC - Win\nMISC - injury time\nORG - Oleg Shatskiku\nPER - Oleg Shatskiku"
+    },
+    {
+        "prompt": "The former Soviet republic was playing in an Asian Cup finals tie for the first time .",
+        "generated_response": "I can help you with that! Based on the given sentence, I identify the following named entities:\n\n* LOC: former Soviet republic (location)\n* MISC: Asian Cup finals tie (miscellaneous)\n* ORG: none (no organization is mentioned)\n* PER: none (no person is mentioned)\n\nTherefore, the named entities in the sentence can be classified as follows:\n\n* LOC: 1\n* MISC: 1\n* ORG: 0\n* PER: 0"
+    }
+]

@@ -14,4 +14,4 @@ WORKDIR /workspace
 COPY src/ ./src/
 COPY datasets/ ./datasets/
 
-CMD ["python", "src/qlora-train.py"]
+CMD ["python", "src/quantize-train.py"]

@@ -1,0 +1,15 @@
+.env
+lora-train.sif
+/mlruns/
+/output/qlora-ner-output-3/
+/output/qlora-ner-output-10/checkpoint-877
+/output/qlora-ner-output-10/checkpoint-1754
+/output/qlora-ner-output-10/checkpoint-2631
+/output/qlora-ner-output-10/checkpoint-3508
+/output/qlora-ner-output-10/checkpoint-4385
+/output/qlora-ner-output-10/checkpoint-5262
+/output/qlora-ner-output-10/checkpoint-6139
+/output/qlora-ner-output-10/checkpoint-7016
+/output/qlora-ner-output-10/checkpoint-7893
+
+/logs/
