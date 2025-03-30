@@ -17,7 +17,7 @@
 
 #source /data/horse/ws/irve354e-uniNer_test/qlora-ner/qlora-ner/.env
 
-nvidia-smi --query-gpu=timestamp,utilization.gpu,utilization.memory,temperature.gpu --format=csv -l 5 > output/gpu_usage_3.log &
+nvidia-smi --query-gpu=timestamp,utilization.gpu,utilization.memory,temperature.gpu --format=csv -l 5 > output/gpu_usage_4.log &
 gpu_log_pid=$!
 
 singularity run --nv -B /data/horse/ws/irve354e-uniNer_test/qlora-ner/qlora-ner:/workspace lora-train.sif
