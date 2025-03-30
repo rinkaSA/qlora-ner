@@ -11,7 +11,7 @@
   - Base Model: LLaMA-2 7B Chat (quantized using QLoRA techniques)
   - Fine-Tuning: Uses PEFT with LoRA adapters to efficiently adapt the pre-trained model.
   - Trainer: Utilizes TRL’s `SFTTrainer` to perform supervised fine-tuning on the prepared dataset.
-  - Training Script: Located in `src/qlora-train.py`, it handles data loading, tokenization, training, and logging metrics.
+  - Training Script: Located in `src/quantize_train.py`, it handles data loading, tokenization, training, and logging metrics.
 
 ## Container Creation & Deployment
 

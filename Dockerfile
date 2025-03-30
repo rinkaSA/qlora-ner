@@ -7,11 +7,28 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 RUN pip3 install --upgrade pip && \
-    pip3 install torch transformers datasets peft trl bitsandbytes codecarbon psutil huggingface_hub tensorboard
+    pip3 install \
+        torch \
+        transformers \
+        datasets \
+        peft \
+        trl \
+        bitsandbytes \
+        codecarbon \
+        psutil \
+        huggingface_hub \
+        tensorboard \
+        mlflow \
+        seqeval \
+        tqdm \
+        python-dotenv
+        
+ENV HF_HOME=/tmp/huggingface
+ENV TRANSFORMERS_CACHE=/tmp/huggingface/transformers
 
 WORKDIR /workspace
 
 COPY src/ ./src/
 COPY datasets/ ./datasets/
 
-CMD ["python", "src/quantize-train.py"]
+CMD ["python", "src/qlora-train.py"]
