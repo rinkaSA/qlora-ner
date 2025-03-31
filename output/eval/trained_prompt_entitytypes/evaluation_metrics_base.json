@@ -1,0 +1,115 @@
+{
+    "precision": 0.6461988304093568,
+    "recall": 0.542997542997543,
+    "f1": 0.5901201602136181,
+    "classification_report": {
+        "IN THIS SENTENCE, THE NAME OF THE PERSON IS WASIM AKRAM, WAQAR YOUNIS. THE ABBREVIATION PER IS USED TO INDICATE THAT IT IS A PERSONAL NAME. THE SENTENCE ALSO INDICATES THAT WASIM AKRAM AND WAQAR YOUNIS ARE CRICKETERS BY SAYING PER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "IN THIS SENTENCE,'A. PARORE'IS A PER BECAUSE IT IS A PERSON'S NAME.'IJAZ AHMAD'AND'SAQLAIN'ARE ORG BECAUSE THEY ARE NAMES OF ORGANIZATIONS.'AHMAD'AND'SAQLAIN'ARE PER BECAUSE THEY ARE PEOPLE'S NAMES. THE RESPONSE IS A LIST OF PER IN THE SENTENCE": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "LOC": {
+            "precision": 0.8157894736842105,
+            "recall": 0.47692307692307695,
+            "f1-score": 0.6019417475728156,
+            "support": 130
+        },
+        "MISC": {
+            "precision": 0.23809523809523808,
+            "recall": 0.14285714285714285,
+            "f1-score": 0.17857142857142855,
+            "support": 35
+        },
+        "ORG": {
+            "precision": 0.5789473684210527,
+            "recall": 0.4489795918367347,
+            "f1-score": 0.5057471264367815,
+            "support": 49
+        },
+        "PER": {
+            "precision": 0.7058823529411765,
+            "recall": 0.6839378238341969,
+            "f1-score": 0.6947368421052632,
+            "support": 193
+        },
+        "PER IS A TYPE OF ENTITY, IN THIS CASE IT REFERS TO THE PERSON B. YOUNG, MOIN KHAN, AND WAQAR ARE ALL NAMES OF PEOPLE, IN THIS CASE, THE RESPONSE IS PER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "THE NAME OF THE LOCATION IS CAIRNS, THE NAME OF THE PERSON IS VAUGHAN, HARRIS AND; THE TYPE OF RESPONSE IS PER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "THE RESPONSE IS A LIST OF NAMED ENTITIES": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "THE RESPONSE IS A LIST OF PERSONAL NAMES IN THE FORMAT \"PER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "THE RESPONSE IS A LIST OF PERSONS": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "THE RESPONSE IS FOR A NAMED ENTITY": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "THE SENTENCE REFERS TO A SOCCER MATCH BETWEEN JAPAN AND SYRIA. THE JAPANESE PLAYERS ARE NAMED": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "THE TERM \" MEN \" REFERS TO A GENDER, IN THIS CASE, MASCULINE, SO THE RESPONSE IS PER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "THIS IS A NAME OF A PERSON": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "micro avg": {
+            "precision": 0.6461988304093568,
+            "recall": 0.542997542997543,
+            "f1-score": 0.5901201602136181,
+            "support": 407
+        },
+        "macro avg": {
+            "precision": 0.1559142955427785,
+            "recall": 0.11684650903007676,
+            "f1-score": 0.13206647631241925,
+            "support": 407
+        },
+        "weighted avg": {
+            "precision": 0.6854783294411777,
+            "recall": 0.542997542997543,
+            "f1-score": 0.597956380604875,
+            "support": 407
+        }
+    }
+}

@@ -1,0 +1,802 @@
+[
+    {
+        "prompt": "SOCCER - JAPAN GET LUCKY WIN , CHINA IN SURPRISE DEFEAT .",
+        "generated_response": "{'LOC': ['JAPAN', 'CHINA']}\n\n### Explanation:\nLocation is a generic term that refers to a country or geographic region.\n\n### In conclusion:\nLocation is a generic term that refers to a country or geographic region.\n\n### Related documentation:\nYou can find more information about the LOC entity in the following documentation:\n\n### For more information:\nRead the documentation to learn more about the LOC entity and how to use it in your applications.\n\n### Related entities:\nYou can find more information about related entities in the following documentation:\n\n### For more information:\nRead the documentation to"
+    },
+    {
+        "prompt": "Nadim Ladki",
+        "generated_response": "{'PER': ['Nadim Ladki']}\n\n### Explanation:\nThe name 'Nadim Ladki' is a person name.\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing namespace.\n\n### Related products:\nYou can find more information about the Natural Language Processing namespace in the IBM Knowledge Center.\n\n### Security information:\nThis namespace does not have any security-related information associated with it.\n\n### Legal information:\nThis namespace is not subject to any legal restrictions.\n\n### Contact information:\nIf you have any"
+    },
+    {
+        "prompt": "AL-AIN , United Arab Emirates 1996-12-06",
+        "generated_response": "{'LOC': ['AL-AIN', 'United Arab Emirates']}\n\n### Explanation:\n'LOC' is an abbreviation for 'Location'.\n\n### Include:\n'LOC': ['AL-AIN', 'United Arab Emirates']\n\n### Don't include:\n'PER'\n\n### Why:\nThe sentence provides the location of a match played on December 6th, 1996 in the United Arab Emirates.\n\n### Conclusion:\n'LOC' is a named entity that refers to the location of a match played on December 6th, 1996 in the United"
+    },
+    {
+        "prompt": "Japan began the defence of their Asian Cup title with a lucky 2-1 win against Syria in a Group C championship match on Friday .",
+        "generated_response": "{'LOC': ['Japan', 'Syria'], 'MISC': ['Asian Cup', 'Group C']}\n\n### Explanation:\nThe 'LOC' tag represents the location of the entities in the sentence. In this case, 'Japan' is a LOC and 'Syria' is also a LOC. The 'MISC' tag represents the type of entity, in this case, an international football tournament.\n\n### Conclusion:\n{'LOC': ['Japan', 'Syria']}\n\n### Definition of MISC:\nMISC stands for Miscellaneous.\n\n### Definition of ORG:\nOR"
+    },
+    {
+        "prompt": "But China saw their luck desert them in the second match of the group , crashing to a surprise 2-0 defeat to newcomers Uzbekistan .",
+        "generated_response": "{'LOC': ['China', 'Uzbekistan']}\n\n### Explanation:\nThe sentence identifies the following named entities:\n\n'Uzbekistan' is a LOC (Location) entity.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: ORG (Organization), MISC (Miscellaneous), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday,"
+    },
+    {
+        "prompt": "China controlled most of the match and saw several chances missed until the 78th minute when Uzbek striker Igor Shkvyrin took advantage of a misdirected defensive header to lob the ball over the advancing Chinese keeper and into an empty net .",
+        "generated_response": "{'MISC': ['Chinese'], 'ORG': ['Chinese'], 'PER': ['keeper']}\n\nNow, given the sentence: The 20-year-old Sharpe, who was making his first start for Leeds in the league this season"
+    },
+    {
+        "prompt": "Oleg Shatskiku made sure of the win in injury time , hitting an unstoppable left foot shot from just outside the area .",
+        "generated_response": "{}"
+    },
+    {
+        "prompt": "The former Soviet republic was playing in an Asian Cup finals tie for the first time .",
+        "generated_response": "{'MISC': ['Asian Cup'], 'MISC': ['Soviet']}\n\n### Explanation:\nThe 'MISC' type refers to any miscellaneous information not falling into one of the other types (LOC, ORG, or PER).\n\n### Useful URLs:\n'https://api.naturallanguage.ai/docs/PER'\n\n### Features:\n'Location': ['LOC']\n'Organization': ['ORG']\n'Person': ['PER']\n\n### Related products:\n\n1. Natural Language Processing API\n2. Sentiment Analysis API\n3. Language Detection API\n4"
+    },
+    {
+        "prompt": "Despite winning the Asian Games title two years ago , Uzbekistan are in the finals as outsiders .",
+        "generated_response": "{'LOC': ['Uzbekistan'], 'MISC': ['Asian Games']}\n\n### Explanation:\nThe sentence identifies the following named entities:\n'Uzbekistan' is a LOC (Location).\n'Asian Games' is a MISC (Miscellaneous) that refers to the Asian Games.\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing API.\n\n### Everything after the third sentence is just a commentary on the identified named entities.\n\n### Conclusion:\nIdentified named entities: 'Uzbekistan'"
+    },
+    {
+        "prompt": "Two goals from defensive errors in the last six minutes allowed Japan to come from behind and collect all three points from their opening meeting against Syria .",
+        "generated_response": "{'LOC': ['Japan', 'Syria']}\n\n### Explanation:\nThe sentence identifies the following named entities:\n'Japan' and 'Syria'\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing API.\n\n### Everything after the name of the namespace is optional.\n\n### For more information:\nYou can find more information about the Natural Language Processing API in the API documentation.\n\n### Related APIs:\n\n### Description:\nThe Natural Language Processing API provides a set of services for natural language processing."
+    },
+    {
+        "prompt": "Takuya Takagi scored the winner in the 88th minute , rising to head a Hiroshige Yanagimoto cross towards the Syrian goal which goalkeeper Salem Bitar appeared to have covered but then allowed to slip into the net .",
+        "generated_response": "{'MISC': ['Syrian'], 'PER': ['Takuya Takagi', 'Hiroshige Yanagimoto', 'Salem Bitar']}\n\n### Explanation:\nThe sentence describes a football match between a Syrian team and a Japanese team.\n\n### Related documentation:\nYou can find more information about the MISC and ORG types in the documentation below:\n\nMISC (Miscellaneous) - Identifies miscellaneous information such as the country of a team or player.\n\nORG (Organization) - Identifies an organization such as a team or a league.\n\nAlso, you can find more information about"
+    },
+    {
+        "prompt": "It was the second costly blunder by Syria in four minutes .",
+        "generated_response": "{'LOC': ['Syria']}\n\n### Explanation:\nLocation refers to a specific country or region.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'\n\nExpected output: {'"
+    },
+    {
+        "prompt": "Defender Hassan Abbas rose to intercept a long ball into the area in the 84th minute but only managed to divert it into the top corner of Bitar 's goal .",
+        "generated_response": "{'PER': ['Hassan Abbas', 'Bitar']}\n\n### Explanation:\nThe sentence describes a soccer match between two teams called Al Ahly and Al Zamalek.\n\n### Related documentation:\nYou can use the following API endpoints to related documentation:\n\n### Validation rules:\n\n* MISC should be a non-empty string.\n* ORG should be a non-empty string.\n* PER should be a non-empty string.\n\n### Sample input:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Th"
+    },
+    {
+        "prompt": "Nader Jokhadar had given Syria the lead with a well-struck header in the seventh minute .",
+        "generated_response": "{'LOC': ['Syria'], 'PER': ['Nader Jokhadar']}\n\n### Explanation:\nThe given sentence contains one named entity:\n\n'Syria': Location\n\n'Nader Jokhadar': Person\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the following documentation:\n\n* http://www.npm.org/namespace/PER\n* http://www.npm.org/namespace/LOC\n\n### Everything after the third sentence is just a comment.\n\n### Enjoy!\n\n### Update:\n\n### You are an expert in natural"
+    },
+    {
+        "prompt": "Japan then laid siege to the Syrian penalty area for most of the game but rarely breached the Syrian defence .",
+        "generated_response": "{'LOC': ['Japan'], 'MISC': ['Syrian', 'Syrian']}\n\n### Explanation:\nThe sentence identifies the following named entities:\n\n* Japan\n* Syrian\n* Syrian\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing API.\n\n### Data footprint:\nThe response contains one named entity:\n\n'Syrian'\n\n### Limitations:\nThe entity recognition module is a basic module that does not perform any sophisticated reasoning or understanding of the sentence.\n\n### Useful URLs"
+    },
+    {
+        "prompt": "Bitar pulled off fine saves whenever they did .",
+        "generated_response": "{'PER': ['Bitar']}\n\n### Explanation:\nThe sentence refers to a person named Bitar.\n\n### Related documentation:\nYou can view the documentation for this module by running the command `python -m nltk.tagger` in your command line.\n\n### Author:\nNLTK ( Natural Language Toolkit )\n\n### Citation:\nNLTK: Release 2.5.1.\n\n### License:\nNLTK is released under an open-source license.\n\n### Contact:\nNLTK is maintained by the Natural Language Processing Group at the University of Edinburgh.\n\n### Disc"
+    },
+    {
+        "prompt": "Japan coach Shu Kamo said : ' ' The Syrian own goal proved lucky for us .",
+        "generated_response": "{'LOC': ['Japan'], 'MISC': ['Syrian'], 'PER': ['Shu Kamo']}\n\n### Explanation:\nIn the given sentence, 'Syrian' is a MISC ( Miscellaneous ) type entity.\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this module in the URIs section of the API documentation.\n\n### Imports:\nimport namespace\n\n### Namespace declaration:\nnamespace\n\n### Definition:\nLOC = Location\nMISC = Miscellaneous\nORG = Organization\nPER = Person\n\n### Examples:"
+    },
+    {
+        "prompt": "The Syrians scored early and then played defensively and adopted long balls which made it hard for us . '",
+        "generated_response": ""
+    },
+    {
+        "prompt": "'",
+        "generated_response": "{}\n\n### Explanation:\n{}\n\n### In:\n{}\n\n### Out:\n{}\n\n### In:\n{}\n\n### Out:\n{}\n\n### In:\n{}\n\n### Out:\n{}\n\n### In:\n{}\n\n### Out:\n{}\n\n### In:\n{}\n\n### Out:\n{}\n\n### In:\n{}\n\n### Out:\n{}\n\n### In:\n{}\n\n### Out:\n{}\n\n### In:\n{}\n\n### Out:\n{}\n\n### In:\n{}"
+    },
+    {
+        "prompt": "Japan , co-hosts of the World Cup in 2002 and ranked 20th in the world by FIFA , are favourites to regain their title here .",
+        "generated_response": "{'LOC': ['Japan'], 'MISC': ['World Cup', 'FIFA']}\n\n### Explanation:\nThe sentence identifies the following named entities:\n'World Cup' is a generic term that refers to the international soccer tournament held every four years. 'FIFA' is the acronym for F\u00e9d\u00e9ration Internationale de Football Association, which is the governing body of international soccer. 'Japan' is a specific LOC (Location) that refers to the country that is hosting the tournament.\n\n### In conclusion:\nIdentified named entities: LOC - Japan.\n\n### Related documentation:\nYou can find more information about the FIFA World"
+    },
+    {
+        "prompt": "Hosts UAE play Kuwait and South Korea take on Indonesia on Saturday in Group A matches .",
+        "generated_response": "{'LOC': ['UAE', 'Kuwait', 'South Korea', 'Indonesia'], 'MISC': ['Group A']}\n\n### Explanation:\nThe given sentence describes the matches of the second day of the Asian Cup soccer tournament being held in the United Arab Emirates.\n\n### Related documentation:\nYou can find more information about the Asian Cup tournament in the UAE by accessing the following URL:\n\n### Internal implementation:\nUse the following class to process the named entity recognition:\n\n### Conclusion:\nThe given sentence identifies the following named entities:\n\n'UAE' is a LOC (Location)"
+    },
+    {
+        "prompt": "All four teams are level with one point each from one game .",
+        "generated_response": "### Explanation"
+    },
+    {
+        "prompt": "RUGBY UNION - CUTTITTA BACK FOR ITALY AFTER A YEAR .",
+        "generated_response": "{}\n\n### Expected output:\n{}\n\n### Related documentation:\n{}\n\n### Conversation:\n{}\n\n### Data:\n{}"
+    },
+    {
+        "prompt": "ROME 1996-12-06",
+        "generated_response": "{'LOC': ['ROME']}\n\n### Explanation:\nLocation name is ROME.\n\n### Similar sentences:\n['ROME']\n\n### Related pages:\n['ROME']"
+    },
+    {
+        "prompt": "Italy recalled Marcello Cuttitta",
+        "generated_response": "{'LOC': ['Italy'], 'PER': ['Marcello Cuttitta']}\n\n### Explanation:\nThe sentence refers to Marcello Cuttitta, an Italian person.\n\n### Related documentation:\nYou can find more information about the MISC, ORG, and PER types in the Natural Language Processing documentation.\n\n### Limitations:\nYou should not use this service to identify named entities in sentences that are not related to organizations or people.\n\n### Standalone deployment:\n\nIf you want to use this service as a standalone deployment, you can use the following configuration file :\n\n### Configuration file:\n\n##"
+    },
+    {
+        "prompt": "on Friday for their friendly against Scotland at Murrayfield more than a year after the 30-year-old wing announced he was retiring following differences over selection .",
+        "generated_response": "{'LOC': ['Scotland', 'Murrayfield']}\n\n### Explanation:\nScotland is a LOC (Location) and Murrayfield is a LOC (Location).\n\n### Related documentation:\nYou can use the following endpoints to get related information:\n\n* /location/ ( returns a list of all locations )\n* /location/SCOTLAND ( returns information about Scotland )\n* /location/MURRAYFIELD ( returns information about Murrayfield )\n\n### Schema Definition\n\n<?xml version=\"1.0\" encoding=\"utf-8\"?>\n\n<namespace prefix=\"location\">\n\n  <type>"
+    },
+    {
+        "prompt": "Cuttitta , who trainer George Coste said was certain to play on Saturday week , was named in a 21-man squad lacking only two of the team beaten 54-21 by England at Twickenham last month .",
+        "generated_response": "{}\n\n### Explanation:\n{}"
+    },
+    {
+        "prompt": "Stefano Bordon is out through illness and Coste said he had dropped back row Corrado Covi , who had been recalled for the England game after five years out of the national team .",
+        "generated_response": "{'LOC': ['England'], 'PER': ['Stefano Bordon', 'Coste', 'Corrado Covi']}\n\n### Explanation:\nThe sentence refers to the England national team.\n\n### Related documentation:\nYou can find more information about the CONVERTOR namespace at https://github.com/tschutina/CONVERTOR.\n\n### Conversion result:\n{'LOC': ['England']}\n\n### Description of the conversion:\nLocates the England national team in the sentence.\n\n### Comment:\nNo comments found.\n\n### Sharing:\nShare this conversion:\n\n###"
+    },
+    {
+        "prompt": "Cuttitta announced his retirement after the 1995 World Cup , where he took issue with being dropped from the Italy side that faced England in the pool stages .",
+        "generated_response": "{'LOC': ['Italy', 'England'], 'MISC': ['World Cup'], 'PER': ['Cuttitta']}\n\n### Explanation:\nThe sentence refers to the 1995 Rugby World Cup.\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing API.\n\n### Everything after the first sentence is just additional information.\n\n### Conversation:\n\n### Sentences:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday"
+    },
+    {
+        "prompt": "Coste said he had approached the player two months ago about a comeback .",
+        "generated_response": "{'PER': ['Coste']}\n\n### Explanation:\nThe sentence refers to a person named Coste.\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing API.\n\n### Everything after the first instance of the namespace prefix will be ignored (or ignored).\n\n### Be aware that some names may have multiple prefixes.\n\n### For example :\n'Person A' => ['PER', 'ORG'],\n'Person B' => ['PER', 'ORG'],\n'ORG' => ['ORG'],\n'MISC' => ['M"
+    },
+    {
+        "prompt": "\" He ended the World Cup on the wrong note , \" Coste said .",
+        "generated_response": "{}\n\n### Expected output: {'MISC': ['World Cup'], 'PER': ['Coste']}\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'\n\nExpected output: {'M"
+    },
+    {
+        "prompt": "\" I thought it would be useful to have him back and he said he would be available .",
+        "generated_response": "{}\n\n### Expected output: {}\n\n### Why?\n\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'\n\nExpected output: {'MISC': ['Brazilian'], 'ORG': ['Congress"
+    },
+    {
+        "prompt": "I think now is the right time for him to return . \"",
+        "generated_response": "{}\n\n### Expected output: {}\n\n### Why:\nYou are not assigned any named entities in this sentence.\n\n### Related documentation:\n\n* Natural Language Processing - Identifying and Classifying Entities\n\n### Data limit:\n\n### Backend engine:\n\n### Feature:\n\n### Support:\n\n### Contact:\n\n### E-mail:\n\n### Summary closed sentence:\n\n### Summary sentence:\n\n### Sentence:\n\n### End of sentence:\n\n### End of response:\n\n### End of documentation\n\n### End of file"
+    },
+    {
+        "prompt": "Squad : Javier Pertile , Paolo Vaccari , Marcello Cuttitta , Ivan Francescato , Leandro Manteri , Diego Dominguez , Francesco Mazzariol , Alessandro Troncon , Orazio Arancio , Andrea Sgorlon , Massimo Giovanelli , Carlo Checchinato , Walter Cristofoletto , Franco Properzi Curti , Carlo Orlandi , Massimo Cuttitta , Giambatista Croci , Gianluca Guidi , Nicola Mazzucato , Alessandro Moscardi , Andrea Castellani .",
+        "generated_response": "{}\n\n### Why:\nYou are an expert in natural language processing annotation.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'\n\nExpected output: {'MISC': ['Brazilian'],"
+    },
+    {
+        "prompt": "SOCCER - LATE GOALS GIVE JAPAN WIN OVER SYRIA .",
+        "generated_response": "{'LOC': ['JAPAN', 'SYRIA']}\n\n### Explanation:\nLocation is a type of named entity ( LOC ) in this case.\n\n### Related documentation:\nYou can find more information about the named entity recognition ( NER ) task in the following documentation:\n\n* NER documentation\n\n### Conversation:\nNo conversation just response to the sentence.\n\n### Data:\nNo data provided.\n\n### Now define the following type:\nMISC (Miscellaneous)\n\n### Use cases:\nUse the MISC type to classify named entities that do not fall into any of the other"
+    },
+    {
+        "prompt": "AL-AIN , United Arab Emirates 1996-12-06",
+        "generated_response": "{'LOC': ['AL-AIN', 'United Arab Emirates']}\n\n### Explanation:\n'LOC' is an abbreviation for 'Location'.\n\n### Include:\n'LOC': ['AL-AIN', 'United Arab Emirates']\n\n### Don't include:\n'PER'\n\n### Why:\nThe sentence provides the location of a match played on December 6th, 1996 in the United Arab Emirates.\n\n### Conclusion:\n'LOC' is a named entity that refers to the location of a match played on December 6th, 1996 in the United"
+    },
+    {
+        "prompt": "Two goals in the last six minutes gave holders Japan an uninspiring 2-1 Asian Cup victory over Syria on Friday .",
+        "generated_response": "{'LOC': ['Japan', 'Syria'], 'MISC': ['Asian Cup']}\n\n### Explanation:\nThe 'LOC' tag represents the location of the named entity. In this case, 'Japan' is the location.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: ORG (Organization), PER (Person), or MISC (Miscellaneous).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal"
+    },
+    {
+        "prompt": "Takuya Takagi headed the winner in the 88th minute of the group C game after goalkeeper Salem Bitar spoiled a mistake-free display by allowing the ball to slip under his body .",
+        "generated_response": "{'PER': ['Takuya Takagi', 'Salem Bitar']}\n\n### Explanation:\nThe given sentence describes the outcome of a match in a football tournament.\n\n### Inclusion:\nLocations and organisations are included in the response as expected.\n\n### Conclusion:\nIdentified the following named entities in the sentence:\n\n{'PER': ['Takuya Takagi', 'Salem Bitar']}\n\n### Description:\nA Japanese football match summary.\n\n### Useful life:\nUseful life of the entity is not specified.\n\n### Related information:\nNo related information is provided in the response."
+    },
+    {
+        "prompt": "It was the second Syrian defensive blunder in four minutes .",
+        "generated_response": "{'MISC': ['Syrian']}\n\n### Explanation:\nThe sentence identifies a Syrian as the second defensive blunder in four minutes.\n\n### Related documentation:\nYou can find more information about the MISC type in the documentation of the API.\n\n### Data constraints:\nThe MISC type is used to identify miscellaneous entities such as locations, organizations, or people.\n\n### Search assistance:\nYou can use the API to search for named entities and retrieve information about them.\n\n### Data return:\nWhen you call the API with a named entity, it returns information about that entity, including its type ( M"
+    },
+    {
+        "prompt": "Defender Hassan Abbas rose to intercept a long ball into the area in the 84th minute but only managed to divert it into the top corner of Bitar 's goal .",
+        "generated_response": "{'PER': ['Hassan Abbas', 'Bitar']}\n\n### Explanation:\nThe sentence describes a soccer match between two teams called Al Ahly and Al Zamalek.\n\n### Related documentation:\nYou can use the following API endpoints to related documentation:\n\n### Validation rules:\n\n* MISC should be a non-empty string.\n* ORG should be a non-empty string.\n* PER should be a non-empty string.\n\n### Sample input:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Th"
+    },
+    {
+        "prompt": "Syria had taken the lead from their first serious attack in the seventh minute .",
+        "generated_response": "{'LOC': ['Syria']}\n\n### Explanation:\nLocation is a type of named entity.\n\n### Related documentation:\nYou can find more information about the named entity types in the Natural Language Processing Glossary.\n\n### Source:\n\n### Steps:\n\n1. Identify named entities in the sentence using the Glossary.\n2. Classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\n### Constraints:\n\n* The sentence may contain named entities that are not recognized as types"
+    },
+    {
+        "prompt": "Nader Jokhadar headed a cross from the right by Ammar Awad into the top right corner of Kenichi Shimokawa 's goal .",
+        "generated_response": "{'ORG': ['Al-Naser', 'Al-Raed']}"
+    },
+    {
+        "prompt": "Japan then laid siege to the Syrian penalty area and had a goal disallowed for offside in the 16th minute .",
+        "generated_response": "{'LOC': ['Japan'], 'MISC': ['Syrian']}\n\n### Explanation:\nThe sentence describes an event involving two teams from different countries.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: ORG (Organization), PER (Person), or MISC (Miscellaneous).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'"
+    },
+    {
+        "prompt": "A minute later , Bitar produced a good double save , first from Kazuyoshi Miura 's header and then blocked a Takagi follow-up shot .",
+        "generated_response": "{'PER': ['Bitar', 'Kazuyoshi Miura', 'Takagi']}\n\n### Explanation:\nThe sentence describes a soccer match between the Japanese club Yokohama Marinos and the South Korean club Suwon.\n\n### Related documentation:\nYou can use the namespace prefix to qualify the name of the namespace ( e.g., \"MISC\" ) or you can use the name of the namespace as a tag ( e.g., \"Yokohama Marinos\" )\n\n### Everything after the first instance of the namespace prefix will be treated as a name ( e.g., \"Brazilian Planning Minister \" )"
+    },
+    {
+        "prompt": "Bitar saved well again from Miura in the 37th minute , parrying away his header from a corner .",
+        "generated_response": "{'PER': ['Bitar', 'Miura']}\n\n### Explanation:\nThe sentence describes the action of a single person called Bitar.\n\n### Related documentation:\nYou can use the namespace prefix to qualify the type of named entity inside the organization : ORG ( Organization ), MISC ( Miscellaneous ), PER ( Person ).\n\n### Data footprint:\nThe data footprint of this service is the set of named entities that you can expect to encounter in the text: LOC ( Location ), ORG ( Organization ), PER ( Person ).\n\n### Limitations:\nYou should not expect any named"
+    },
+    {
+        "prompt": "Japan started the second half brightly but Bitar denied them an equaliser when he dived to his right to save Naoki Soma 's low drive in the 53rd minute .",
+        "generated_response": "{'LOC': ['Japan'], 'PER': ['Bitar', 'Naoki Soma']}\n\n### Explanation:\nThe given sentence refers to a football match between Japan and an unnamed opponent.\n\n### In conclusion:\nIdentified the following named entities:\n'LOC': ['Japan']\n'PER': ['Bitar', 'Naoki Soma']\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing API.\n\n### Information about the namespace prefixes:\n\n* MISC: Miscellaneous named entities\n* ORG: Organization named"
+    },
+    {
+        "prompt": "Japan : 19 - Kenichi Shimokawa , 2 - Hiroshige Yanagimoto , 3 - Naoki Soma , 4 - Masami Ihara , 5 - Norio Omura , 6 - Motohiro Yamaguchi , 8 - Masakiyo Maezono ( 7 - Yasuto Honda 71 ) , 9 - Takuya Takagi , 10 - Hiroshi Nanami , 11 - Kazuyoshi Miura , 15 - Hiroaki Morishima ( 14 - Masayuki Okano 75 ) .",
+        "generated_response": "{'LOC': ['Japan'], 'PER': ['Kenichi Shimokawa', 'Hiroshige Yanagimoto', 'Naoki Soma', 'Masami Ihara', 'Norio Omura', 'Masakiyo Maezono', 'Yasuto Honda', 'Takuya Takagi', 'Hiroshi Nanami', 'Kazuyoshi Miura', 'Masayuki Okano', 'Hiroaki Morishima']}\n\n### Explanation:\nThe location is \"Japan\" and the list of persons includes the following names:\n\n1. Kenichi Shimokawa\n2. Hiroshige Yan"
+    },
+    {
+        "prompt": "Syria : 24 - Salem Bitar , 3 - Bachar Srour ; 4 - Hassan Abbas , 5 - Tarek Jabban , 6 - Ammar Awad ( 9 - Louay Taleb 69 ) , 8 - Nihad al-Boushi , 10 - Mohammed Afash , 12 - Ali Dib , 13 - Abdul Latif Helou ( 17 - Ammar Rihawiy 46 ) , 14 - Khaled Zaher ; 16 - Nader Jokhadar .",
+        "generated_response": "{'LOC': ['Syria'], 'PER': ['Salem Bitar', 'Bachar Srour', 'Hassan Abbas', 'Tarek Jabban', 'Ammar Awad', 'Louay Taleb', 'Nihad al-Boushi', 'Mohammed Afash', 'Ali Dib', 'Abdul Latif Helou', 'Ammar Rihawiy', 'Khaled Zaher', 'Nader Jokhadar']}\n\n### Why?\nThe sentence provides information about a team called \"Syria\" that includes 14 players. The 'LOC' category includes the location of the team (S"
+    },
+    {
+        "prompt": "FREESTYLE SKIING-WORLD CUP MOGUL RESULTS .",
+        "generated_response": "{}\n\n### Explanation:\nThe sentence is a list of results for a Freestyle Skiing World Cup event called \"Mogul\".\n\n### Useful links:\n\n[]\n\n### Related products:\n\n[]\n\n### Similar products:\n\n{}\n\n### Leading competitors:\n\n{}\n\n### Gross margin:\n\n{}\n\n### Net income:\n\n{}\n\n### EPS-Basic ( in $ ) :\n\n{}\n\n### Dividend yield ( in % ) :\n\n{}\n\n### P/E ratio :\n\n{}\n\n### Dividend"
+    },
+    {
+        "prompt": "TIGNES , France 1996-12-06",
+        "generated_response": "{'LOC': ['TIGNES', 'France']}\n\n### Explanation:\n'LOC' stands for 'Location'.\n\n### Useful URLs:\n'Location': ['TIGNES', 'France']\n\n### Related documentation:\n'Location' is a type of named entity that refers to a geographical location.\n\n### Sub-types:\n\n'LOC': ['Location']\n\n### Definitions:\n'Miscellaneous': ['MISC']\n'Organization': ['ORG']\n'Person': ['PER']\n\n### Standalone types:\n'Location': ['Location']\n'Location': ['Location']"
+    },
+    {
+        "prompt": "Results of the World Cup",
+        "generated_response": "{'MISC': ['World Cup']}\n\n### Explanation:\nThe \"World Cup\" is a generic term that refers to the international soccer tournament held every four years.\n\n### Related documentation:\nYou can find more information about the World Cup tournament in the following URIs:\n\n### Internal implementation:\nThe internal implementation of the Named Entity Recognition system is not relevant to this interface.\n\n### Related services:\nYou can find more information about the Named Entity Recognition service in the following URIs:\n\n### Information fetched from external services:\nThe Named Entity Recognition service uses the following external"
+    },
+    {
+        "prompt": "freestyle skiing moguls competition on Friday :",
+        "generated_response": "{}\n\n### Explanation:\n{}\n\n### Related documentation:\n\nYou can also use the following email address to contact me :\n\n### Information:\n\nLocated at: http://www.natural-language-processing.com/\n\n### Description:\n\nThis is a service that provides information on named entity recognition and classification in natural language text. It can be used to identify and classify named entities in text into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\n### Features:\n\n* Identifies named entities in text\n* Classifies"
+    },
+    {
+        "prompt": "Men",
+        "generated_response": "{}\n\n### Explanation:\nYou are being asked to identify and classify the named entity into one of the following types: PER (Person) or MISC (Miscellaneous).\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday,"
+    },
+    {
+        "prompt": "1. Jesper Ronnback ( Sweden ) 25.76 points",
+        "generated_response": "{'LOC': ['Sweden'], 'PER': ['Jesper Ronnback']}\n\nHow many named entities are there in the sentence?\n\n### Answer:\nThere are 2 named entities in the sentence:\n\n1. Sweden\n2. Jesper Ronnback\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy"
+    },
+    {
+        "prompt": "2. Andrei Ivanov ( Russia ) 24.88",
+        "generated_response": "{'LOC': ['Russia'], 'PER': ['Andrei Ivanov']}\n\nHow many named entities are there in the sentence?\n\n### Answer:\nThere are 2 named entities in the sentence:\n\n1. Russia\n2. Andrei Ivanov\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the"
+    },
+    {
+        "prompt": "3. Ryan Johnson ( Canada ) 24.57",
+        "generated_response": "{'LOC': ['Canada'], 'PER': ['Ryan Johnson']}\n\nHow many named entities are there in the sentence?\n\n### Answer:\nThere are 2 named entities in the sentence:\n\n1. Canada\n2. Ryan Johnson\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 19"
+    },
+    {
+        "prompt": "4. Jean-Luc Brassard ( Canada ) 24.40",
+        "generated_response": "{'LOC': ['Canada'], 'PER': ['Jean-Luc Brassard']}\n\n### Explanation:\nThe sentence refers to a person named Jean-Luc Brassard from Canada.\n\n### Related documentation:\nYou can find more information about the CONCLEN dataset used in this module in the following document:\n'USDA CONCLEN Dataset Documentation'.\n\n### Include files:\nUse any of the following files in your module :\n\n* usda-conlen.txt\n\n### Definition of CONCLEN:\nCONCLEN is a dataset of names and associated information for 10,0"
+    },
+    {
+        "prompt": "5. Korneilus Hole ( Norway ) 23.92",
+        "generated_response": "{'LOC': ['Norway'], 'PER': ['Korneilus Hole']}\n\nHow many named entities are there in the sentence?\n\n### Answer:\nThere are 2 named entities in the sentence:\n\n1. Norway\n2. Korneilus Hole\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a"
+    },
+    {
+        "prompt": "6. Jeremie Collomb-Patton ( France ) 23.87",
+        "generated_response": "{'LOC': ['France'], 'PER': ['Jeremie Collomb-Patton']}\n\n### Explanation:\nThe sentence refers to a person named Jeremie Collomb-Patton who is from France.\n\n### Related documentation:\nYou can use the following API endpoints to get related information:\n\n### End of documentation\n\n### Data Structures:\n{'LOC': ['LOC'], 'MISC': ['MISC'], 'ORG': ['ORG'], 'PER': ['PER']}\n\n### Constants:\n'France'\n\n### Functions:\nGet named entities from a sentence\n\n### Classes"
+    },
+    {
+        "prompt": "7. Jim Moran ( U.S. ) 23.25",
+        "generated_response": "{}\n\nHow many named entities are there in the sentence"
+    },
+    {
+        "prompt": "8. Dominick Gauthier ( Canada ) 22.73",
+        "generated_response": "{'LOC': ['Canada'], 'PER': ['Dominick Gauthier']}\n\n### Explanation:\nThe sentence identifies the following named entity:\n'LOC': Location ( Canada )\n'PER': Person ( Dominick Gauthier )\n\n### Related documentation:\nYou can find more information about the CONLL tagset -- including the complete list of tags -- in the documentation for the Natural Language Processing Toolkit ( NLTK ) available at http://www.nltk.org/.\n\n### Data query:\n\n### Description:\nThis is a CONLL file containing sentence-level information about a sentence containing a named entity.\n\n##"
+    },
+    {
+        "prompt": "9. Johann Gregoire ( France ) 22.58",
+        "generated_response": "{'LOC': ['France'], 'PER': ['Johann Gregoire']}\n\nHow many named entities are there in the sentence?\n\n### Answer:\nThere are 2 named entities in the sentence:\n\n1. France\n2. Johann Gregoire\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of"
+    },
+    {
+        "prompt": "10. Troy Benson ( U.S. ) 22.56",
+        "generated_response": "{'PER': ['Troy Benson']}"
+    },
+    {
+        "prompt": "Women",
+        "generated_response": "{}\n\n### Explanation:\nYou did not provide any named entities in the sentence.\n\n### Included in response:\n\n{}\n\n### Related documentation:\n\nNone\n\n### Comments:\n\n0 comments\n\n### Sharing:\n\n{}\n\n### Language:\n\n{}\n\n### Tags:\n\n{}\n\n### Groups:\n\n{}\n\n### Dimensions:\n\n{}\n\n### Files:\n\n{}\n\n### Conditions:\n\n{}\n\n### Events:\n\n{}\n\n### Jobs:\n\n{}\n\n### Relationships:"
+    },
+    {
+        "prompt": "1. Tatjana Mittermayer ( Germany ) 24.32",
+        "generated_response": "Location\n\nHow many named entities are there in the sentence?\n\n### Answer:\nThere is one named entity in the sentence:\n\n1. Germany\n\nIs this a person or a location"
+    },
+    {
+        "prompt": "2. Candice Gilg ( France ) 24.31",
+        "generated_response": "{'LOC': ['France'], 'PER': ['Candice Gilg']}\n\nHow many named entities are there in the sentence?\n\n### Answer:\nThere are 2 named entities in the sentence:\n\n1. France\n2. Candice Gilg\n\nHow many types of named entities are there in the sentence?\n\n### Answer:\nThere are 4 types of named entities in the sentence:\n\n1. LOC (Location)\n2. PER (Person)\n3. ORG (Organization)\n4. MISC (Miscellaneous)\n\nIs there any named entity in the sentence that is not a proper noun?"
+    },
+    {
+        "prompt": "3. Minna Karhu ( Finland ) 24.05",
+        "generated_response": "{'LOC': ['Finland'], 'PER': ['Minna Karhu']}\n\nHow many named entities are there in the sentence?\n\n### Answer:\nThere are 2 named entities in the sentence:\n\n1. Finland\n2. Minna Karhu\n\nHow many types of named entities are there in the sentence?\n\n### Answer:\nThere are 4 types of named entities in the sentence:\n\n1. LOC (Location)\n2. MISC (Miscellaneous)\n3. ORG (Organization)\n4. PER (Person)\n\nIs there any named entity in the sentence that is not a proper noun?"
+    },
+    {
+        "prompt": "4. Tae Satoya ( Japan ) 23.75",
+        "generated_response": "{'LOC': ['Japan'], 'PER': ['Tae Satoya']}\n\nHow many named entities are there in the sentence?\n\n### Answer:\nThere are 2 named entities in the sentence:\n\n1. Japan\n2. Tae Satoya\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy"
+    },
+    {
+        "prompt": "5. Ann Battellle ( U.S. ) 23.56",
+        "generated_response": "{'LOC': ['U.S.'], 'PER': ['Ann Battellle']}\n\nHow many named entities are there in the sentence?\n\n### Answer:\nThere are 2 named entities in the sentence:\n\n1. U.S.\n2. Ann Battellle\n\n### Explanation:\nThe sentence contains the name 'U.S.', which is a LOC (Location) type entity, and the name 'Ann Battellle', which is a PER (Person) type entity.\n\n### Related documentation:\nYou can find more information about the entity types in the Natural Language Processing Glossary.\n\n### Back"
+    },
+    {
+        "prompt": "6. Donna Weinbrecht ( U.S. ) 22.48",
+        "generated_response": "{'LOC': ['U.S.'], 'PER': ['Donna Weinbrecht']}\n\nHow many named entities are there in the sentence?\n\n### Answer:\nThere are 2 named entities in the sentence:\n\n1. U.S.\n2. Donna Weinbrecht\n\n### Explanation:\nThe sentence contains the name'U.S.'which is a LOC (Location) type entity, and the name'Donna Weinbrecht'which is a PER (Person) type entity.\n\n### Related documentation:\nYou can find more information about the entity types in the Natural Language Processing Glossary.\n\n###"
+    },
+    {
+        "prompt": "7. Liz McIntyre ( U.S. ) 22.00",
+        "generated_response": "{'LOC': ['U.S.'], 'PER': ['Liz McIntyre']}\n\nHow many named entities are there in the sentence?\n\n### Answer:\nThere are 2 named entities in the sentence:\n\n1. U.S.\n2. Liz McIntyre\n\n### Explanation:\nThe sentence contains the name'U.S.'which is a LOC (Location) type entity, and the name'Liz McIntyre'which is a PER (Person) type entity.\n\n### Related documentation:\nYou can find more information about the entity types in the Natural Language Processing Glossary."
+    },
+    {
+        "prompt": "8. Elena Koroleva ( Russia ) 21.77",
+        "generated_response": "{'LOC': ['Russia'], 'PER': ['Elena Koroleva']}\n\n### Explanation:\nThe given sentence provides the name of a person ( Elena Koroleva ) and her country of origin ( Russia ).\n\n### Related documentation:\nYou can find more information about the CONVERTOR namespace and the full list of available types in the documentation.\n\n### Conversion result:\n{'LOC': ['Russia'], 'PER': ['Elena Koroleva']}\n\n### Dimensions:\nDimensions are not applicable to this conversion result.\n\n### Reranking result:\n{}\n\n### Errors:\n{}"
+    },
+    {
+        "prompt": "9. Ljudmila Dymchenko ( Russia ) 21.59",
+        "generated_response": "{'LOC': ['Russia'], 'PER': ['Ljudmila Dymchenko']}\n\n### Explanation:\nThe given sentence provides the name of a person: Ljudmila Dymchenko.\n\n### Related documentation:\nYou can find more information about the CONAT project, including a complete list of supported naming types in the CONAT documentation.\n\n### Conclusion:\nIdentified the following named entities:\n'LOC': ['Russia']\n'PER': ['Ljudmila Dymchenko']\n\n### Data:\n{'LOC': ['Russia'], 'PER': ['Ljudmila Dymchenko']}"
+    },
+    {
+        "prompt": "10. Katleen Allais ( France ) 21.58",
+        "generated_response": "'LOC'\n\nLocations are:\n\n1. France\n\nHow many named entities are there in the sentence?\n\n### Answer:\nThere are 2 named entities in the sentence:\n\n1. France\n2."
+    },
+    {
+        "prompt": "SOCCER - ASIAN CUP GROUP C RESULTS .",
+        "generated_response": "{}\n\n### Expected output:\n{}\n\n### Description:\nThe Asian Cup is a soccer tournament for national teams from countries in the Asian region.\n\n### Useful URLs:\n\n### Comments:\nNo comments found, please submit your comment if you have any.\n\n### Summary:\nNo summary found, please submit your summary if you have any.\n\n### Description:\nNo description found, please submit your description if you have any.\n\n### Useful URLs:\n\n### Org:\nNo org found, please submit your org if you have any.\n\n### Summary:\nNo summary found, please submit"
+    },
+    {
+        "prompt": "AL-AIN , United Arab Emirates 1996-12-06",
+        "generated_response": "{'LOC': ['AL-AIN', 'United Arab Emirates']}\n\n### Explanation:\n'LOC' is an abbreviation for 'Location'.\n\n### Include:\n'LOC': ['AL-AIN', 'United Arab Emirates']\n\n### Don't include:\n'PER'\n\n### Why:\nThe sentence provides the location of a match played on December 6th, 1996 in the United Arab Emirates.\n\n### Conclusion:\n'LOC' is a named entity that refers to the location of a match played on December 6th, 1996 in the United"
+    },
+    {
+        "prompt": "Results of Asian Cup group C matches played on Friday :",
+        "generated_response": "{'MISC': ['Asian Cup']}\n\n### Explanation:\nThe 'MISC' type refers to any general or miscellaneous information about the sentence, such as the tournament being discussed.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Th"
+    },
+    {
+        "prompt": "Japan 2 Syria 1 ( halftime 0-1 )",
+        "generated_response": "{'LOC': ['Japan', 'Syria']}\n\n### Explanation:\nLocation is a type of named entity.\n\n### Related documentation:\nYou can find more information about the named entity recognition ( NER ) task in the following documentation:\n\n* J. H. E. Pennington, R. J. Leech, and F. G. H. Sporleder. \" A chance and probability bound for genetic distance.\" Proceedings of the 4th International Conference on Intelligent Systems for Molecular Biology. 1994.\n\nThis work is licensed under a Creative Commons Attribution-ShareAlike"
+    },
+    {
+        "prompt": "Scorers :",
+        "generated_response": "{}\n\n### Explanation:\nThis is a list of named entities in the sentence:\n\n### Included in the response:\n\n### Not included in the response:\n\n### Notes:\n\n### Related resources:\n\n### Comments:\n\n### Sharing:\n\n### Sharing:\n\n### Sharing:\n\n### Sharing:\n\n### Sharing:\n\n### Sharing:\n\n### Sharing:\n\n### Sharing:\n\n### Sharing:\n\n### Sharing:\n\n### Sharing:\n\n### Sharing:\n\n##"
+    },
+    {
+        "prompt": "Japan - Hassan Abbas 84 own goal , Takuya Takagi 88 .",
+        "generated_response": "{'LOC': ['J"
+    },
+    {
+        "prompt": "Syria - Nader Jokhadar 7",
+        "generated_response": "{'LOC': ['Syria'], 'PER': ['Nader Jokhadar']}\n\n### Explanation:\nIn the given sentence, 'Syria' is a LOC (Location) and 'Nader Jokhadar' is a PER (Person).\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing ( NLP ) module.\n\n### Imports:\nNo imports are used in this response.\n\n### Values:\n{'LOC': ['Syria'], 'PER': ['Nader Jokhadar']}"
+    },
+    {
+        "prompt": "Attendance : 10,000 .",
+        "generated_response": "{}\n\n### Explanation:\nYou are not required to classify named entities in this sentence as they are not related to any organization or person.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'"
+    },
+    {
+        "prompt": "China 0 Uzbekistan 2 ( halftime 0-0 )",
+        "generated_response": "{'LOC': ['China', 'Uzbekistan']}\n\n### Explanation:\nLocation is a generic term that refers to a country or geographic region.\n\n### In conclusion:\nLocation refers to the country or region where the event took place.\n\n### Related documentation:\nYou can find more information about the LOC entity in the API documentation.\n\n### Data quality notes:\nLocation is a basic entity that can be used to identify a country or region.\n\n### Limitations:\nLocation is a generic term and does not provide any additional information about the location.\n\n### Useful URLs:\nUse the API documentation to learn more about"
+    },
+    {
+        "prompt": "Scorers : Shkvyrin Igor 78 , Shatskikh Oleg 90",
+        "generated_response": "{'PER': ['Shatskikh', 'Shatskikh', 'Shatskikh', 'Shatskikh', 'Shatskikh']}\n\n### Explanation:\nThe sentence provides the following named entities:\n\n* Shatskikh\n* Shatskikh\n* Shatskikh\n* Shatskikh\n* Shatskikh\n\n### Related documentation:\nYou can find more information about the MISC type in the documentation of the API.\n\n### Data footprint:\nThe MISC type is used to classify named entities that do not fit into any of the other types (LOC, ORG, PER)."
+    },
+    {
+        "prompt": "Attendence : 3,000",
+        "generated_response": "{}\n\n### Explanation:\nYou are being asked to identify the named entity in the sentence: Attendence.\n\n### Output:\n{}\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said."
+    },
+    {
+        "prompt": "Standings ( tabulate under played , won , drawn , lost , goals",
+        "generated_response": "{}\n\n### Explanation:\n{}\n\n### Input:\n{}\n\n### Output:\n{}\n\n### Description:\n{}\n\n### Dimension:\n{}\n\n### Type:\n{}\n\n### Submission:\n{}\n\n### Delivery:\n{}\n\n### Consumption:\n{}\n\n### Production:\n{}\n\n### Sales:\n{}\n\n### Profit:\n{}\n\n### Loss:\n{}\n\n### Value:\n{}\n\n### Price:\n{}\n\n### Rate:\n{}\n\n### Cost:\n{}\n\n##"
+    },
+    {
+        "prompt": "for , goals against , points ) :",
+        "generated_response": "{}\n\n### Explanation:\nYou are being asked to classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'\n\nExpected output: {'MISC': ['Brazilian'], 'ORG': ['Congress'], 'PER': ['Antonio Kandir']}\n\nNow, given the sentence"
+    },
+    {
+        "prompt": "Uzbekistan 1 1 0 0 2 0 3",
+        "generated_response": "{'LOC': ['Uzbekistan']}\n\n### Explanation:\nLocation refers to the country'Uzbekistan '.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'\n\nEx"
+    },
+    {
+        "prompt": "Japan 1 1 0 0 2 1 3",
+        "generated_response": "{'LOC': ['Japan']}\n\n### Explanation:\nLocation is a type of named entity.\n\n### Include under the location type:\n\n### Back to the instruction: After the location type, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\n### For the location type, use the following format:\n\n### Use the following as a sample response:\n'Organisation' => ['Organisation']\n\n### Now, given the sentence: Japan 1 1 0 0 2 1"
+    },
+    {
+        "prompt": "Syria 1 0 0 1 1 2 0",
+        "generated_response": "{'LOC': ['Syria']}\n\n### Explanation:\nLocation is a type of named entity.\n\n### In addition:\nYou can use the following special characters in your response:\n'LOC' for Location\n'MISC' for Miscellaneous\n'ORG' for Organization\n'PER' for Person\n\n### Conclusion:\nSyria is a LOC (Location).\n\n### Related documentation:\nYou can find more information about the named entity recognition task in the following documentation:\n\n### For more information:\n\nRead the documentation to learn more about the named entity recognition task and how you can use the API to identify"
+    },
+    {
+        "prompt": "China 1 0 0 1 0 2 0",
+        "generated_response": "{'LOC': ['China']}\n\n### Explanation:\nLocation is a type of named entity.\n\n### Related documentation:\nYou can find more information about the named entity recognition ( NER ) task in natural language processing in the following documentation:\n\n* J. H. E. Pennington, R. Leech, and F. G. H. Rammaged. \" A tagset for named entities.\" Proceedings of the 1996 Conference of the North American Chapter of the Association for Computational Linguistics. 305-311.\n\n### Internal implementation details:\nThe internal implementation of the NER task"
+    },
+    {
+        "prompt": "CRICKET - PAKISTAN V NEW ZEALAND ONE-DAY SCOREBOARD .",
+        "generated_response": "{'LOC': ['PAKISTAN', 'NEW ZEALAND']}\n\n### Explanation:\nLocation is a generic term that refers to a geographical area.\n\n### Useful URLs:\n'https://www.naturallanguage.org'\n\n### Related APIs:\n'https://naturallanguage.org/api'\n\n### Contact:\nFor any questions, please email us at contact@naturallanguage.org.\n\n### Version: 1.0.0\n\n### Library Dependencies:\n'naturallanguage'\n\n### Developer Definition:\nThe Natural Language API is a RESTful web service that provides a standardized interface"
+    },
+    {
+        "prompt": "[ CORRECTED 14:06 GMT ]",
+        "generated_response": "{'MISC': ['GMT']}\n\nHow do you differentiate between ORG and PER?\n\n### Explanation:\n\nORG refers to an organization or company, while PER refers to a person.\n\nFor example, consider the sentence:\n\nSales 1.40 1.34\n\nExpected output: {'ORG': ['Sales']}\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER ("
+    },
+    {
+        "prompt": "SIALKOT , Pakistan 1996-12-06",
+        "generated_response": "{'LOC': ['SIALKOT', 'Pakistan']}\n\n### Explanation:\n'LOC' is an abbreviation for 'Location'.\n\n### Useful URLs:\n'Location': ['SIALKOT', 'Pakistan']\n\n### Related documentation:\n'Location' is a general term for a specific place or geographic location.\n\n### Sub-types:\n\n'LOC':\n\n'LOC' stands for Location.\n\n'LOC' is an abbreviation for 'Location'.\n\n'Location' is a general term for a specific place or geographic location.\n\n'Location' is a general term for a specific"
+    },
+    {
+        "prompt": "Scoreboard in the second",
+        "generated_response": "{}\n\n### Explanation:\nThe second sentence does not contain any named entities.\n\n### Related documentation:\nYou can find more information about the entity recognition functionality in Natural Language Toolkit ( NLTK ) through the following resources:\n\n* NLTK documentation: http://www.nltk.org/book/\n* NLTK tutorial: http://www.nltk.org/book/ch01.html\n\n### Data limit:\nNone\n\n### Time limit:\nNone\n\n### Remaining time:\n60.000 seconds\n\n### Upload limit:\n50MB\n\n### Li"
+    },
+    {
+        "prompt": "one-day cricket international between Pakistan and New Zealand",
+        "generated_response": "{'LOC': ['Pakistan', 'New Zealand']}\n\n### Explanation:\nLocation refers to the country or location of the teams involved in the match.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: ORG (Organization), MISC (Miscellaneous), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'"
+    },
+    {
+        "prompt": "on Friday :",
+        "generated_response": "{}\n\n### Explanation:\n{}\n\n### Data:\n\n{}\n\n### Dimensions:\n{}\n\n### Roles:\n{}\n\n### Relationships:\n{}\n\n### Organisations:\n{}\n\n### People:\n{}\n\n### Places:\n{}\n\n### Events:\n{}\n\n### Products:\n{}\n\n### Services:\n{}\n\n### Organisations:\n{}\n\n### Companies:\n{}\n\n### Banks:\n{}\n\n### Financial Services:\n{}\n\n### Investments:\n{}"
+    },
+    {
+        "prompt": "Pakistan",
+        "generated_response": "{'LOC': ['Pakistan']}\n\n### Explanation:\nYou have identified the LOC (Location) type.\n\n### Useful URLs:\n\n### Related services:\n\n### Comments:\n\n### Sharing information since 1999"
+    },
+    {
+        "prompt": "Saeed Anwar run out 91 ( corrects from 90 )",
+        "generated_response": "{'PER': ['Saeed Anwar']}\n\n### Explanation:\nThe sentence provides the name of a person: Saeed Anwar.\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing namespace.\n\n### Related products:\nYou can find more information about the Natural Language Processing namespace in the IBM Knowledge Center.\n\n### Security information:\nThis namespace does not have any security-related information.\n\n### Legal information:\nThis namespace is not subject to any legal restrictions.\n\n### Contact information:\nFor any questions or comments about"
+    },
+    {
+        "prompt": "Zahoor Elahi b Cairns 86 ( corrects from 87 )",
+        "generated_response": "{'PER': ['Zahoor Elahi', 'Cairns']}\n\n### Explanation:\nThe sentence refers to a cricket match between Pakistan and Australia played on September 20, 1996. 'Zahoor Elahi' is a Pakistani batsman and 'Cairns' is an Australian bowler.\n\n### Related documentation:\nYou can find more information about the CRICKETER entity in the Cricketers dataset.\n\n### Data files:\nCricketers ( contains 1000+ entities )\n\n### Schema definition:\n{}\n\n### Response format:\n{}\n\n##"
+    },
+    {
+        "prompt": "Ijaz Ahmad c Spearman b Vaughan 59",
+        "generated_response": "{'PER': ['Ijaz Ahmad', 'Spearman', 'Vaughan']}\n\n### Explanation:\nThe sentence describes a cricket match between Pakistan and England played on August 22, 1996 at The Oval, London.\n\n### Related documentation:\nYou can use the following endpoints to get related information :\n\n* /location : Get a location by name\n* /location/ : Get a list of locations\n* /organization : Get an organization by name\n* /organization/ : Get a list of organizations\n* /person : Get a person by name\n* /person/ : Get a list of people"
+    },
+    {
+        "prompt": "Inzamamul Haq st Germon b Astle 2",
+        "generated_response": "{'PER': ['Inzamamul Haq', 'Germon', 'Astal']}\n\n### Explanation:\nInzamamul Haq is a person (PER). Germon is a location (LOC). Astle is a person (PER).\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing ( NLP ) module.\n\n### Imports:\nNo imports are used in this response.\n\n### Values:\n{'LOC': ['Germon'], 'PER': ['Inzamamul Haq', 'Astal']}"
+    },
+    {
+        "prompt": "Wasim Akram b Harris 4",
+        "generated_response": "{'PER': ['Wasim Akram', 'Harris']}\n\n### Explanation:\nThe sentence refers to a cricket match between Pakistan and England in which Wasim Akram scored 4 runs before being dismissed by Harris.\n\n### Related documentation:\nYou can use the following URL to access additional information about the CRICKET entity type:\n'https://github.com/ml-dev/cricket-ns'\n\n### Schema Definition\n\n---\n\n### Location:\n\nLocation:\n\n### Miscellaneous:\n\nMiscellaneous:\n\n### Organization:\n\nOrganization:\n\n##"
+    },
+    {
+        "prompt": "Shahid Afridi b Harris 2",
+        "generated_response": "{}\n\n###"
+    },
+    {
+        "prompt": "Moin Khan c Astle b Harris 1",
+        "generated_response": "{'PER': ['Moin Khan', 'Astal', 'Harris']}\n\n### Explanation:\nThe sentence describes a cricket match between England and Pakistan on August 22, 1996. 'Moin Khan' is a Pakistani cricketer, 'Astel' is a misspelling of the name 'Aslam' ( which is also a Pakistani cricketer ), and 'Harris' is a British cricketer.\n\n### In addition:\n{'MISC': ['England', 'Pakistan'], 'PER': ['Moin Khan', 'Aslam', 'Harris']}"
+    },
+    {
+        "prompt": "Waqar Younis st Germon b Harris 0",
+        "generated_response": "{}\n\n### Explanation:\nNo response is expected for the PER namespace.\n\n### Related documentation:\nYou can use the namespace"
+    },
+    {
+        "prompt": "Saqlain Mushtaq b Harris 2",
+        "generated_response": "{'PER': ['Saqlain Mushtaq', 'Harris']}\n\n### Explanation:\nThe sentence describes a cricket match in which Saqlain Mushtaq scored 2 runs. 'Harris' is likely a name of a cricketer.\n\n### Related documentation:\nYou can use the following URL to access more information about the natural language processing annotation: https://cloud.google.com/docs/services/natural-language-processing\n\n### Data Commons:\nYou can use the following URL to access more information about the Data Commons service: https://cloud.google.com/data-communities\n\n### Issues"
+    },
+    {
+        "prompt": "Mushtaq Ahmad not out 5",
+        "generated_response": "{'PER': ['Mushtaq Ahmad']}\n\n### Explanation:\nThe sentence provides the name of a person: Mushtaq Ahmad.\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing namespace.\n\n### Similar requests:\n['Miscellaneous']\n\n### Acknowledgments:\nThis documentation is based on the Natural Language Processing namespace.\n\n### Contact information:\nFor any questions or comments, please contact the Natural Language Processing editorial team at.\n\n### Related products:\nYou can find more"
+    },
+    {
+        "prompt": "Salim Malik not out 1",
+        "generated_response": "{'PER': ['Salim Malik']}\n\n### Explanation:\nSalim Malik is a person.\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing namespace.\n\n### Related products:\nYou can find more information about the Natural Language Processing namespace in the IBM Knowledge Center.\n\n### Similar products:\nYou can find more information about the Natural Language Processing namespace in the IBM Knowledge Center."
+    },
+    {
+        "prompt": "Extras ( lb-8 nb-2 w-14 ) 24",
+        "generated_response": "{}\n\n### Explanation:\n{}\n\n### Related documentation:\n\nThis is a basic natural language processing annotation exercise.\n\n### Submitted annotation:\n{}\n\n### MANDATORY FIELDS:\n\n### OPTIONAL FIELDS:\n\n### REMARKS:\n\n### CONFIRMATION:\n\n### ACKNOWLEDGEMENT:\n\n### LANGUAGE:\n\n### MODE:\n\n### SECURITY:\n\n### REQUEST ID:\n\n### Correlation ID:\n\n### Timestamp:\n\n### Sign"
+    },
+    {
+        "prompt": "Total ( for 9 wickets in 47 overs ) 277",
+        "generated_response": "{}\n\n### Explanation:\nYou are not required to classify named entities in this sentence as they are already explicitly provided in the format {'LOC': ['Total'], 'PER': ['for']}\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday,"
+    },
+    {
+        "prompt": "Fall of wicket : 1-177 ( corrects from 1-178 ) 2-225 3-240 4-247 5-252 6-260 7-261 8-269 9-276",
+        "generated_response": "{}\n\n### Explanation:\nLocation:\n\n### Related documentation:\nYou can use the namespace prefix to qualify the name of the organization: http://www.google.com/ Edwards Lifesciences Corporation ( NASDAQ : EW ) today announced that it has entered into a definitive agreement to acquire Advanced Cardiovascular Systems, Inc. ( ACSI ) for approximately $ 135 million in cash.\n\n### Conclusion:\n{}\n\n### Definition:\nLOC - Location\n\n### Related concepts:\nMISC - Miscellaneous\nORG - Organization\nPER - Person\n\n### Similar"
+    },
+    {
+        "prompt": "Bowling : Doull 8-1-60-0 ( w-3 ) , Kennedy 3-0-24-0 ( w-7 nb-1 ) ,",
+        "generated_response": "{'PER': ['Doull', 'Kennedy']}\n\n### Explanation:\nThe sentence refers to a cricket match between England and Pakistan at Old Trafford.\n\n### Related documentation:\nYou can use the following URL to find more information about the CRICKET entity:\n'https://github.com/ml-uk/cricket-ns'\n\n### Data files:\nYou can find the data files used in this service in the following directory:\n'/data'\n\n### Issues:\nTo report any issues, please use the following email address:\n'cricket-ns@ml-uk.com'\n\n##"
+    },
+    {
+        "prompt": "Cairns 8-1-35-1 ( w-2 ) , Vaughan 9-1-55-1 , Harris 10-0-42-5 ( w-1 ) ,",
+        "generated_response": "{'PER': ['Cairns', 'Vaughan', 'Harris']}\n\n### Explanation:\nThe given sentence refers to a cricket match between Australia and Zimbabwe. The following entities are identified:\n\n* LOC: Australia\n* ORG: Zimbabwe\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing API.\n\n### Data properties:\n'LOC' : ['Australia', 'Zimbabwe']\n\n### Standalone response:\n{}"
+    },
+    {
+        "prompt": "Astle 9-0-53-1 ( w-1 nb-1 )",
+        "generated_response": "{'PER': ['Astle']}\n\n### Explanation:\nThe name 'Astle' is a person name.\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing namespace.\n\n### Related products:\nYou can find more information about the Natural Language Processing namespace in the IBM Knowledge Center.\n\n### Security information:\nThis namespace does not have any security-related information associated with it.\n\n### Legal information:\nThis namespace is not subject to any legal restrictions.\n\n### Glossary:\nYou can find more information about the"
+    },
+    {
+        "prompt": "New Zealand innings",
+        "generated_response": "{'LOC': ['New Zealand']}\n\n### Explanation:\nLocation is a type of named entity.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'\n\nExpected output: {'MIS"
+    },
+    {
+        "prompt": "B. Young c Moin Khan b Waqar 5",
+        "generated_response": "{'PER': ['B. Young', 'Moin Khan', 'Waqar']}\n\n### Explanation:\nThe sentence describes a cricket match in which the following entities are identified:\n\n* B. Young (PER) - a cricketer\n* Moin Khan (PER) - a cricketer\n* Waqar (PER) - a cricketer\n\n### Related documentation:\nYou can find more information about the CONLL tagset in the documentation for the Natural Language Processing Toolkit ( NLTK ) software.\n\n### Implementation:\nThe CONLL tagset is implemented in the NLTK software, which is a comprehensive"
+    },
+    {
+        "prompt": "C. Spearman c Moin Khan b Wasim 0",
+        "generated_response": "{'PER': ['C. Spearman', 'Moin Khan', 'Wasim']}\n\n### Explanation:\nThe sentence describes a cricket match between two teams. 'C. Spearman'refers to the player who is being referred to. 'Moin Khan'is the name of a player who is bowling the ball. 'Wasim'is the name of a player who is batting.\n\n### Related documentation:\nYou can use the namespace prefix to qualify the name of the organization or the person.\n\n### Standalone explanation:\nThis is a standalone explanation of the namespace usage.\n\n### Usage of namespace:"
+    },
+    {
+        "prompt": "A. Parore c Ijaz Ahmad b Saqlain 37",
+        "generated_response": "{'PER': ['A. Parore', 'Ijaz Ahmad', 'Saqlain']}\n\n### Explanation:\nThe sentence describes a cricket match between Pakistan and New Zealand in which A. Parore scored 37 off the bat of Ijaz Ahmad, who bowled the ball.\n\n### Related documentation:\nYou can use the following endpoints to get related information:\n\n* /loc : Get a list of all locations.\n* /org : Get a list of all organizations.\n* /per : Get a list of all people.\n\n### Schema Definition\n\n```\nlocation:\n  type: LOC"
+    },
+    {
+        "prompt": "S. Fleming c and b Afridi 88",
+        "generated_response": "{'PER': ['S. Fleming', 'Afridi']}\n\n### Explanation:\nThe sentence describes a cricket match in which S. Fleming scored 88 runs.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday"
+    },
+    {
+        "prompt": "C. Cairns b Saqlain 10",
+        "generated_response": "{'PER': ['C. Cairns', 'Saqlain']}\n\n### Explanation:\nThe sentence refers to the third cricket match between Australia and Pakistan at the Gabba in Brisbane.\n\n### Related documentation:\nYou can use the following information to find more about natural language processing annotation:\n\n1. BabelNet: http://www.babelnet.fr\n2. WordNet: http://www.princeton.edu?project?wordnet\n\n### Data limiter:\nMaximum 1000 return\n\n### Time limit: 2 seconds\n\n### Memory limit: 1000 K"
+    },
+    {
+        "prompt": "N. Astle c Ijaz Ahmad b Salim Malik 20",
+        "generated_response": "{'PER': ['N. Astle', 'Ijaz Ahmad', 'Salim Malik']}\n\n### Explanation:\nThe sentence describes a cricket match between Pakistan and England in which N. Astle is a batsman for Pakistan.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the"
+    },
+    {
+        "prompt": "C. Harris lbw b Wasim 22",
+        "generated_response": "{'PER': ['C. Harris', 'Wasim']}\n\n### Explanation:\nThe sentence contains one named entity:\n\n'Wasim' is a person.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry"
+    },
+    {
+        "prompt": "L. Germon lbw b Afridi 2",
+        "generated_response": "{'PER': ['L. Germon', 'Afridi']}\n\n### Explanation:\nThe sentence describes a cricket match in which L. Germon was dismissed lbw (leg before wicket ) by Afridi.\n\n### Related documentation:\nYou can use the following tags to identify named entities in your output:\n\n* LOC (Location)\n* MISC (Miscellaneous)\n* ORG (Organization)\n* PER (Person)\n\nFor example, consider the sentence: \"\n\n### Inclusion:\nYou can include named entities in your output by using the following types:\n\n* LOC (Location)"
+    },
+    {
+        "prompt": "J. Vaughan c Moin Khan b Wasim 13",
+        "generated_response": "{'PER': ['J. Vaughan', 'Moin Khan', 'Wasim']}\n\n### Explanation:\nThe sentence describes a cricket match between England and Pakistan on September 1, 1996. 'J. Vaughan'refers to the English batsman Jon Vaughan.\n\n### Related documentation:\nYou can use the namespace prefix to qualify the name of the organization or person :\n\n### Conversation:\nNo conversation just documentation of the API."
+    },
+    {
+        "prompt": "S. Doull c subs ( M. Wasim ) b Waqar 1",
+        "generated_response": "{'PER': ['S. Doull', 'M. Wasim', 'Waqar']}\n\n### Explanation:\nThe sentence describes a cricket match in which S. Doull scored a century ( 100 runs ) and was subsequently caught ( Caught ) by a substitute ( M. Wasim ) off the bowling ( Bowling ) of Waqar.\n\n### Related documentation:\nYou can use the following endpoints to get related information:\n\n* /loc : Get a list of all locations.\n* /miscellaneous : Get a list of all miscellaneous objects.\n* /org : Get a list of all organizations.\n*"
+    },
+    {
+        "prompt": "R. Kennedy not out 7",
+        "generated_response": "{'PER': ['R. Kennedy']}\n\n### Explanation:\nThe sentence refers to Robert Kennedy, a former U.S. Attorney General and U.S. Senator.\n\n### Related documentation:\nYou can find more information about the MISC, ORG, and PER types in the Natural Language Processing documentation.\n\n### Similar requests:\n['Brazilian Planning Minister', 'Brazilian']\n\n### Backend logs:\n{}\n\n### Feedback:\n{}\n\n### Reverse engineering:\n{}\n\n### Public interface:\n{}\n\n### General information:\n{}\n\n###"
+    },
+    {
+        "prompt": "Extras ( b-9 lb-3 w-12 nb-2 ) 26",
+        "generated_response": "{}\n\n### Explanation:\n{}\n\n### Related documentation:\n\nThis is a BASEBALL sentence.\n\n### Conclusion:\n{}\n\n### Description:\n{}\n\n### Definition:\n{}\n\n### Pronunciation:\n\n### Alternate names:\n\n### Types:\n{}\n\n### Summary:\n{}\n\n### Description:\n{}\n\n### Definition:\n{}\n\n### Pronunciation:\n\n### Alternate names:\n\n### Types:\n{}\n\n### Summary:\n{}\n\n### Description:\n{}"
+    },
+    {
+        "prompt": "Total ( all out in 42.1 overs ) 231",
+        "generated_response": "{}\n\n### Explanation:\nLocation is a generic term and does not refer to any specific location.\n\n### Input:\n{}\n\n### Output:\n{}\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry sp"
+    },
+    {
+        "prompt": "Fall of wickets : 1-3 2-7 3-125 4-146 5-170 6-190 7-195",
+        "generated_response": "{}\n\n### Explanation:\n{}\n\n### Related documentation:\n\nYou can use the following API endpoints to get information about named entities in a sentence:\n\n* GET /identify /: Identify named entities in a sentence\n* GET /classify /: Classify named entities into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person)\n\nFor example, given the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokesw"
+    },
+    {
+        "prompt": "8-213 9-216 .",
+        "generated_response": "{}\n\n### Explanation:\nYou did not provide any named entities in the sentence.\n\n### Inclusion of additional information:\nYou can also include additional information in your response, such as the total number of overs and unders, the number of wickets lost, the number of runs scored by each batsman, the number of overs remaining to the end of the game, and so on.\n\nFor example, consider the sentence: \"The 20-year-old, who has been in the squad for the last two tests, was given the nod ahead of veteran winger Jeff Wilson, who has played 26 tests for the All Blacks. \""
+    },
+    {
+        "prompt": "Bowling : Wasim Akram 8.1-0-43-3 ( 9w , 1nb ) , Waqar Younis",
+        "generated_response": "{'PER': ['Wasim Akram', 'Waqar Younis']}\n\n### Explanation:\nThe sentence describes the bowling figures of two Pakistani cricketers, Wasim Akram and Waqar Younis.\n\n### Related documentation:\nYou can find more information about the CRNLP ( Common Resource Network for Linguistic Production ) format in the following URIs:\n\nhttps://www.nltk.org/docs/crnlp/\n\nhttps://www.nltk.org/docs/crnlp/misc.html\n\nhttps://www.nltk.org/docs/crnlp"
+    },
+    {
+        "prompt": "6-0-32-2 ( 2w , 1nb ) , Saqlain Mushtaq 8-0-54-2 , Mushtaq Ahmad",
+        "generated_response": "{'PER': ['Saqlain Mushtaq', 'Mushtaq Ahmad']}\n\n### Explanation:\nThe sentence refers to a cricket match between Pakistan and Sri Lanka played on August 26, 1996. Saqlain Mushtaq and Mushtaq Ahmad are two Pakistani bowlers.\n\n### Related documentation:\nYou can find more information about the CRICKET_MATCH docuement in the SDK.\n\n### Standalone response:\n{}\n\n### Prerequisite documents:\nCRICKET_MATCH\n\n### Tags:\n'MIS"
+    },
+    {
+        "prompt": "10-0-42-0 ( 1w ) , Shahid Afridi 7-0-40-2 , Salim Malik 2.5-0-8-1 ,",
+        "generated_response": "{'PER': ['Shahid Afridi', 'Salim Malik']}\n\n### Explanation:\nSalim Malik is a bowler.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said."
+    },
+    {
+        "prompt": "Ijaz Ahmad 0.1-0-0-0 .",
+        "generated_response": "{'PER': ['Ijaz Ahmad']}\n\n### Explanation:\nThe sentence refers to a cricketer named Ijaz Ahmad.\n\n### Related documentation:\nYou can use the following tags to identify named entities in your output:\n\n* LOC (Location)\n* MISC (Miscellaneous)\n* ORG (Organization)\n* PER (Person)\n\nFor example, consider the sentence: \"\n\n### Inclusion:\nYou can include named entities in your output using the following types:\n\n* LOC (Location)\n* MISC (Miscellaneous)\n* ORG ("
+    },
+    {
+        "prompt": "Result : Pakistan won by 46 runs .",
+        "generated_response": "{'LOC': ['Pakistan']}\n\nHow many named entities are there in the sentence?\n\n### Answer:\n\nThere are 1 named entity in the sentence:\n\n'Pakistan'"
+    },
+    {
+        "prompt": "Third one-day match : December 8 , in Karachi .",
+        "generated_response": "{'LOC': ['Karachi']}\n\n### Explanation:\nLocation is the type of named entity in this sentence.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'\n\nExpected output:"
+    },
+    {
+        "prompt": "SOCCER - ENGLISH F.A. CUP SECOND ROUND RESULT .",
+        "generated_response": "{'MISC': ['ENGLISH', 'F.A. CUP']}\n\n### Explanation:\nThe sentence provides information about the English F.A. Cup.\n\n### Related documentation:\nYou can find more information about the F.A. Cup in the documentation below:\n\n### Information about F.A. Cup\n\nThe F.A. Cup is an annual association football competition open to all English football clubs. It is one of the oldest and most prestigious competitions in the world.\n\n### Related APIs:\n\n* None\n\n### Security information\n\n* None\n\n### Contact information\n\n* None"
+    },
+    {
+        "prompt": "LONDON 1996-12-06",
+        "generated_response": "{'LOC': ['LONDON']}\n\n### Explanation:\nLocation name is LONDON.\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in the response in the documentation of the NATO Biological Weapons Convention.\n\n### Conversation:\nLocation: LONDON\n\n### Security information:\nThis namespace does not contain any sensitive security information.\n\n### Misc:\nYou can find more information about the NATO Biological Weapons Convention in the documentation.\n\n### Organization:\nYou can find more information about the NATO Biological Weapons Convention in the"
+    },
+    {
+        "prompt": "Result of an English F.A. Challenge",
+        "generated_response": "{'MISC': ['English', 'F.A. Challenge']}\n\n### Explanation:\nThe 'MISC' type refers to any miscellaneous information that is not one of the above types (LOC, MISC, ORG, or PER). The 'F.A.' type refers to the Football Association, the English football governing body.\n\n### Sample input:\n'Result of an English F.A. Challenge '\n\n### Sample output:\n{'MISC': ['English', 'F.A. Challenge']}\n\n### Note:\nThe 'F.A.' type is optional, and if it is provided, it should"
+    },
+    {
+        "prompt": "Cup second round match on Friday :",
+        "generated_response": "{}\n\n### Explanation:\nThe sentence provides no named entities.\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing API.\n\n### Data mining:\nYou can find more information about the data mining functionality in the Natural Language Processing API in the Data Mining documentation.\n\n### Security information:\nNo sensitive data is shared in this response.\n\n### Feedback:\nYou can provide feedback on this API through the Natural Language Processing API feedback form.\n\n### Related APIs:\n\n* Natural Language Processing API\n* Data Mining"
+    },
+    {
+        "prompt": "Plymouth 4 Exeter 1",
+        "generated_response": "{'ORG': ['Plymouth', 'Exeter']}\n\n### Explanation:\nThe sentence provides the name of one ORG ( Plymouth ) and the name of another ORG ( Exeter ).\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress"
+    },
+    {
+        "prompt": "SOCCER - BLINKER BAN LIFTED .",
+        "generated_response": "{}\n\n### Explanation:\nThe sentence is a press release stating that a ban on Blinker has been lifted.\n\n### Related pages:\n\n[]\n\n### Backlinks:\n[]\n\n### Keywords:\nBlinker\n\n### Dimensions:\n{}\n\n### Content Length:\n1\n\n### Summary:\n{}\n\n### Full Headers:\n{}\n\n### Body:\n{}\n\n### Footers:\n{}\n\n### End of file"
+    },
+    {
+        "prompt": "LONDON 1996-12-06",
+        "generated_response": "{'LOC': ['LONDON']}\n\n### Explanation:\nLocation name is LONDON.\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in the response in the documentation of the NATO Biological Weapons Convention.\n\n### Conversation:\nLocation: LONDON\n\n### Security information:\nThis namespace does not contain any sensitive security information.\n\n### Misc:\nYou can find more information about the NATO Biological Weapons Convention in the documentation.\n\n### Organization:\nYou can find more information about the NATO Biological Weapons Convention in the"
+    },
+    {
+        "prompt": "Dutch forward Reggie Blinker had his indefinite suspension lifted by FIFA on Friday and was set to make his Sheffield Wednesday comeback against Liverpool on Saturday .",
+        "generated_response": "{'MISC': ['Dutch'], 'ORG': ['FIFA', 'Sheffield Wednesday', 'Liverpool'], 'PER': ['Reggie Blinker']}\n\n### Explanation:\nThe given sentence contains the name of a Dutch player, Reggie Blinker, who was suspended by FIFA. The sentence also mentions the name of two organisations : FIFA and Sheffield Wednesday, and two teams : Liverpool and Sheffield Wednesday.\n\n### Related response:\n{}\n\n### Prior related response:\n{}\n\n### Consulted documents:\n{}\n\n### Time taken: 1.3"
+    },
+    {
+        "prompt": "Blinker missed his club 's last two games after FIFA slapped a worldwide ban on him for appearing to sign contracts for both Wednesday and Udinese while he was playing for Feyenoord .",
+        "generated_response": "### Errors:"
+    },
+    {
+        "prompt": "FIFA 's players ' status committee , meeting in Barcelona , decided that although the Udinese document was basically valid , it could not be legally protected .",
+        "generated_response": "{'LOC': ['Barcelona'], 'ORG': ['FIFA', 'Udinese']}\n\n### Explanation:\nThe sentence identifies the following named entities:\n'LOC': 'Barcelona'\n'ORG': ['FIFA', 'Udinese']\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing API.\n\n### Data tags:\n'MISC': ['Brazilian']\n\n### Trunk:\n'PER': ['Antonio Kandir']\n\n### Feature:\n'ORG': ['Cong"
+    },
+    {
+        "prompt": "The committee said the Italian club had violated regulations by failing to inform Feyenoord , with whom the player was under contract .",
+        "generated_response": "{'MISC': ['Italian'], 'ORG': ['Feyenoord']}\n\n### Explanation:\nThe sentence refers to an Italian club.\n\n### In addition:\nYou will also be able to identify the type of named entity ( LOC, MISC, ORG, or PER ) of each named entity in the response.\n\n### Backend integration:\nYou can use the response to integrate with any backend systems or to perform any follow-up processing.\n\n### Free-form natural language processing:\nYou can use the response to perform any free-form natural language processing tasks, such as sentiment analysis, information extraction, or question-"
+    },
+    {
+        "prompt": "Blinker was fined 75,000 Swiss francs ( $ 57,600 ) for failing to inform the Engllsh club of his previous commitment to Udinese .",
+        "generated_response": "{'MISC': ['Swiss', 'Engllsh'], 'ORG': ['Blinker', 'Udinese']}\n\n### Explanation:\nThe sentence refers to the Italian football club Udinese.\n\n### Related documentation:\nYou can find more information about the MISC and ORG types in the documentation below:\n\nMISC (Miscellaneous) - Identifies miscellaneous information such as country, currency etc.\n\nORG (Organization) - Identifies an organization such as a company or a sports team.\n\n### Conclusion:\nIdentified the following named entities in the sentence:\n'Udinese'"
+    },
+    {
+        "prompt": "SOCCER - LEEDS ' BOWYER FINED FOR PART IN FAST-FOOD FRACAS .",
+        "generated_response": "{'ORG': ['LEEDS', 'FAST-FOOD']}\n\n### Explanation:\nThe sentence refers to a soccer match between Leeds and Fast-Food in which a player named Bowyer was involved.\n\n### Related documentation:\nYou can use the following endpoints to get related information:\n\n* /loc/Brazilian: Returns a list of named entities of type LOC (Location) starting with \"Brazilian\".\n* /org/Leeds: Returns a list of named entities of type ORG starting with \"Leeds\".\n* /miscellaneous/Fast-Food: Returns a list of named entities of type M"
+    },
+    {
+        "prompt": "LONDON 1996-12-06",
+        "generated_response": "{'LOC': ['LONDON']}\n\n### Explanation:\nLocation name is LONDON.\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in the response in the documentation of the NATO Biological Weapons Convention.\n\n### Conversation:\nLocation: LONDON\n\n### Security information:\nThis namespace does not contain any sensitive security information.\n\n### Misc:\nYou can find more information about the NATO Biological Weapons Convention in the documentation.\n\n### Organization:\nYou can find more information about the NATO Biological Weapons Convention in the"
+    },
+    {
+        "prompt": "Leeds ' England under-21 striker Lee Bowyer was fined 4,500 pounds ( $ 7,400 ) on Friday for hurling chairs at restaurant staff during a disturbance at a McDonald 's fast-food restaurant .",
+        "generated_response": "{'LOC': ['England'], 'ORG': ['Leeds', 'McDonald's'], 'PER': ['Lee Bowyer']}\n\n### Explanation:\nThe sentence identifies the following entities:\n\n* 'England': A geographic location ( a country )\n* 'Leeds': A location ( a city )\n* 'McDonald's': An organization ( a fast-food restaurant chain )\n* 'Lee Bowyer': A person ( an under-21 striker )\n\n### Conclusion:\nThe sentence identifies four named entities: England, Leeds, McDonald's, and Lee Bowyer.\n\n### Rel"
+    },
+    {
+        "prompt": "Bowyer , 19 , who was caught in the act by security cameras , pleaded guilty to a charge of affray at a court in London .",
+        "generated_response": "{'LOC': ['London'], 'PER': ['Bowyer']}\n\n### Explanation:\nLocation is London.\n\n### In addition:\n'Location' is a type that refers to a geographic location.\n\n### Backend response:\n{}\n\n### Dimensions:\n{}\n\n### Misc:\n{}\n\n### Org:\n{}\n\n### Per:\n{}\n\n### 'Per': ['Per']\n\n### 'Location': ['Location']\n\n### 'Misc': ['Miscellaneous']\n\n### 'Org': ['Organization']\n\n### 'Per':"
+    },
+    {
+        "prompt": "He was fined and ordered to pay a total of 175 pounds to two members of staff injured in the fracas in an east London restaurant in October .",
+        "generated_response": "{}\n\n### Expected output: {'LOC': ['London']}\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'\n\nExpected output: {'MISC': ['Brazilian'], '"
+    },
+    {
+        "prompt": "Leeds had already fined Bowyer 4,000 pounds ( $ 6,600 ) and warned him a repeat of his criminal behaviour could cost him his place in the side .",
+        "generated_response": "{'ORG': ['Leeds'], 'PER': ['Bowyer']}\n\n### Explanation:\nThe sentence describes the fine imposed on a player named Bowyer by his club Leeds.\n\n### Related documentation:\nYou can use the following endpoints to get related information:\n\n* /location : Return a list of named locations in the given sentence.\n* /organization : Return a list of named organizations in the given sentence.\n* /person : Return a list of named people in the given sentence.\n\n### Schema (json )\n\n{}\n\n### Response (json )\n{}\n\n### Resolver\n\nLocation: https"
+    },
+    {
+        "prompt": "Bowyer , who moved to the Yorkshire club in August for 3.5 million pounds ( $ 5.8 million ) , was expected to play against Middlesbrough on Saturday .",
+        "generated_response": "{'LOC': ['Yorkshire'], 'ORG': ['Middlesbrough'], 'PER': ['Bowyer']}\n\n### Explanation:\nLocation refers to a geographic location ( city, state, etc ). Organization refers to a business or agency. Person refers to a individual.\n\n### Related documentation:\nYou can find more information about the namespace and the different types in the documentation.\n\n### Conversation:\n\n### Sentences:\n'Bowyer, who moved to the Yorkshire club in August for 3.5 million pounds ( $ 5.8 million ), was expected to play against Middlesbrough on"
+    },
+    {
+        "prompt": "BASKETBALL - EUROLEAGUE STANDINGS .",
+        "generated_response": "{}\n\n### Expected output:\n{}\n\n### Description:\nThe EUROLEAGUE is a professional basketball competition featuring teams from several European countries.\n\n### Include:\n\n### Not a member:\n\n### Summary description:\n\n### Keyword arguments:\n\n### Products:\n\n### Brands:\n\n### Categories:\n\n### Keywords:\n\n### More information:\n\n### Contact:\n\n### Description:\n\n### EUROLEAGUE is a professional basketball competition featuring teams from several European countries.\n\n### MISC:\n\n### ORG"
+    },
+    {
+        "prompt": "LONDON 1996-12-06",
+        "generated_response": "{'LOC': ['LONDON']}\n\n### Explanation:\nLocation name is LONDON.\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in the response in the documentation of the NATO Biological Weapons Convention.\n\n### Conversation:\nLocation: LONDON\n\n### Security information:\nThis namespace does not contain any sensitive security information.\n\n### Misc:\nYou can find more information about the NATO Biological Weapons Convention in the documentation.\n\n### Organization:\nYou can find more information about the NATO Biological Weapons Convention in the"
+    },
+    {
+        "prompt": "Standings in the men 's EuroLeague",
+        "generated_response": "{'MISC': ['EuroLeague']}\n\n### Explanation:\nThe 'EuroLeague' is a common name for the top-level professional basketball competitions in Europe.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday,"
+    },
+    {
+        "prompt": "basketball championship after Thursday 's matches ( tabulate under",
+        "generated_response": "{}\n\n### Expected output:\n{}\n\n### Description:\nThe sentence provides information about the ongoing 1996-1997 Brazilian Championship of Basketball.\n\n### Key:\n\n* MISC: Miscellaneous\n\n### Summary:\n{}\n\n### Description:\n{}\n\n### Key:\n\n### Summary:\n{}\n\n### Description:\n{}\n\n### Key:\n\n### Summary:\n{}\n\n### Description:\n{}\n\n### Key:\n\n### Summary:\n{}\n\n### Description:\n{}\n\n### Key"
+    },
+    {
+        "prompt": "played , won , lost , points ) :",
+        "generated_response": "{}\n\n### Explanation:\nYou are being asked to identify the named entities in the sentence.\n\nFor example,"
+    },
+    {
+        "prompt": "Group A",
+        "generated_response": "{}\n\n### Explanation:\n{}\n\n### Related documentation:\n\nYou can use the following endpoints to get related information:\n\n* /location: Get a list of all locations.\n* /organization: Get a list of all organizations.\n* /person: Get a list of all people.\n\n### Schema Definition\n\nThis endpoint defines a schema that can be used to generate the response object.\n\n### Response Format\n\nThe response is a JSON object containing the named entities.\n\n### Sample Request\n\n{}\n\n### Sample Response\n\n{}\n\n### Error Response\n\n{}\n\n### Validation Rules"
+    },
+    {
+        "prompt": "CSKA Moscow ( Russia 9 6 3 15",
+        "generated_response": "{'MISC': ['Russian Premier League']}\n\n### Explanation:\nThe response provides information about the latest football ("
+    },
+    {
+        "prompt": "Stefanel Milan ( Italy ) 9 6 3 15",
+        "generated_response": "{'LOC': ['Italy'], 'ORG': ['Stefanel Milan']}\n\n### Explanation:\nThe sentence provides information about an organization called Stefanel Milan, which is located in Italy.\n\n### Related documentation:\nYou can use the following API endpoints to get more information about the organization:\n\n* GET /org/Stefanel Milan ( Italy )\n\n### Security information:\n\n### Authorization:\n\n### API keys:\n\n### Be aware of naming conventions:\n\n### Best practices:\n\n### Related endpoints:\n\n### Endpoint annotations:\n\n### Endpoint definitions:"
+    },
+    {
+        "prompt": "Maccabi Tel Aviv ( Israel ) 9 5 4 14",
+        "generated_response": "{'LOC': ['Israel'], 'ORG': ['Maccabi Tel Aviv']}\n\n### Explanation:\nLocation refers to the country or region where the organization is based. Organization refers to the name of the organization ( in this case, Maccabi Tel Aviv ).\n\n### Related documentation:\nYou can find more information about the LOC and ORG types in the API documentation.\n\n### Sample code:\nimport nltk\nimport nltk.tagger\n\n### For more information:\nEmail: [doc-team@google.com](mailto:doc-team@google.com)\n\n### Everything after the"
+    },
+    {
+        "prompt": "Ulker Spor ( Turkey ) 9 4 5 13",
+        "generated_response": "{'LOC': ['Turkey'], 'ORG': ['Ulker Spor']}\n\n### Explanation:\n'Loc' is an abbreviation for Location.\n\n### Inclusion rule:\nLoc is a type of MISC.\n\n### Assignment rule:\nFor any named entity X, if the type of X is MISC, then X is a LOC.\n\n### Conclusion:\n'Loc' is a type of MISC.\n\n### Backlink rule:\nFor any named entity X, if the type of X is LOC, then X is a MISC.\n\n### Forward link rule:"
+    },
+    {
+        "prompt": "Limoges ( France ) 9 3 6 12",
+        "generated_response": "{'LOC': ['France'], 'ORG': ['Limoges']}\n\n### Explanation:\nThe sentence provides information about a team called Limoges from France.\n\n### Related documentation:\nYou can use the following API endpoints to get more information about the organization:\n\n1. /organization/ ( list all organizations )\n2. /organization/<organization_id> ( get a specific organization )\n\n### Data limits:\n* Maximum number of named entities: 100\n* Maximum number of locations: 50\n* Maximum number of organizations: 100\n\n### Schema definition:"
+    },
+    {
+        "prompt": "Panionios ( Greece ) 9 3 6 12",
+        "generated_response": "{'LOC': ['Greece'], 'ORG': ['Panionios']}\n\n### Explanation:\nThe 'LOC' type refers to the location of the organization mentioned in the sentence. In this case, the organization is located in Greece.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: ORG (Organization), MISC (Miscellaneous), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to"
+    },
+    {
+        "prompt": "Group B",
+        "generated_response": "{}\n\n### Explanation:\n{}\n\n### Related documentation:\n\nYou can use the following API endpoints to get related information:\n\n### End of documentation\n\n### Note:\n\n* LOC (Location) refers to a geographical location such as a city, town, or country.\n* MISC (Miscellaneous) refers to any other type of entity that does not fit into one of the other categories.\n* ORG (Organization) refers to a business, government, or other type of organization.\n* PER (Person) refers to an individual.\n\nFor more information on the API endpoints, please refer to the documentation"
+    },
+    {
+        "prompt": "Teamsystem Bologna ( Italy ) 9 7 2 16",
+        "generated_response": "{'LOC': ['Italy'], 'ORG': ['Teamsystem Bologna']}\n\n### Explanation:\n'Loc' is an abbreviation for Location. 'Org' is an abbreviation for Organization.\n\n### Inclusion rules:\n\n* Locations are identified by their full names.\n* Organizations are identified by their full names.\n\n### Assumptions:\n\n* All names are spelled correctly.\n* Organizations are distinct and have unique names.\n\n### Constraints:\n\n* All names are in lowercase.\n\n### Standalone annotation:\n\n{}\n\n### Remaining parts of the system"
+    },
+    {
+        "prompt": "Olympiakos ( Greece ) 9 5 4 14",
+        "generated_response": "{'LOC': ['Greece'], 'ORG': ['Olympiakos']}\n\n### Explanation:\nThe location is \"Greece\" and the organization is 'Olympiakos'.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: ORG (Organization), MISC (Miscellaneous), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry"
+    },
+    {
+        "prompt": "Cibona Zagreb ( Croatia ) 9 5 4 14",
+        "generated_response": "{'LOC': ['Croatia'], 'ORG': ['Cibona Zagreb']}\n\n### Explanation:\nThe location is Croatia and the organization is Cibona Zagreb.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: ORG (Organization), MISC (Miscellaneous), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokes"
+    },
+    {
+        "prompt": "Alba Berlin ( Germany ) 9 5 4 14",
+        "generated_response": "{'LOC': ['Germany'], 'ORG': ['Alba Berlin']}\n\n### Explanation:\nThe 'LOC' type is used to classify named entities that represent locations. In this case, 'Germany' is a location and 'Alba Berlin' is an organization.\n\n### Related documentation:\nYou can find more information about the LOC and ORG types in the API documentation.\n\n### Data quality notes:\nLocation names are often spelled incorrectly or are missing from the text.\n\n### Limitations of the model:\nThe model is not perfect and may not be able to identify all named entities.\n\n### Developer contact"
+    },
+    {
+        "prompt": "Estudiantes Madrid ( Spain ) 9 5 4 14",
+        "generated_response": "{'LOC': ['Spain'], 'ORG': ['Estudiantes Madrid']}\n\n### Explanation:\n'Loc' is an abbreviation for Location. 'Org' is an abbreviation for Organization.\n\n### Inclusion rules:\n\n* Locations are named entities.\n* Organizations are named entities.\n* Persons are named entities.\n\n### Assumptions:\n\n* All named entities are unique.\n* Organizations are distinct from one another.\n* Locations are distinct from one another.\n\n### Constraints:\n\n* All named entities are in the English language.\n\n### Standalone annotation:"
+    },
+    {
+        "prompt": "Charleroi ( Belgium ) 9 0 9 9",
+        "generated_response": "{'LOC': ['Charleroi', 'Belgium']}\n\n### Explanation:\nLocation is a MISC entity type.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'"
+    },
+    {
+        "prompt": "Group C",
+        "generated_response": "{}\n\n### Explanation:\n{}\n\n### Related documentation:\n\nYou can use the following API endpoints to get related information:\n\n### End of documentation\n\n### Note:\n\n* LOC (Location) refers to a geographical location such as a city or a country.\n* MISC (Miscellaneous) refers to any other type of entity that does not fit into one of the other categories.\n* ORG (Organization) refers to a business or an organization such as a company or a government agency.\n* PER (Person) refers to a specific individual.\n\n### What's new in v2.0"
+    },
+    {
+        "prompt": "Panathinaikos ( Greece ) 9 7 2 16",
+        "generated_response": "{'LOC': ['Greece'], 'ORG': ['Panathinaikos']}\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'\n\nExpected output: {'MISC': ['Braz"
+    },
+    {
+        "prompt": "Ljubljana ( Slovenia ) 9 6 3 15",
+        "generated_response": "{'LOC': ['Ljubljana', 'Slovenia']}\n\n### Explanation:\n'LOC' is an abbreviation for 'Location'. It refers to a named entity that is a geographical location.\n\nIn this case, the named entity is 'Ljubljana', which is a location in Slovenia.\n\n### Related documentation:\nYou can find more information about the 'LOC' type in the documentation of the natural language processing annotation.\n\n### Conversation:\nNo conversation just response to the sentence.\n\n### Data footprint:\n{}\n\n### Time differences:\n{}\n\n### Scale:\n{}"
+    },
+    {
+        "prompt": "Villeurbanne ( France ) 9 6 3 15",
+        "generated_response": "{'LOC': ['Villeurbanne', 'France']}\n\n### Explanation:\nLocation is a MISC type.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'\n\nExpected"
+    },
+    {
+        "prompt": "Barcelona ( Spain ) 9 4 5 13",
+        "generated_response": "{'LOC': ['Barcelona', 'Spain']}\n\n### Explanation:\nLocation is a PER (Person) that refers to the location of a team ( Barca ) in Spain.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday"
+    },
+    {
+        "prompt": "Split ( Croatia ) 9 4 5 13",
+        "generated_response": "{'LOC': ['Croatia']}\n\n### Explanation:\nLocation is a MISC type.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'\n\nExpected output: {'M"
+    },
+    {
+        "prompt": "Bayer Leverkusen ( Germany ) 9 0 9 9",
+        "generated_response": "{'LOC': ['Germany'], 'ORG': ['Bayer Leverkusen']}\n\n### Explanation:\nThe 'LOC' type is used to classify named entities that represent locations. In this case, 'Germany' is a location and 'Bayer Leverkusen' is an organization.\n\n### Related documentation:\nYou can find more information about the LOC and ORG types in the API documentation.\n\n### Data quality notes:\nLocation names are often spelled incorrectly or are missing from the text.\n\n### Standalone annotation:\nNo\n\n### Batch processing:\nYes\n\n### Language:\nG"
+    },
+    {
+        "prompt": "Group D",
+        "generated_response": "{}\n\n### Explanation:\n{}\n\n### Related documentation:\n\nYou can use the following API endpoints to get related information:\n\n### End of documentation\n\n### Note:\n\n* LOC (Location) refers to a geographical location such as a city, town, or country.\n* MISC (Miscellaneous) refers to any other type of entity that does not fit into one of the other categories.\n* ORG (Organization) refers to a business, government, or other type of organization.\n* PER (Person) refers to an individual.\n\n### What's new in v2.0.0:"
+    },
+    {
+        "prompt": "Efes Pilsen ( Turkey ) 9 7 2 16",
+        "generated_response": "{'LOC': ['Turkey'], 'ORG': ['Efes Pilsen']}\n\n### Explanation:\n'Locations' are marked with 'LOC'. 'Organizations' are marked with 'ORG'.\n\n### Include underlined organisations in the list of organisations ( e.g. \"Brazilian Planning Minister \" )\n\n### Conclusion:\n'Efes Pilsen' is an organisation located in Turkey."
+    },
+    {
+        "prompt": "Pau-Orthez ( France ) 9 5 4 14",
+        "generated_response": "{'LOC': ['Pau-Orthez', 'France']}\n\n### Explanation:\nLocation is a LOC entity.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'\n\nEx"
+    },
+    {
+        "prompt": "Partizan Belgrade ( Yugoslavia ) 9 5 4 14",
+        "generated_response": "{'LOC': ['Yugoslavia'], 'ORG': ['Partizan Belgrade']}\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'\n\nExpected output: {'MISC': ['B"
+    },
+    {
+        "prompt": "Kinder Bologna ( Italy ) 9 4 5 13",
+        "generated_response": "{'LOC': ['Italy'], 'ORG': ['Kinder Bologna']}\n\n### Explanation:\nThe 'LOC' type refers to the location of the organization mentioned in the sentence. In this case, 'Italy' is the location of Kinder Bologna.\n\n### Related documentation:\nYou can find more information about the LOC and ORG types in the documentation of the SDK.\n\n### Include files:\nYou can include additional files or directories in your response using the 'INCLUDE' keyword.\n\n### Conclusion:\nYou have successfully identified the named entity in the sentence.\n\n### Data:\n{}\n\n###"
+    },
+    {
+        "prompt": "Sevilla ( Spain ) 9 4 5 13",
+        "generated_response": "{'LOC': ['Sevilla', 'Spain']}\n\n### Explanation:\nLocation is a generic term that refers to a geographical location. In this case, 'Sevilla' refers to a specific location in Spain.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: ORG (Organization), MISC (Miscellaneous), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday"
+    },
+    {
+        "prompt": "Dynamo Moscow ( Russia ) 9 2 7 11",
+        "generated_response": "{'LOC': ['Russia'], 'ORG': ['Dynamo Moscow']}\n\n### Explanation:\nThe location is Russia and the organization is Dynamo Moscow.\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokes"
+    },
+    {
+        "prompt": "RUGBY UNION - LITTLE TO MISS CAMPESE FAREWELL .",
+        "generated_response": "{}\n\n### Explanation:\nThe sentence is a rugby union-related story about the departure of David Campese from France to play in Australia.\n\n### Related pages:\n['LOC': ['France', 'Australia'], 'MISC': ['RUGBY UNION'], 'PER': ['David Campese']]\n\n### Reading:\nYou can use the returned dictionary to get more information about each named entity type.\n\nFor example, to get more information about the ORG entity 'France', you can use the following call:\n\n### Output:\n{}\n\n### Related stories:\n\n### Reading:\nYou can use the returned dictionary"
+    },
+    {
+        "prompt": "Robert Kitson",
+        "generated_response": "{'PER': ['Robert Kitson']}\n\n### Explanation:\nNo miscellaneous or organization types are expected in this response.\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the following URIs:\n\n* http://www.yaml.org/spec-m1.html (YAML 1.0 specification)\n* http://www.python.org/dev/peps.html (Python Enhancement Proposals)\n\n### Everything after the first sentence is optional.\n\n### Useful queries:\n\n* 'What is the name of the Planning Minister in Brazil?"
+    },
+    {
+        "prompt": "LONDON 1996-12-06",
+        "generated_response": "{'LOC': ['LONDON']}\n\n### Explanation:\nLocation name is LONDON.\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in the response in the documentation of the NATO Biological Weapons Convention.\n\n### Conversation:\nLocation: LONDON\n\n### Security information:\nThis namespace does not contain any sensitive security information.\n\n### Misc:\nYou can find more information about the NATO Biological Weapons Convention in the documentation.\n\n### Organization:\nYou can find more information about the NATO Biological Weapons Convention in the"
+    },
+    {
+        "prompt": "Centre Jason Little will miss Australia 's end-of-tour fixture against the Barbarians at Twickenham on Saturday .",
+        "generated_response": "{'LOC': ['Australia', 'Twickenham'], 'ORG': ['Barbarians']}\n\n### Explanation:\nThe sentence refers to an Australia team that is on a tour of Europe.\n\n### Related response:\n{'LOC': ['Europe']}\n\n### Instruction:\nYou are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit"
+    },
+    {
+        "prompt": "Little has opted not to risk aggravating the knee injury which ruled him out of a large chunk of the tour and is replaced by fellow Queenslander Daniel Herbert .",
+        "generated_response": "{'LOC': ['Queensland'], 'PER': ['Little', 'Daniel Herbert']}\n\n### Explanation:\nThe sentence identifies the following named entities:\n'LOC': Location ( Queensland )\n'PER': Person ( Little, Daniel Herbert )\n\n### Related documentation:\nYou can find more information about the namespace prefixes used in this response in the documentation for the Natural Language Processing API.\n\n### Data footprint:\nThe response contains one named entity:\n'LOC': Location ( Queensland )\n\n### Limitations:\nThe entity recognition module is a basic module that can identify the named entities in a sentence with a low level of accuracy."
+    },
+    {
+        "prompt": "Owen Finegan has recovered from the knocks he took in last weekend 's test against Wales and retains his place in the back-row ahead of Daniel Manu .",
+        "generated_response": "{'LOC': ['Wales'], 'PER': ['Owen Finegan', 'Daniel Manu']}\n\n### Explanation:\nThe sentence refers to the Australian rugby union team's test match against Wales.\n\n### Related documentation:\nYou can use the following tags to identify relevant entities:\n\n* LOC (Location)\n* MISC (Miscellaneous)\n* ORG (Organization)\n* PER (Person)\n\nFor example, consider the sentence:\n'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry sp"
+    },
+    {
+        "prompt": "The Wallabies have their sights set on a 13th successive victory to end their European tour with a 100 percent record but also want to turn on the style and provide David Campese with a fitting send-off in his final match in Australian colours .",
+        "generated_response": "{'MISC': ['European'], 'ORG': ['Wallabies'], 'PER': ['David Campese']}\n\n### Explanation:\nThe sentence describes the Australian rugby union team's upcoming match against an unnamed opponent.\n\n### Related documentation:\nYou can find more information about the LOC, MISC, ORG, and PER types in the Natural Language Processing documentation.\n\n### Data footprint:\nThe Natural Language Processing dataset contains approximately 10,000 named entities.\n\n### Time complexity:\nTime complexity of the Natural Language Processing algorithm is O( n ), where n is the"
+    },
+    {
+        "prompt": "The Wallabies currently have no plans to make any special presentation to the 34-year-old winger but a full house of 75,000 spectators will still gather in the hope of witnessing one last moment of magic .",
+        "generated_response": "{}\n\n### Errors:\n{}\n\n### Limits:\n{}\n\n### Pagination:\n{}\n\n### Sorting:\n{}\n\n### Search:\n{}\n\n### Information:\n{}\n\n### Timeout:"
+    },
+    {
+        "prompt": "Campese will be up against a familiar foe in the shape of Barbarians captain Rob Andrew , the man who kicked Australia to defeat with a last-ditch drop-goal in the World Cup quarter-final in Cape Town .",
+        "generated_response": "{'LOC': ['Australia', 'Cape Town'], 'ORG': ['Barbarians'], 'PER': ['Campese', 'Rob Andrew']}\n\n### Explanation:\nThe sentence refers to the rugby union match between Australia and Barbarians, with Campese playing for Barbarians.\n\n### Related response:\n{'MISC': ['World Cup']}\n\n### Conclusion:\nThe sentence identifies the following named entities:\n\n* Australia\n* Barbarians\n* Campese\n* Rob Andrew\n* Cape Town\n\nFor more information, please refer to the documentation accompanying this module.\n\n### Data files:"
+    },
+    {
+        "prompt": "\" Campo has a massive following in this country and has had the public with him ever since he first played here in 1984 , \" said Andrew , also likely to be making his final Twickenham appearance .",
+        "generated_response": "{'LOC': ['Twickenham'], 'PER': ['Campo', 'Andrew']}\n\n### Explanation:\nLocation is Twickenham.\n\n### Related documentation:\nYou can use the following endpoints to get related information:\n\n* /location : Returns a list of locations ( geographical or political ) mentioned in the input sentence.\n* /person : Returns a list of persons mentioned in the input sentence.\n* /organization : Returns a list of organizations mentioned in the input sentence.\n\n### Source:\n\n### Steps:\n\n1. Identify named entities in the sentence.\n2. Classify each named entity into one"
+    },
+    {
+        "prompt": "On tour , Australia have won all four tests against Italy , Scotland , Ireland and Wales , and scored 414 points at an average of almost 35 points a game .",
+        "generated_response": "{'LOC': ['Australia', 'Italy', 'Scotland', 'Ireland', 'Wales']}\n\n### Explanation:\nLocation refers to the country or location of the team or player.\n\n### Internal implementation:\nUse a dictionary to keep track of the named entities. For each named entity, use the type field to identify the type of entity ( LOC, MISC, ORG, or PER ).\n\nFor example, if the sentence is about a person :\n\nPerson :\n\nIf the sentence is about a location :\n\nLOC :\n\nIf the sentence is about an organisation :\n\nORG :\n\nIf the sentence"
+    }
+]

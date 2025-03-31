@@ -1,0 +1,91 @@
+{
+    "precision": 0.07142857142857142,
+    "recall": 0.002457002457002457,
+    "f1": 0.004750593824228028,
+    "classification_report": {
+        "### NOW, GIVEN THE SENTENCE": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "IDENTIFIED NAMED ENTITIES": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "LOC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 130
+        },
+        "LOCATION": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "MISC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 35
+        },
+        "ORG": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 49
+        },
+        "PER": {
+            "precision": 1.0,
+            "recall": 0.0051813471502590676,
+            "f1-score": 0.010309278350515464,
+            "support": 193
+        },
+        "THE GIVEN SENTENCE PROVIDES THE NAME OF A PERSON": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "THE SENTENCE IDENTIFIES FOUR NAMED ENTITIES": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "THE SENTENCE PROVIDES THE NAME OF A PERSON": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "YOU ARE BEING ASKED TO IDENTIFY THE NAMED ENTITY IN THE SENTENCE": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "micro avg": {
+            "precision": 0.07142857142857142,
+            "recall": 0.002457002457002457,
+            "f1-score": 0.004750593824228028,
+            "support": 407
+        },
+        "macro avg": {
+            "precision": 0.09090909090909091,
+            "recall": 0.0004710315591144607,
+            "f1-score": 0.0009372071227741331,
+            "support": 407
+        },
+        "weighted avg": {
+            "precision": 0.4742014742014742,
+            "recall": 0.002457002457002457,
+            "f1-score": 0.0048886749917677755,
+            "support": 407
+        }
+    }
+}

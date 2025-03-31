@@ -1,0 +1,802 @@
+[
+    {
+        "prompt": "SOCCER - JAPAN GET LUCKY WIN , CHINA IN SURPRISE DEFEAT .",
+        "generated_response": "PER: None\n\n###"
+    },
+    {
+        "prompt": "Nadim Ladki",
+        "generated_response": "PER: Nadim Ladki; MISC: Pers; ORG: None\n\n### Explanation:\n'Nadim Ladki' is a personal name, thus it is a PER in response."
+    },
+    {
+        "prompt": "AL-AIN , United Arab Emirates 1996-12-06",
+        "generated_response": "LOC: AL-AIN, United Arab Emirates; MISC: 1996-12-06; ORG: None; PER: None\n\n### Explanation:\nLOC is AL-AIN, United Arab Emirates in this case. The date is 1996-12-06."
+    },
+    {
+        "prompt": "Japan began the defence of their Asian Cup title with a lucky 2-1 win against Syria in a Group C championship match on Friday .",
+        "generated_response": "LOC: Japan, Syria; MISC: Asian Cup, Group C; ORG: none; PER: none \n\n### Explanation:\nJapan is a location, Syria is a location, Asian Cup is a miscellaneous term, Group C is an organization. None of the entities in the sentence are named as PER (Person)."
+    },
+    {
+        "prompt": "But China saw their luck desert them in the second match of the group , crashing to a surprise 2-0 defeat to newcomers Uzbekistan .",
+        "generated_response": "LOC: China, Uzbekistan; MISC: second match; ORG: newcomers; PER: none mentioned in response sentence 0)\n\n### Explanation:\nThe response is for a named entity: China, Uzbekistan. The response is for a type: LOC, MISC; The response is for an organization: newcomers; The response is for a person: none mentioned in response sentence."
+    },
+    {
+        "prompt": "China controlled most of the match and saw several chances missed until the 78th minute when Uzbek striker Igor Shkvyrin took advantage of a misdirected defensive header to lob the ball over the advancing Chinese keeper and into an empty net .",
+        "generated_response": "LOC: China; MISC: Uzbek; PER: Igor Shkvyrin"
+    },
+    {
+        "prompt": "Oleg Shatskiku made sure of the win in injury time , hitting an unstoppable left foot shot from just outside the area .",
+        "generated_response": "PER: Oleg Shatskiku; MISC: injury time; ORG:. \n\n### Explanation:\nIn this sentence,'Oleg Shatskiku'is a PER name,'injury time'is a MISC term, and '.'is an ORG term."
+    },
+    {
+        "prompt": "The former Soviet republic was playing in an Asian Cup finals tie for the first time .",
+        "generated_response": "LOC: Soviet; MISC: Asian Cup; ORG: Republic; PER:... \n\n### Explanation:\nThe response refers to the fact that the republic in question is a former Soviet one, playing in an Asian Cup finals for the first time."
+    },
+    {
+        "prompt": "Despite winning the Asian Games title two years ago , Uzbekistan are in the finals as outsiders .",
+        "generated_response": "LOC: Uzbekistan; MISC: Asian Games; ORG:.\n\n### Explanation:\nThe response is a mention of the location Uzbekistan and a reference to the tournament Asian Games."
+    },
+    {
+        "prompt": "Two goals from defensive errors in the last six minutes allowed Japan to come from behind and collect all three points from their opening meeting against Syria .",
+        "generated_response": "LOC: Japan, Syria; ORG: Syria; PER: two, came, collected, meeting )"
+    },
+    {
+        "prompt": "Takuya Takagi scored the winner in the 88th minute , rising to head a Hiroshige Yanagimoto cross towards the Syrian goal which goalkeeper Salem Bitar appeared to have covered but then allowed to slip into the net .",
+        "generated_response": "MISC: Syrian; PER: Takuya Takagi, Hiroshige Yanagimoto, Salem Bitar; ORG: none \n\n### Explanation:\nThe sentence refers to a soccer match between Japan and Syria. The Japanese players are named: Takuya Takagi, Hiroshige Yanagimoto, and Salem Bitar. The country of Syria is also mentioned."
+    },
+    {
+        "prompt": "It was the second costly blunder by Syria in four minutes .",
+        "generated_response": "LOC: Syria; PER:.\n\n### Explanation:\nThe sentence refers to Syria, a LOC in the context of a country."
+    },
+    {
+        "prompt": "Defender Hassan Abbas rose to intercept a long ball into the area in the 84th minute but only managed to divert it into the top corner of Bitar 's goal .",
+        "generated_response": "PER: Hassan Abbas, Bitar; ORG: Miscellaneous; PER: top corner; MISC: Area; PER: Bitar; PER: Hassan Abbas; MISC: Miscellaneous; PER: top corner; PER: Bitar; PER: Hassan Abbas; MISC: Area; PER: Bitar; PER: Hassan Abbas; PER: top corner; PER: Bitar; PER: Hassan Abbas; MISC: Area; PER: Bitar; PER: Hassan Abbas; PER: top corner; PER: Bitar; PER: Hassan Abb"
+    },
+    {
+        "prompt": "Nader Jokhadar had given Syria the lead with a well-struck header in the seventh minute .",
+        "generated_response": "LOC: Syria; PER: Nader Jokhadar; ORG: None\n\n### Explanation:\nLOC refers to Location. In this sentence, Syria is the location where the event took place."
+    },
+    {
+        "prompt": "Japan then laid siege to the Syrian penalty area for most of the game but rarely breached the Syrian defence .",
+        "generated_response": "LOC: Japan; MISC: Syrian, Syrian; ORG: penalty; PER: none \n\n### Explanation:\nThe location of Japan is mentioned. The Syrian is a miscellaneous term used to describe the nationality of a team in the game. The Syrian is also a miscellaneous term used to describe the team that Japan laid siege to and rarely breached."
+    },
+    {
+        "prompt": "Bitar pulled off fine saves whenever they did .",
+        "generated_response": "PER: Bitar; ORG: Miscellaneous; PER: None\n\n### Explanation:\nThe name \" Bitar \" is a personal name, hence it is PER in response."
+    },
+    {
+        "prompt": "Japan coach Shu Kamo said : ' ' The Syrian own goal proved lucky for us .",
+        "generated_response": "LOC: Japan; MISC: Syrian; PER: Shu Kamo; ORG: none \n\n### Explanation:\nLOC refers to Location. Syrian is a miscellaneous term as it refers to a nationality. PER refers to Person with the name Shu Kamo. ORG refers to Organization."
+    },
+    {
+        "prompt": "The Syrians scored early and then played defensively and adopted long balls which made it hard for us . '",
+        "generated_response": "MISC: Syrians; ORG: PER: PER:"
+    },
+    {
+        "prompt": "'",
+        "generated_response": "PER: John Kerry, William F. Buckley, George H. W. Bush, Ronald Reagan, Dwight D. Eisenhower, Richard Nixon, Barry Goldwater, Hubert Humphrey, George McGovern, Walter Mondale, Jimmy Carter, Ronald Reagan, George H. W. Bush, William F. Buckley\n\n### Explanation:\nThis is a response to a sentence: \"John Kerry, William F. Buckley, George H. W. Bush, Ronald Reagan, Dwight D. Eisenhower, Richard Nixon, Barry Goldwater, Hubert Humphrey, George McGovern, Walter Mondale, Jimmy Carter,"
+    },
+    {
+        "prompt": "Japan , co-hosts of the World Cup in 2002 and ranked 20th in the world by FIFA , are favourites to regain their title here .",
+        "generated_response": "LOC: Japan; ORG: FIFA; PER: favorites; World Cup 2002 20th 2002\n\n### Explanation:\nLOC refers to Japan, as the World Cup is going to be held there in 2002. ORG is FIFA, the international governing body of soccer. PER refers to the favorites to regain the title, which is Japan in this case.\n\n### Instruction:\nYou are an expert of natural language processing annotation, given a sentence, you are going to identify and classify each named entity according to its type: LOC (Location), MISC (Miscellaneous), OR"
+    },
+    {
+        "prompt": "Hosts UAE play Kuwait and South Korea take on Indonesia on Saturday in Group A matches .",
+        "generated_response": "LOC: UAE, Kuwait, South Korea, Indonesia; MISC: Group A; PER: none \n\n### Explanation:\nThe response is a list of locations where the matches are being played, identified as Group A in the sentence."
+    },
+    {
+        "prompt": "All four teams are level with one point each from one game .",
+        "generated_response": "PER: All four teams; ORG: PER: point; PER: one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one; one;"
+    },
+    {
+        "prompt": "RUGBY UNION - CUTTITTA BACK FOR ITALY AFTER A YEAR .",
+        "generated_response": "LOC: ITALY; ORG: RUGBY UNION; PER: CUTTITTA,."
+    },
+    {
+        "prompt": "ROME 1996-12-06",
+        "generated_response": "LOC: ROME; PER: 1996-12-06; MISC: PER\n\n### Explanation:\nThe location name is ROME and the date is 1996-12-06."
+    },
+    {
+        "prompt": "Italy recalled Marcello Cuttitta",
+        "generated_response": "LOC: Italy; PER: Marcello Cuttitta"
+    },
+    {
+        "prompt": "on Friday for their friendly against Scotland at Murrayfield more than a year after the 30-year-old wing announced he was retiring following differences over selection .",
+        "generated_response": "LOC: Scotland, Murrayfield; PER: 30-year-old; ORG: none\n\n### Explanation:\nThe sentence refers to the friendly match between Scotland and a team that includes the 30-year-old wing, who has announced his retirement following differences over selection."
+    },
+    {
+        "prompt": "Cuttitta , who trainer George Coste said was certain to play on Saturday week , was named in a 21-man squad lacking only two of the team beaten 54-21 by England at Twickenham last month .",
+        "generated_response": "LOC: England, Twickenham; PER: Cuttitta, George Coste; ORG: None \n\n### Explanation:\nLOC refers to Location. PER refers to Persons. ORG refers to Organization."
+    },
+    {
+        "prompt": "Stefano Bordon is out through illness and Coste said he had dropped back row Corrado Covi , who had been recalled for the England game after five years out of the national team .",
+        "generated_response": "LOC: England; PER: Stefano Bordon, Coste, Corrado Covi, Corrado Covi; MISC: back row; ORG: national team"
+    },
+    {
+        "prompt": "Cuttitta announced his retirement after the 1995 World Cup , where he took issue with being dropped from the Italy side that faced England in the pool stages .",
+        "generated_response": "LOC: Italy, England; MISC: World Cup; PER: Cuttitta, England, Italy, 1995 World Cup 1995 Cuttitta announced his retirement after the 1995 World Cup, where he took issue with being dropped from the Italy side that faced England in the pool stages.'"
+    },
+    {
+        "prompt": "Coste said he had approached the player two months ago about a comeback .",
+        "generated_response": "PER: Coste,, ; ORG: ; PER: ;\n\n### Explanation:\nThe name of the person is Coste, and it is a PER in response."
+    },
+    {
+        "prompt": "\" He ended the World Cup on the wrong note , \" Coste said .",
+        "generated_response": "PER: Coste;"
+    },
+    {
+        "prompt": "\" I thought it would be useful to have him back and he said he would be available .",
+        "generated_response": "PER: ; PER: ; ORG: ; MISC: ; LOC:\n\n### Explanation:\nThe sentence does not refer to any named entity, so it is a PER: type response."
+    },
+    {
+        "prompt": "I think now is the right time for him to return . \"",
+        "generated_response": "PER: ;\n\n### Explanation:\nThe name of the person in the sentence is PER, so the response is: PER: ;"
+    },
+    {
+        "prompt": "Squad : Javier Pertile , Paolo Vaccari , Marcello Cuttitta , Ivan Francescato , Leandro Manteri , Diego Dominguez , Francesco Mazzariol , Alessandro Troncon , Orazio Arancio , Andrea Sgorlon , Massimo Giovanelli , Carlo Checchinato , Walter Cristofoletto , Franco Properzi Curti , Carlo Orlandi , Massimo Cuttitta , Giambatista Croci , Gianluca Guidi , Nicola Mazzucato , Alessandro Moscardi , Andrea Castellani .",
+        "generated_response": "PER: Javier Pertile, Paolo Vaccari, Marcello Cuttitta, Ivan Francescato, Leandro Manteri, Diego Dominguez, Francesco Mazzariol, Alessandro Troncon, Orazio Arancio, Andrea Sgorlon, Massimo Giovanelli, Carlo Checchinato, Walter Cristofoletto, Franco Properzi Curti, Carlo Orlandi, Massimo Cuttitta, Giambatista Croci, Gianluca Guidi, Nicola Mazzucato, Alessandro Moscardi, Andrea Castellani.\n\nORG:.\n\nPER:.\n\nMISC:.\n\nLOC"
+    },
+    {
+        "prompt": "SOCCER - LATE GOALS GIVE JAPAN WIN OVER SYRIA .",
+        "generated_response": "LOC: JAPAN, SYRIA; MISC: SOCCER; PER: none\n\n### Explanation:\nLOC is Syria, SYRIA; MISC is SOCCER; PER is none because there is no name of person in the response.\n\n### Response format: PER: none; LOC: JAPAN, SYRIA; MISC: SOCCER; PER: none\n\n### Instruction: You are an expert of natural language processing annotation, given a sentence, you are going to identify and classify each named entity according to its type: LOC (Location), MISC (Miscellaneous),"
+    },
+    {
+        "prompt": "AL-AIN , United Arab Emirates 1996-12-06",
+        "generated_response": "LOC: AL-AIN, United Arab Emirates; MISC: 1996-12-06; ORG: None; PER: None\n\n### Explanation:\nLOC is AL-AIN, United Arab Emirates in this case. The date is 1996-12-06."
+    },
+    {
+        "prompt": "Two goals in the last six minutes gave holders Japan an uninspiring 2-1 Asian Cup victory over Syria on Friday .",
+        "generated_response": "LOC: Japan, Syria; MISC: Asian Cup; ORG: none; PER: none \n\n### Explanation:\nThe location of the match is Japan and Syria, and it is an Asian Cup match. Thus, the response is a MISC with the type \"Asian Cup\" and a PER with the name of none.)\n\n### Instruction:\nYou are an expert of natural language processing annotation, given a sentence, you are going to identify and classify each named entity according to its type: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person). Use abbreviations."
+    },
+    {
+        "prompt": "Takuya Takagi headed the winner in the 88th minute of the group C game after goalkeeper Salem Bitar spoiled a mistake-free display by allowing the ball to slip under his body .",
+        "generated_response": "PER: Takuya Takagi, Salem Bitar; MISC: group C; PER: None"
+    },
+    {
+        "prompt": "It was the second Syrian defensive blunder in four minutes .",
+        "generated_response": "MISC: Syrian; PER: It was the second Syrian defensive blunder in four minutes.'"
+    },
+    {
+        "prompt": "Defender Hassan Abbas rose to intercept a long ball into the area in the 84th minute but only managed to divert it into the top corner of Bitar 's goal .",
+        "generated_response": "PER: Hassan Abbas, Bitar; ORG: Miscellaneous; PER: top corner; MISC: Area; PER: Bitar; PER: Hassan Abbas; MISC: Miscellaneous; PER: top corner; PER: Bitar; PER: Hassan Abbas; MISC: Area; PER: Bitar; PER: Hassan Abbas; PER: top corner; PER: Bitar; PER: Hassan Abbas; MISC: Area; PER: Bitar; PER: Hassan Abbas; PER: top corner; PER: Bitar; PER: Hassan Abb"
+    },
+    {
+        "prompt": "Syria had taken the lead from their first serious attack in the seventh minute .",
+        "generated_response": "LOC: Syria; PER:...,...'\n\n### Explanation:\nLOC is used to refer to the location of the event in this case, Syria."
+    },
+    {
+        "prompt": "Nader Jokhadar headed a cross from the right by Ammar Awad into the top right corner of Kenichi Shimokawa 's goal .",
+        "generated_response": ""
+    },
+    {
+        "prompt": "Japan then laid siege to the Syrian penalty area and had a goal disallowed for offside in the 16th minute .",
+        "generated_response": "MISC: Japanese, Syrian; ORG: Japan; PER: 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th 16th"
+    },
+    {
+        "prompt": "A minute later , Bitar produced a good double save , first from Kazuyoshi Miura 's header and then blocked a Takagi follow-up shot .",
+        "generated_response": "PER: Bitar, Kazuyoshi Miura, Takagi; PER: Miura, Takagi; MISC: ; ORG: ; LOC:"
+    },
+    {
+        "prompt": "Bitar saved well again from Miura in the 37th minute , parrying away his header from a corner .",
+        "generated_response": "PER: Bitar, Miura; ORG: 37th; PER: none\n\n### Explanation:\nIn this sentence, the name of the person is Bitar and Miura, and the phrase is 37th."
+    },
+    {
+        "prompt": "Japan started the second half brightly but Bitar denied them an equaliser when he dived to his right to save Naoki Soma 's low drive in the 53rd minute .",
+        "generated_response": "LOC: Japan; PER: Bitar, Naoki Soma; ORG: None\n\n### Explanation:\nThe response is a PER name with the location of Japan."
+    },
+    {
+        "prompt": "Japan : 19 - Kenichi Shimokawa , 2 - Hiroshige Yanagimoto , 3 - Naoki Soma , 4 - Masami Ihara , 5 - Norio Omura , 6 - Motohiro Yamaguchi , 8 - Masakiyo Maezono ( 7 - Yasuto Honda 71 ) , 9 - Takuya Takagi , 10 - Hiroshi Nanami , 11 - Kazuyoshi Miura , 15 - Hiroaki Morishima ( 14 - Masayuki Okano 75 ) .",
+        "generated_response": "LOC: Japan; PER: Kenichi Shimokawa, Hiroshige Yanagimoto, Naoki Soma, Masami Ihara, Norio Omura, Motohiro Yamaguchi, Masakiyo Maezono, Yasuto Honda, Takuya Takagi, Hiroshi Nanami, Kazuyoshi Miura, Hiroaki Morishima, Masayuki Okano; ORG: none."
+    },
+    {
+        "prompt": "Syria : 24 - Salem Bitar , 3 - Bachar Srour ; 4 - Hassan Abbas , 5 - Tarek Jabban , 6 - Ammar Awad ( 9 - Louay Taleb 69 ) , 8 - Nihad al-Boushi , 10 - Mohammed Afash , 12 - Ali Dib , 13 - Abdul Latif Helou ( 17 - Ammar Rihawiy 46 ) , 14 - Khaled Zaher ; 16 - Nader Jokhadar .",
+        "generated_response": "LOC: Syria; PER: Salem Bitar, Bachar Srour, Hassan Abbas, Tarek Jabban, Ammar Awad, Louay Taleb, Nihad al-Boushi, Mohammed Afash, Ali Dib, Abdul Latif Helou, Nader Jokhadar."
+    },
+    {
+        "prompt": "FREESTYLE SKIING-WORLD CUP MOGUL RESULTS .",
+        "generated_response": "MISC: WORLD CUP MOGUL; PER: FREESTYLE SKIING-WORLD CUP MOGUL RESULTS.'\n\n### Explanation:\nThis is a response for the name of the event in English: WORLD CUP MOGUL RESULTS."
+    },
+    {
+        "prompt": "TIGNES , France 1996-12-06",
+        "generated_response": "LOC: TIGNES, France; PER: 1996-12-06'"
+    },
+    {
+        "prompt": "Results of the World Cup",
+        "generated_response": "MISC: World Cup; ORG: ; PER: ;\n\n### Explanation:\nThe term World Cup refers to the tournament itself, rather than a specific result of the World Cup."
+    },
+    {
+        "prompt": "freestyle skiing moguls competition on Friday :",
+        "generated_response": "MISC: freestyle skiing, moguls; PER: none\n\n### Explanation:\nThe event is a MISC competition, so it is responding with the abbreviation MISC."
+    },
+    {
+        "prompt": "Men",
+        "generated_response": "PER: Men\n\n### Explanation:\nThe term \" Men \" refers to a gender, in this case, masculine, so the response is PER: Men."
+    },
+    {
+        "prompt": "1. Jesper Ronnback ( Sweden ) 25.76 points",
+        "generated_response": "LOC: Sweden; PER: Jesper Ronnback; MISC: points"
+    },
+    {
+        "prompt": "2. Andrei Ivanov ( Russia ) 24.88",
+        "generated_response": "LOC: Russia; PER: Andrei Ivanov, Andrei; PER: Ivanov'"
+    },
+    {
+        "prompt": "3. Ryan Johnson ( Canada ) 24.57",
+        "generated_response": "LOC: Canada; PER: Ryan Johnson; MISC: 24.57'"
+    },
+    {
+        "prompt": "4. Jean-Luc Brassard ( Canada ) 24.40",
+        "generated_response": "LOC: Canada; PER: Jean-Luc Brassard; MISC: 24.40'"
+    },
+    {
+        "prompt": "5. Korneilus Hole ( Norway ) 23.92",
+        "generated_response": "LOC: Norway; PER: Korneilus Hole; MISC: 23.92'"
+    },
+    {
+        "prompt": "6. Jeremie Collomb-Patton ( France ) 23.87",
+        "generated_response": "LOC: France; PER: Jeremie Collomb-Patton; MISC: 23.87'"
+    },
+    {
+        "prompt": "7. Jim Moran ( U.S. ) 23.25",
+        "generated_response": "LOC: U.S.; PER: Jim Moran; MISC: 23.25'"
+    },
+    {
+        "prompt": "8. Dominick Gauthier ( Canada ) 22.73",
+        "generated_response": "LOC: Canada; PER: Dominick Gauthier; MISC: 22.73'"
+    },
+    {
+        "prompt": "9. Johann Gregoire ( France ) 22.58",
+        "generated_response": "LOC: France; PER: Johann Gregoire; MISC: 22.58'"
+    },
+    {
+        "prompt": "10. Troy Benson ( U.S. ) 22.56",
+        "generated_response": "LOC: U.S.; PER: Troy Benson; MISC: 22.56'"
+    },
+    {
+        "prompt": "Women",
+        "generated_response": "PER: WOMEN\n\n### Explanation:\nThe term \"WOMEN\" is a personal term, used to refer to a group of people."
+    },
+    {
+        "prompt": "1. Tatjana Mittermayer ( Germany ) 24.32",
+        "generated_response": "LOC: Germany; PER: Tatjana Mittermayer; MISC: 24.32'"
+    },
+    {
+        "prompt": "2. Candice Gilg ( France ) 24.31",
+        "generated_response": "LOC: France; PER: Candice Gilg; MISC: 24.31'"
+    },
+    {
+        "prompt": "3. Minna Karhu ( Finland ) 24.05",
+        "generated_response": "LOC: Finland; PER: Minna Karhu, 24.05"
+    },
+    {
+        "prompt": "4. Tae Satoya ( Japan ) 23.75",
+        "generated_response": "LOC: Japan; PER: Tae Satoya; MISC: 23.75"
+    },
+    {
+        "prompt": "5. Ann Battellle ( U.S. ) 23.56",
+        "generated_response": "LOC: U.S.; PER: Ann Battellle 23.56'"
+    },
+    {
+        "prompt": "6. Donna Weinbrecht ( U.S. ) 22.48",
+        "generated_response": "LOC: U.S.; PER: Donna Weinbrecht; MISC: 22.48'"
+    },
+    {
+        "prompt": "7. Liz McIntyre ( U.S. ) 22.00",
+        "generated_response": "LOC: U.S.; PER: Liz McIntyre; MISC: 22.00'"
+    },
+    {
+        "prompt": "8. Elena Koroleva ( Russia ) 21.77",
+        "generated_response": "LOC: Russia; PER: Elena Koroleva; MISC: 21.77"
+    },
+    {
+        "prompt": "9. Ljudmila Dymchenko ( Russia ) 21.59",
+        "generated_response": "LOC: Russia; PER: Ljudmila Dymchenko, 21.59; MISC: Russia; PER: 21.59;\n\n### Explanation:\nLOC is Russia in this case. PER is Ljudmila Dymchenko with value 21.59. MISC is Russia in this case. PER is 21.59."
+    },
+    {
+        "prompt": "10. Katleen Allais ( France ) 21.58",
+        "generated_response": "LOC: France; PER: Katleen Allais; MISC: 21.58'"
+    },
+    {
+        "prompt": "SOCCER - ASIAN CUP GROUP C RESULTS .",
+        "generated_response": "MISC: ASIAN CUP GROUP C; ORG: RESULTS; PER: None\n\n### Explanation:\nThe name of the response is ASIAN CUP GROUP C, which is a MISC in this case."
+    },
+    {
+        "prompt": "AL-AIN , United Arab Emirates 1996-12-06",
+        "generated_response": "LOC: AL-AIN, United Arab Emirates; MISC: 1996-12-06; ORG: None; PER: None\n\n### Explanation:\nLOC is AL-AIN, United Arab Emirates in this case. The date is 1996-12-06."
+    },
+    {
+        "prompt": "Results of Asian Cup group C matches played on Friday :",
+        "generated_response": "MISC: Asian Cup; ORG: Results of Asian Cup group C matches played on Friday ; PER: none\n\n### Explanation:\nThe Asian Cup is a miscellaneous term, as it refers to a tournament.\n'Results of Asian Cup group C matches played on Friday'is a PER sentence, as it refers to the tournament being played on Friday."
+    },
+    {
+        "prompt": "Japan 2 Syria 1 ( halftime 0-1 )",
+        "generated_response": "LOC: Japan, Syria; ORG: Japan, Syria; PER: none )\n\n### Explanation:\nLOC is used to refer to the location of the event in this case, Japan and Syria. ORG is used to refer to the organization in this case, Japan and Syria. PER is used to refer to the person in this case, none."
+    },
+    {
+        "prompt": "Scorers :",
+        "generated_response": "PER: Marcos Bergatti, Carlos Tapia, Juan Pablo Angel, Carlos Valderrama, Faustino Asprilla, Alain Pinto, Andres Escobar, Rene Higuita. ORG: Colombia. MISC: World Cup. PER: Marcos Bergatti, Carlos Tapia, Juan Pablo Angel, Carlos Valderrama, Faustino Asprilla, Alain Pinto, Andres Escobar, Rene Higuita.\n\n### Explanation:\nThis is the list of the Colombian players who played in the 1998 World Cup. MISC: World Cup ; ORG: Colombia ; PER: Marcos Berg"
+    },
+    {
+        "prompt": "Japan - Hassan Abbas 84 own goal , Takuya Takagi 88 .",
+        "generated_response": "LOC: Japan; PER: Hassan Abbas, Takuya Takagi, Takuya.'"
+    },
+    {
+        "prompt": "Syria - Nader Jokhadar 7",
+        "generated_response": "ORG: F.C. Steaua Bucharest, F.C. Dinamo Bucharest; PER: 9.30-10.30; PER: F.C. Steaua Bucharest, F.C. Dinamo Bucharest\n\n10."
+    },
+    {
+        "prompt": "Attendance : 10,000 .",
+        "generated_response": "PER: Attendance : 10,000.'"
+    },
+    {
+        "prompt": "China 0 Uzbekistan 2 ( halftime 0-0 )",
+        "generated_response": "LOC: China, Uzbekistan; MISC: halftime; ORG: Uzbekistan; PER: 0, 0-0, China, Uzbekistan'\n\n### Explanation:\nLOC is used to refer to the location of the match, in this case China; MISC is used to refer to the halftime of the match; ORG is used to refer to the organization Uzbekistan; PER is used to refer to the person 0, 0-0, China, Uzbekistan."
+    },
+    {
+        "prompt": "Scorers : Shkvyrin Igor 78 , Shatskikh Oleg 90",
+        "generated_response": "PER: Shkvyrin Igor, Shatskikh Oleg; MISC: 90; ORG: None\n\n### Explanation:\nIn this sentence, the name of the first person is Shkvyrin Igor, and the second is Shatskikh Oleg. So the response is: PER: Shkvyrin Igor, Shatskikh Oleg; MISC: 90; ORG: None"
+    },
+    {
+        "prompt": "Attendence : 3,000",
+        "generated_response": "PER: Attendence\nMISC: 3,000'"
+    },
+    {
+        "prompt": "Standings ( tabulate under played , won , drawn , lost , goals",
+        "generated_response": "PER: under, won, drawn, lost.\n\n### Explanation:\nIn this response, you are going to use the term PER to refer to the type"
+    },
+    {
+        "prompt": "for , goals against , points ) :",
+        "generated_response": "PER: John Hartman, Paul Ritchie, Tony Cottee, Mark Chamberlain, Darren Huckerby, Dean Kiely, Andy Lindegaard, Michael Reiziger, Giovanni van Bronckhorst, Edgar Davids, Wim Jonk, Dennis Bergkamp.'\n\n### Explanation:\nMISC: goals against, points ) :\nPER: John Hartman, Paul Ritchie, Tony Cottee, Mark Chamberlain, Darren Huckerby, Dean Kiely, Andy Lindegaard, Michael Reiziger, Giovanni van Bronckhorst, Edgar Davids, Wim Jonk, Dennis Bergkamp."
+    },
+    {
+        "prompt": "Uzbekistan 1 1 0 0 2 0 3",
+        "generated_response": "LOC: Uzbekistan; ORG: 3; PER: 2, 0, 0, 0, 3 )"
+    },
+    {
+        "prompt": "Japan 1 1 0 0 2 1 3",
+        "generated_response": "LOC: Japan; ORG: 1, 3; PER: 1, 2, 3 \n\n### Explanation:\nLOC is Japan, ORG is 1, 3, PER is 1, 2, 3."
+    },
+    {
+        "prompt": "Syria 1 0 0 1 1 2 0",
+        "generated_response": "LOC: Syria; MISC: 1, 0, 0, 1, 2, 0; ORG: None; PER: None\n\n### Explanation:\nThe location of Syria is mentioned in the sentence."
+    },
+    {
+        "prompt": "China 1 0 0 1 0 2 0",
+        "generated_response": "LOC: China; MISC: 1, 0, 0, 1"
+    },
+    {
+        "prompt": "CRICKET - PAKISTAN V NEW ZEALAND ONE-DAY SCOREBOARD .",
+        "generated_response": "LOC: PAKISTAN, NEW ZEALAND; MISC: ONE-DAY; ORG: CRICKET; PER: None defined in response."
+    },
+    {
+        "prompt": "[ CORRECTED 14:06 GMT ]",
+        "generated_response": "PER: GMT ]'\n\n### Explanation:\nThe response is a list of personal names, in this case GMT."
+    },
+    {
+        "prompt": "SIALKOT , Pakistan 1996-12-06",
+        "generated_response": "LOC: SIALKOT, Pakistan; PER: 1996-12-06\n\n### Explanation:\nLOC is a location name, in this case SIALKOT, Pakistan; PER is a year in the form 1996-12-06."
+    },
+    {
+        "prompt": "Scoreboard in the second",
+        "generated_response": "MISC: second; PER: none\n\n### Explanation:\nThe response is for a PER-type response, as there is no ORG in the given sentence."
+    },
+    {
+        "prompt": "one-day cricket international between Pakistan and New Zealand",
+        "generated_response": "LOC: Pakistan, New Zealand; MISC: one-day cricket international; ORG: Pakistan, New Zealand; PER: none\n\n### Explanation:\nThis is a description of the match between two teams, Pakistan and New Zealand, in the context of one-day cricket internationals."
+    },
+    {
+        "prompt": "on Friday :",
+        "generated_response": "PER:\n\nORG:\n\nLOC:\n\non Friday :"
+    },
+    {
+        "prompt": "Pakistan",
+        "generated_response": "LOC: Pakistan; ORG:; PER:;\n\n### Explanation:\n'Pakistan' is a LOC in this response."
+    },
+    {
+        "prompt": "Saeed Anwar run out 91 ( corrects from 90 )",
+        "generated_response": "PER: Saeed Anwar; PER: Anwar; MISC: corrects\n\n### Explanation:\nIn this sentence, the name of the person is Saeed Anwar, and the abbreviation PER is used to refer to it.\n\n### Data:\nORG: None; PER: Saeed Anwar, Anwar; MISC: corrects\n\n### Occurrence:\nPER: Saeed Anwar, Anwar, Anwar; MISC: corrects\n\n### Remarks:\nThis is a response to a person's name, given as Saeed Anwar in the sentence."
+    },
+    {
+        "prompt": "Zahoor Elahi b Cairns 86 ( corrects from 87 )",
+        "generated_response": "PER: Zahoor Elahi, Cairns; PER: Cairns; MISC: 86, 87; ORG: None\n\n### Explanation:\nPER name is Zahoor Elahi, and PER name is Cairns. The response is a list of PER names with the correction of 87 to 86 in the third PER name."
+    },
+    {
+        "prompt": "Ijaz Ahmad c Spearman b Vaughan 59",
+        "generated_response": "PER: Ijaz Ahmad, Spearman, Vaughan; PER: 59; ORG: None\n\n### Explanation:\nThis is a single name response. The name of the player, Ijaz Ahmad, is provided along with his score, 59."
+    },
+    {
+        "prompt": "Inzamamul Haq st Germon b Astle 2",
+        "generated_response": "PER: Inzamamul Haq, Germon, Astle; PER: Inzamamul Haq, Germon, Astle; MISC: PER; ORG: Miscellaneous)\n\n### Explanation:\nIn this sentence, 'Inzamamul Haq'is a PER name, 'Germon'is an ORG name, and 'Astle'is a PER name.\n\n### Response format: PER: PER: MISC: ORG: PER:\n\n### Include:\nPER: Inzamamul Haq, Germon, Astle; PER: In"
+    },
+    {
+        "prompt": "Wasim Akram b Harris 4",
+        "generated_response": "PER: Wasim Akram, Harris; PER: Wasim Akram, Harris; MISC: 4; ORG: None\n\n### Explanation:\nWasim Akram is a PER because he is a cricketer. Harris is a PER because he is a cricketer who bowled the ball that got Wasim Akram out. 4 is a MISC because it is the number of runs scored by Wasim Akram in this case."
+    },
+    {
+        "prompt": "Shahid Afridi b Harris 2",
+        "generated_response": "PER: Shahid Afridi, Harris; PER: Afridi, Harris; MISC: 2; ORG: None\n\n### Explanation:\n'Shahid Afridi' is a PER name, 'Harris' is a PER name, and '2' is a MISC term."
+    },
+    {
+        "prompt": "Moin Khan c Astle b Harris 1",
+        "generated_response": "PER: Moin Khan, Astle, Harris; ORG: \u00c2\u00b0'\n\n### Explanation:\nPER in this case is Moin Khan, Astle, Harris, as it is a person name. ORG is \u00c2\u00b0' as it is a response to a PER in the sentence: 'Moin Khan c Astle b Harris 1'"
+    },
+    {
+        "prompt": "Waqar Younis st Germon b Harris 0",
+        "generated_response": "PER: Waqar Younis, Germon, Harris; PER: 0'\n\n### Explanation:\nPER is a type of entity, in this case it refers to the name of the person Waqar Younis, Germon, Harris, 0 are personal names."
+    },
+    {
+        "prompt": "Saqlain Mushtaq b Harris 2",
+        "generated_response": "PER: Saqlain Mushtaq, Harris; MISC: 2; ORG: None\n\n### Explanation:\nSaqlain Mushtaq is a person, Harris is a person, but 2 is a number, so it is classified as MISC in response."
+    },
+    {
+        "prompt": "Mushtaq Ahmad not out 5",
+        "generated_response": "PER: Mushtaq Ahmad; PER: not out 5'\n\n### Explanation:\nMushtaq Ahmad is a person, here identified as PER in response.'s response is correct."
+    },
+    {
+        "prompt": "Salim Malik not out 1",
+        "generated_response": "PER: Salim Malik; PER: not out 1; ORG: ; MISC: ; LOC:"
+    },
+    {
+        "prompt": "Extras ( lb-8 nb-2 w-14 ) 24",
+        "generated_response": "PER:; MISC: lb-8, nb-2, w-14; ORG: ; PER: Extras;\n\n### Explanation:\nThe response is a list of personal names in the format \"PER: ; MISC: lb-8, nb-2, w-14; ORG: ; PER: Extras\"\n\n### Actual response:\nPER: Extras; MISC: lb-8, nb-2, w-14; ORG: ; PER: Extras\n\n### Instruction:\nYou are an expert of natural language processing annotation, given a sentence, you are going"
+    },
+    {
+        "prompt": "Total ( for 9 wickets in 47 overs ) 277",
+        "generated_response": "PER: Total (for 9 wickets in 47 overs) 277'\n\n### Explanation:\nThe response is a PER-type response as it refers to a person ( Total )."
+    },
+    {
+        "prompt": "Fall of wicket : 1-177 ( corrects from 1-178 ) 2-225 3-240 4-247 5-252 6-260 7-261 8-269 9-276",
+        "generated_response": "PER: Fall of wicket, 5-252, 6-260, 7-269, 8-269, 9-276; MISC: 2-225, 3-240, 4-247, 6-268, 7-261, 8-269, 9-276; ORG: 2-225, 3-240, 4-247, 6-268, 7-261, 8-269, 9-276; PER"
+    },
+    {
+        "prompt": "Bowling : Doull 8-1-60-0 ( w-3 ) , Kennedy 3-0-24-0 ( w-7 nb-1 ) ,",
+        "generated_response": "PER: Doull, Kennedy; MISC: w-3, w-7 nb-1; ORG: None; PER: None\n\n### Explanation:\nThe name of the person is Doull, and the type of response is PER."
+    },
+    {
+        "prompt": "Cairns 8-1-35-1 ( w-2 ) , Vaughan 9-1-55-1 , Harris 10-0-42-5 ( w-1 ) ,",
+        "generated_response": "PER: Cairns, Vaughan, Harris; ORG: ; PER: ( w-2 ), ( w-1 ), ( w-1 ), ( w-1 ), ( w-2 ) )\n\n### Explanation:\nThe name of the location is Cairns, the name of the person is Vaughan, Harris and; the type of response is PER: ; ORG: ; PER: ( w-2 ), ( w-1 ), ( w-1 ), ( w-1 ), ( w-2 ) )\n\n### Data:\nPER: Cairns, Vaughan, Harris; ORG: ; PER: ( w"
+    },
+    {
+        "prompt": "Astle 9-0-53-1 ( w-1 nb-1 )",
+        "generated_response": "PER: Astle; ORG: CRICKET; PER: Astle, w-1, nb-1 9-0-53-1 ( w-1 nb-1 )\n\n### Explanation:\nThe name of the person is Astle, in the ORG section, the name of the game is CRICKET, and in the PER section, the name of the person is Astle and the abbreviations are w-1, nb-1."
+    },
+    {
+        "prompt": "New Zealand innings",
+        "generated_response": "LOC: New Zealand; ORG:.'\n\n### Explanation:\nLOC is used to refer to a location. In this case, New Zealand is a location."
+    },
+    {
+        "prompt": "B. Young c Moin Khan b Waqar 5",
+        "generated_response": "PER: B. Young, Moin Khan, Waqar; PER: 5\n\n### Explanation:\nPER is a type of entity, in this case it refers to the person B. Young, Moin Khan, and Waqar are all names of people, in this case, the response is PER: 5."
+    },
+    {
+        "prompt": "C. Spearman c Moin Khan b Wasim 0",
+        "generated_response": "PER: C. Spearman, Moin Khan, Wasim; PER: '0'\n\n### Explanation:\n'C. Spearman' is a PER because it is a person's name. 'Moin Khan' is a PER because it is a person's name. 'Wasim' is an ORG because it is an abbreviation for 'Wasim'\n\n### Instruction:\nYou are an expert of natural language processing annotation, given a sentence, you are going to identify and classify each named entity according to its type: LOC (Location), MISC (Miscellaneous), ORG (Organization), or P"
+    },
+    {
+        "prompt": "A. Parore c Ijaz Ahmad b Saqlain 37",
+        "generated_response": "PER: A. Parore, Ijaz Ahmad, Saqlain; PER: Ahmad, Saqlain; MISC: LOC: \" 37'\n\n### Explanation:\nIn this sentence,'A. Parore'is a PER because it is a person's name.'Ijaz Ahmad'and'Saqlain'are ORG because they are names of organizations.'Ahmad'and'Saqlain'are PER because they are people's names. The response is a list of PER in the sentence:'A. Parore, Ijaz Ahmad, Saqlain.'"
+    },
+    {
+        "prompt": "S. Fleming c and b Afridi 88",
+        "generated_response": "PER: S. Fleming, Afridi; PER: Fleming, Afridi; MISC: PLACE: LOC; ORG: PER\n\n### Explanation:\nThe name of the person is Fleming, and the name of the organization is Afridi; PER is abbreviated as Fleming, Afridi, PER is abbreviated as Fleming, Afridi; MISC is abbreviated as PLACE: LOC; ORG: PER\n\n### Instruction:\nIdentify and classify each named entity according to its type: LOC (Location), MISC (Miscellaneous), ORG"
+    },
+    {
+        "prompt": "C. Cairns b Saqlain 10",
+        "generated_response": "PER: C. Cairns, Saqlain; PER: 10\n\n### Explanation:\nThis is a name of a person: C. Cairns, Saqlain, 10."
+    },
+    {
+        "prompt": "N. Astle c Ijaz Ahmad b Salim Malik 20",
+        "generated_response": "PER: N. Astle, Ijaz Ahmad, Salim Malik; PER: Astle, Ijaz, Salim"
+    },
+    {
+        "prompt": "C. Harris lbw b Wasim 22",
+        "generated_response": "PER: C. Harris, Wasim; PER: 22"
+    },
+    {
+        "prompt": "L. Germon lbw b Afridi 2",
+        "generated_response": "PER: L. Germon, Afridi; MISC: lbw; ORG: ORG; PER: Afridi; PER: L. Germon"
+    },
+    {
+        "prompt": "J. Vaughan c Moin Khan b Wasim 13",
+        "generated_response": "PER: J. Vaughan, Moin Khan, Wasim; PER: 13"
+    },
+    {
+        "prompt": "S. Doull c subs ( M. Wasim ) b Waqar 1",
+        "generated_response": "PER: S. Doull, M. Wasim, Waqar; PER: subs ( M. Wasim )\n\n### Explanation:\nThe name of the player who completed the run-out is M. Wasim, here referred as PER in response."
+    },
+    {
+        "prompt": "R. Kennedy not out 7",
+        "generated_response": "PER: R. Kennedy; PER: not out 7; MISC: PER; ORG: 7; LOC: 7; )\n\n### Explanation:\nPER is used to refer to a person's name. In this case, R. Kennedy is a person's name, so it is classified as PER in response. The response also includes the abbreviation PER to refer to the type of entity as a personal name.\n\n### Instruction:\nYou are an expert of natural language processing annotation, given a sentence, you are going to identify and classify each named entity according to its type: LOC (Location), MISC (M"
+    },
+    {
+        "prompt": "Extras ( b-9 lb-3 w-12 nb-2 ) 26",
+        "generated_response": "PER:;\nMISC: Extras, b-9 lb-3 w-12 nb-2; PER:;"
+    },
+    {
+        "prompt": "Total ( all out in 42.1 overs ) 231",
+        "generated_response": "PER: Total ( all out in 42.1 overs ) 231'\n\n### Explanation:\nThe name of the entity in this sentence is Total, and it is a PER because it refers to a person ( or an organization ) in this case."
+    },
+    {
+        "prompt": "Fall of wickets : 1-3 2-7 3-125 4-146 5-170 6-190 7-195",
+        "generated_response": "PER: Fall of wickets; MISC: 1-3, 2-7, 3-125, 4-146, 5-170, 6-190, 7-195\nORG: 6-190, 7-195\nPER: 1-3, 2-7, 3-125, 4-146, 5-170, 6-190, 7-195\n\n### Explanation:\nThe response is a list of names of people (PER) and organizations (ORG) mentioned in"
+    },
+    {
+        "prompt": "8-213 9-216 .",
+        "generated_response": "PER: 8-213, 9-216."
+    },
+    {
+        "prompt": "Bowling : Wasim Akram 8.1-0-43-3 ( 9w , 1nb ) , Waqar Younis",
+        "generated_response": "PER: Wasim Akram, Waqar Younis; PER: 9w, 1nb; ORG: None\n\n### Explanation:\nIn this sentence, the name of the person is Wasim Akram, Waqar Younis. The abbreviation PER is used to indicate that it is a personal name. The sentence also indicates that Wasim Akram and Waqar Younis are cricketers by saying PER: Wasim Akram, Waqar Younis; PER: 9w, 1nb; ORG: None."
+    },
+    {
+        "prompt": "6-0-32-2 ( 2w , 1nb ) , Saqlain Mushtaq 8-0-54-2 , Mushtaq Ahmad",
+        "generated_response": "PER: Saqlain Mushtaq, Mushtaq Ahmad; PER: 6-0-32-2, 8-0-54-2; ORG: Miscellaneous)\n\n### Explanation:\nIn this sentence, the following entities are identified:\n\nPER: Saqlain Mushtaq, Mushtaq Ahmad; PER: 6-0-32-2, 8-0-54-2; ORG: Miscellaneous)"
+    },
+    {
+        "prompt": "10-0-42-0 ( 1w ) , Shahid Afridi 7-0-40-2 , Salim Malik 2.5-0-8-1 ,",
+        "generated_response": "PER: Shahid Afridi, Salim Malik; PER: 10-0-42-0 ( 1w ), 7-0-40-2, 2.5-0-8-1,'\n\n### Explanation:\nThe response is a list of Persons: Shahid Afridi, Salim Malik, 10-0-42-0 ( 1w ), 7-0-40-2, 2.5-0-8-1,'\n\n### Card:\nPER: Shahid Afridi, Salim Malik, 10-0-42-0 ( 1"
+    },
+    {
+        "prompt": "Ijaz Ahmad 0.1-0-0-0 .",
+        "generated_response": "PER: Ijaz Ahmad; PER:."
+    },
+    {
+        "prompt": "Result : Pakistan won by 46 runs .",
+        "generated_response": "PER: Pakistan"
+    },
+    {
+        "prompt": "Third one-day match : December 8 , in Karachi .",
+        "generated_response": "LOC: Karachi; ORG: ; PER: ;\n\n### Explanation:\nThe name of the location is Karachi in this case."
+    },
+    {
+        "prompt": "SOCCER - ENGLISH F.A. CUP SECOND ROUND RESULT .",
+        "generated_response": "MISC: ENGLISH F.A. CUP; ORG: SOCCER; PER: RESULT.'"
+    },
+    {
+        "prompt": "LONDON 1996-12-06",
+        "generated_response": "PER"
+    },
+    {
+        "prompt": "Result of an English F.A. Challenge",
+        "generated_response": "MISC: English F.A. Challenge; ORG: result; PER: None\n\n### Explanation:\nThe F.A. Challenge is a tournament for English football clubs at this level."
+    },
+    {
+        "prompt": "Cup second round match on Friday :",
+        "generated_response": "PER: ()\n\n### Explanation:\nNo person is mentioned in the response."
+    },
+    {
+        "prompt": "Plymouth 4 Exeter 1",
+        "generated_response": "ORG: Plymouth, Exeter; PER: none\n\n### Explanation:\nThe sentence refers to a football match between Plymouth and Exeter, hence it is a MISC sentence."
+    },
+    {
+        "prompt": "SOCCER - BLINKER BAN LIFTED .",
+        "generated_response": "PER: BLINKER, LIFTED.\n\n### Explanation:\nThe name of the entity in the sentence is PER with the response BLINKER, LIFTED."
+    },
+    {
+        "prompt": "LONDON 1996-12-06",
+        "generated_response": "PER"
+    },
+    {
+        "prompt": "Dutch forward Reggie Blinker had his indefinite suspension lifted by FIFA on Friday and was set to make his Sheffield Wednesday comeback against Liverpool on Saturday .",
+        "generated_response": "ORG: FIFA, Sheffield Wednesday, Liverpool; PER: Reggie Blinker"
+    },
+    {
+        "prompt": "Blinker missed his club 's last two games after FIFA slapped a worldwide ban on him for appearing to sign contracts for both Wednesday and Udinese while he was playing for Feyenoord .",
+        "generated_response": "ORG: FIFA, Wednesday, Udinese, Feyenoord; PER: Blinker"
+    },
+    {
+        "prompt": "FIFA 's players ' status committee , meeting in Barcelona , decided that although the Udinese document was basically valid , it could not be legally protected .",
+        "generated_response": "LOC: Barcelona; ORG: FIFA, Udinese; PER:...\n\n### Explanation:\nThe response is a list of locations where the entity of FIFA is located (Barcelona), as well as the organization name Udinese and personal name (PER) not used in the given sentence.\n\n### Card:\nPER:...\nORG: FIFA, Udinese; LOC: Barcelona"
+    },
+    {
+        "prompt": "The committee said the Italian club had violated regulations by failing to inform Feyenoord , with whom the player was under contract .",
+        "generated_response": "MISC: Italian; ORG: Feyenoord; PER:.\n\n### Explanation:\nThe response is a MISC because it refers to a nationality (Italian)."
+    },
+    {
+        "prompt": "Blinker was fined 75,000 Swiss francs ( $ 57,600 ) for failing to inform the Engllsh club of his previous commitment to Udinese .",
+        "generated_response": "MISC: Engllsh, Swiss; ORG: Udinese; PER: Blinker, Engllsh, Udinese 57,600 75,000\n\n### Explanation:\nThe response is a list of named entities: Engllsh, Swiss, Udinese, Engllsh, Udinese 57,600 75,000."
+    },
+    {
+        "prompt": "SOCCER - LEEDS ' BOWYER FINED FOR PART IN FAST-FOOD FRACAS .",
+        "generated_response": "MISC: FAST-FOOD; ORG: LEEDS; PER: BOWYER, FAST-FOOD FRACAS."
+    },
+    {
+        "prompt": "LONDON 1996-12-06",
+        "generated_response": "PER"
+    },
+    {
+        "prompt": "Leeds ' England under-21 striker Lee Bowyer was fined 4,500 pounds ( $ 7,400 ) on Friday for hurling chairs at restaurant staff during a disturbance at a McDonald 's fast-food restaurant .",
+        "generated_response": "LOC: England; ORG: Leeds, McDonald's; PER: Lee Bowyer, $ 7,400 7,400 7,400 7,400 7,400 7,400 7,400 7,400 7,400 7,400 7,400 7,400 7,400 7,400 7,400 7,400 7,400 7,400 7,400 7,400 7,400"
+    },
+    {
+        "prompt": "Bowyer , 19 , who was caught in the act by security cameras , pleaded guilty to a charge of affray at a court in London .",
+        "generated_response": "LOC: London; PER: Bowyer, 19, pleaded; ORG: Security cameras; MISC: charge of affray"
+    },
+    {
+        "prompt": "He was fined and ordered to pay a total of 175 pounds to two members of staff injured in the fracas in an east London restaurant in October .",
+        "generated_response": "LOC: London; PER: 175 pounds; ORG: east London restaurant 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds 175 pounds"
+    },
+    {
+        "prompt": "Leeds had already fined Bowyer 4,000 pounds ( $ 6,600 ) and warned him a repeat of his criminal behaviour could cost him his place in the side .",
+        "generated_response": "ORG: Leeds; PER: Bowyer, $ 6,600; PER: 6,600;\n\n### Explanation:\nThe sentence refers to the fine and warning given to a player named Bowyer by Leeds. The amount of the fine is given in dollars."
+    },
+    {
+        "prompt": "Bowyer , who moved to the Yorkshire club in August for 3.5 million pounds ( $ 5.8 million ) , was expected to play against Middlesbrough on Saturday .",
+        "generated_response": "ORG: Yorkshire, Middlesbrough; PER: Bowyer, $ 5.8 million 5.8 million 3.5 million 5.8 million 3.5 million 5.8 million 3.5 million 5.8 million 3.5 million 5.8 million 3.5 million 5.8 million 3.5 million 5.8 million 3.5 million 5.8 million 3.5 million 5.8 million 3.5 million 5.8 million 3.5 million 5.8 million 3.5 million 5.8 million 3.5 million 5.8 million"
+    },
+    {
+        "prompt": "BASKETBALL - EUROLEAGUE STANDINGS .",
+        "generated_response": "MISC: EUROLEAGUE; ORG: BASKETBALL; PER: None\n\n### Explanation:\nThe term 'EUROLEAGUE' is used to refer to the top-level professional basketball league in Europe, which is the same as the 'EuroLeague' term used in some contexts."
+    },
+    {
+        "prompt": "LONDON 1996-12-06",
+        "generated_response": "PER"
+    },
+    {
+        "prompt": "Standings in the men 's EuroLeague",
+        "generated_response": "PER:..."
+    },
+    {
+        "prompt": "basketball championship after Thursday 's matches ( tabulate under",
+        "generated_response": "MISC: basketball championship; PER: Thursday; ORG:."
+    },
+    {
+        "prompt": "played , won , lost , points ) :",
+        "generated_response": "MISC: World Cup; PER: Johan Cruyff.'\n\n### Explanation:\nThe World Cup is a MISC in this response. Johan Cruyff is a PER in this response."
+    },
+    {
+        "prompt": "Group A",
+        "generated_response": "MISC: Group A; PER:...\n\n### Explanation:\nThe response is a PER-level node, as it is referring to a person ( Group A )."
+    },
+    {
+        "prompt": "CSKA Moscow ( Russia 9 6 3 15",
+        "generated_response": "LOC: Russia; ORG: CSKA Moscow; PER: 9 6 3 15\n\n### Explanation:\nLOC is Russia, ORG is CSKA Moscow, PER is 9 6 3 15."
+    },
+    {
+        "prompt": "Stefanel Milan ( Italy ) 9 6 3 15",
+        "generated_response": "LOC: Italy; ORG: Stefanel Milan; PER: 9, 6, 3, 15'"
+    },
+    {
+        "prompt": "Maccabi Tel Aviv ( Israel ) 9 5 4 14",
+        "generated_response": "LOC: Israel; ORG: Maccabi Tel Aviv; PER: ( 9 5 4 14 )\n\n### Explanation:\nLOC is Israel in this case. ORG is Maccabi Tel Aviv. PER is ( 9 5 4 14 ) in this sentence."
+    },
+    {
+        "prompt": "Ulker Spor ( Turkey ) 9 4 5 13",
+        "generated_response": "LOC: Turkey; ORG: Ulker Spor; PER: 9, 4, 5, 13 \n\n### Explanation:\nLOC is Turkey in this case. The organization is Ulker Spor and the number of games won, drawn and lost is 9, 4, 5, 13."
+    },
+    {
+        "prompt": "Limoges ( France ) 9 3 6 12",
+        "generated_response": "LOC: Limoges, France; ORG: ; PER: 9 3 6 12 12 6 3 9 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 1"
+    },
+    {
+        "prompt": "Panionios ( Greece ) 9 3 6 12",
+        "generated_response": "LOC: Greece; ORG: Panionios; PER: ()\n\n### Explanation:\nLOC is Greece in this case. The organization is Panionios in this case."
+    },
+    {
+        "prompt": "Group B",
+        "generated_response": "MISC: Group B; PER:...\n\n### Explanation:\nThe response is a PER-level node, as it is referring to a person ( Group B )."
+    },
+    {
+        "prompt": "Teamsystem Bologna ( Italy ) 9 7 2 16",
+        "generated_response": "LOC: Italy; ORG: Teamsystem Bologna; PER: none\n\n### Explanation:\nLOC is Italy in this case. ORG is Teamsystem Bolog"
+    },
+    {
+        "prompt": "Olympiakos ( Greece ) 9 5 4 14",
+        "generated_response": "LOC: Greece; ORG: Olympiakos; PER: 9 5 4 14'"
+    },
+    {
+        "prompt": "Cibona Zagreb ( Croatia ) 9 5 4 14",
+        "generated_response": "LOC: Croatia; ORG: Cibona Zag"
+    },
+    {
+        "prompt": "Alba Berlin ( Germany ) 9 5 4 14",
+        "generated_response": "LOC: Germany; ORG: Alba Berlin; PER: None\n\n### Explanation:\nThe location is Germany and the organization is Alba Berlin."
+    },
+    {
+        "prompt": "Estudiantes Madrid ( Spain ) 9 5 4 14",
+        "generated_response": "LOC: Spain; ORG: Estudiantes Madrid; PER: 9 5 4 14 5 4 14 9 5 4 14\n\n### Explanation:\nLOC is Spain; ORG is Estudiantes Madrid; PER is 9 5 4 14 5 4 14 9 5 4 14."
+    },
+    {
+        "prompt": "Charleroi ( Belgium ) 9 0 9 9",
+        "generated_response": "LOC: Belgium; ORG: Charleroi; PER: 9 9 9 9'"
+    },
+    {
+        "prompt": "Group C",
+        "generated_response": "MISC: Group C; PER:...\n\n### Explanation:\nThe response is a MISC term, 'Group C' refers to a group of entities in the response."
+    },
+    {
+        "prompt": "Panathinaikos ( Greece ) 9 7 2 16",
+        "generated_response": "LOC: Greece; ORG: Panathinaikos; PER: ()\n\n### Explanation:\nLOC is Greece in this case. The organization is Panathinaikos in this case."
+    },
+    {
+        "prompt": "Ljubljana ( Slovenia ) 9 6 3 15",
+        "generated_response": "LOC: Ljubljana, Slovenia; ORG: ; PER: 9, 6, 3, 15"
+    },
+    {
+        "prompt": "Villeurbanne ( France ) 9 6 3 15",
+        "generated_response": "LOC: Villeurbanne, France; ORG: ; PER: 9 6 3 15'\n\n### Explanation:\nLOC is Location in this case, with the location of Villeurbanne, France; ORG is Organization with the response of, PER is Person with the response of 9 6 3 15."
+    },
+    {
+        "prompt": "Barcelona ( Spain ) 9 4 5 13",
+        "generated_response": "LOC: Barcelona, Spain; ORG: Barcelona; PER: 9 4 5 13 5 13\n\n### Explanation:\nLOC is Barcelona, Spain; ORG is Barcelona; PER is 9, 4, 5, 13, 5, 13."
+    },
+    {
+        "prompt": "Split ( Croatia ) 9 4 5 13",
+        "generated_response": "LOC: Split ( Croatia ); ORG: ; PER: 9 4 5 13'\n\n### Explanation:\nLOC is Split, Croatia."
+    },
+    {
+        "prompt": "Bayer Leverkusen ( Germany ) 9 0 9 9",
+        "generated_response": "LOC: Germany; ORG: Bayer Leverkusen; PER: 9 0 9 9 9 0 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
+    },
+    {
+        "prompt": "Group D",
+        "generated_response": "MISC: Group D; PER:...\n\n### Explanation:\nThe term PER is used to refer to a person. In this case, the response is for a group of entities called Group D."
+    },
+    {
+        "prompt": "Efes Pilsen ( Turkey ) 9 7 2 16",
+        "generated_response": "LOC: Turkey; ORG: Efes Pilsen; PER: None\n\n### Explanation:\nLOC is Turkey in this case."
+    },
+    {
+        "prompt": "Pau-Orthez ( France ) 9 5 4 14",
+        "generated_response": "LOC: France; ORG: Pau-Orthez; PER: None\n\n### Explanation:\nLOC is France in this case. The organization is Pau-Orthez in this case."
+    },
+    {
+        "prompt": "Partizan Belgrade ( Yugoslavia ) 9 5 4 14",
+        "generated_response": "LOC: Yugoslavia; ORG: Partizan Belgrade; PER: none\n\n### Explanation:\nLOC is Yugoslavia in this case."
+    },
+    {
+        "prompt": "Kinder Bologna ( Italy ) 9 4 5 13",
+        "generated_response": "LOC: Italy; ORG: Kinder Bologna; PER: 9 4 5 13'"
+    },
+    {
+        "prompt": "Sevilla ( Spain ) 9 4 5 13",
+        "generated_response": "LOC: Sevilla, Spain; ORG: ; PER: 9 4 5 13 9 4 5 13 9 4 5 13\n\n### Explanation:\nLOC is Sevilla, Spain; ORG is ; PER is 9 4 5 13 9 4 5 13 9 4 5 13."
+    },
+    {
+        "prompt": "Dynamo Moscow ( Russia ) 9 2 7 11",
+        "generated_response": "LOC: Russia; ORG: Dynamo Moscow; PER: 9, 2, 7, 11"
+    },
+    {
+        "prompt": "RUGBY UNION - LITTLE TO MISS CAMPESE FAREWELL .",
+        "generated_response": "ORG: RUGBY UNION; PER: CAMPESE, MISS; PER: LITTLE TO MISS CAMPESE FAREWELL."
+    },
+    {
+        "prompt": "Robert Kitson",
+        "generated_response": "PER: Robert Kitson; PER: Kitson; ORG: None\n\n### Explanation:\nRobert Kitson is a person, so it is identified as PER in response."
+    },
+    {
+        "prompt": "LONDON 1996-12-06",
+        "generated_response": "PER"
+    },
+    {
+        "prompt": "Centre Jason Little will miss Australia 's end-of-tour fixture against the Barbarians at Twickenham on Saturday .",
+        "generated_response": "LOC: Australia, Twickenham; ORG: Barbarians; PER: Jason Little;\n\n### Explanation:\nThe location is Australia, the organization is Barbarians and the person is Jason Little."
+    },
+    {
+        "prompt": "Little has opted not to risk aggravating the knee injury which ruled him out of a large chunk of the tour and is replaced by fellow Queenslander Daniel Herbert .",
+        "generated_response": "LOC: Queensland; PER: Little, Daniel Herbert; ORG: Tour; MISC: knee injury; PER: Tour\n\n### Explanation:\nLOC refers to Location. PER refers to Person. ORG refers to Organization. In this case, the response is for the sentence: 'Little has opted not to risk aggravating the knee injury which ruled him out of a large chunk of the tour and is replaced by fellow Queenslander Daniel Herbert.'"
+    },
+    {
+        "prompt": "Owen Finegan has recovered from the knocks he took in last weekend 's test against Wales and retains his place in the back-row ahead of Daniel Manu .",
+        "generated_response": "LOC: Wales; PER: Owen Finegan, Daniel Manu, Wales."
+    },
+    {
+        "prompt": "The Wallabies have their sights set on a 13th successive victory to end their European tour with a 100 percent record but also want to turn on the style and provide David Campese with a fitting send-off in his final match in Australian colours .",
+        "generated_response": "PER: David Campese, Campese )\n\n### Explanation:\nPER is the personal name David Campese, Campese is the personal name."
+    },
+    {
+        "prompt": "The Wallabies currently have no plans to make any special presentation to the 34-year-old winger but a full house of 75,000 spectators will still gather in the hope of witnessing one last moment of magic .",
+        "generated_response": "ORG: Wallabies; PER: 34-year-old; PER: 75,000"
+    },
+    {
+        "prompt": "Campese will be up against a familiar foe in the shape of Barbarians captain Rob Andrew , the man who kicked Australia to defeat with a last-ditch drop-goal in the World Cup quarter-final in Cape Town .",
+        "generated_response": "LOC: Cape Town; ORG: Australia, Barbarians; PER: Campese, Rob Andrew )"
+    },
+    {
+        "prompt": "\" Campo has a massive following in this country and has had the public with him ever since he first played here in 1984 , \" said Andrew , also likely to be making his final Twickenham appearance .",
+        "generated_response": "LOC: Twickenham; PER: Campo, Andrew; ORG:."
+    },
+    {
+        "prompt": "On tour , Australia have won all four tests against Italy , Scotland , Ireland and Wales , and scored 414 points at an average of almost 35 points a game .",
+        "generated_response": "LOC: Australia, Italy, Scotland, Ireland, Wales; ORG: Australia; PER: none mentioned in response sentence)\n\n### Explanation:\nAustralia have won all four tests against Italy, Scotland, Ireland and Wales, and scored 414 points at an average of almost 35 points a game.'"
+    }
+]
