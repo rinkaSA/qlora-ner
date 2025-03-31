@@ -1,0 +1,802 @@
+[
+    {
+        "prompt": "SOCCER - JAPAN GET LUCKY WIN , CHINA IN SURPRISE DEFEAT .",
+        "generated_response": "LOC: JAPAN, CHINA; MISC: SURPRISE; ORG: ; PER:. \n\n### Explanation:\nLOC: Location: JAPAN, CHINA; MISC: Miscellaneous: SURPRISE; ORG: None; PER:."
+    },
+    {
+        "prompt": "Nadim Ladki",
+        "generated_response": "LOC: Damascus; MISC: Syrian; ORG: Baath Party; PER: Nadim Ladki."
+    },
+    {
+        "prompt": "AL-AIN , United Arab Emirates 1996-12-06",
+        "generated_response": "LOC: AL-AIN, United Arab Emirates; MISC: 1996-12-06; ORG: ; PER:  none.\n\n### Notes:\nLOC: AL-AIN, United Arab Emirates; MISC: 1996-12-06; ORG: none; PER: none."
+    },
+    {
+        "prompt": "Japan began the defence of their Asian Cup title with a lucky 2-1 win against Syria in a Group C championship match on Friday .",
+        "generated_response": "LOC: Japan, Syria; MISC: Asian Cup, Group C; ORG:; PER: Japan, Syria."
+    },
+    {
+        "prompt": "But China saw their luck desert them in the second match of the group , crashing to a surprise 2-0 defeat to newcomers Uzbekistan .",
+        "generated_response": "LOC: China, Uzbekistan; MISC: newcomers; ORG: none; PER: none.\n\n### Explanation:\nLOC: China, Uzbekistan - Location: China, Uzbekistan; MISC: newcomers - Miscellaneous: newcomers; ORG: none - Organization: none; PER: none - Person: none."
+    },
+    {
+        "prompt": "China controlled most of the match and saw several chances missed until the 78th minute when Uzbek striker Igor Shkvyrin took advantage of a misdirected defensive header to lob the ball over the advancing Chinese keeper and into an empty net .",
+        "generated_response": "LOC: China; MISC: Uzbek; ORG: Chinese; PER: Igor Shkvyrin"
+    },
+    {
+        "prompt": "Oleg Shatskiku made sure of the win in injury time , hitting an unstoppable left foot shot from just outside the area .",
+        "generated_response": "LOC: Location; MISC: Miscellaneous; ORG: Organization; PER: Person: Oleg Shatskiku."
+    },
+    {
+        "prompt": "The former Soviet republic was playing in an Asian Cup finals tie for the first time .",
+        "generated_response": "LOC: Soviet; MISC: Asian Cup; ORG: none; PER: none.\n\n### Explanation:\nThe location is Soviet, the tournament is Asian Cup, the organising body is none and the person is none."
+    },
+    {
+        "prompt": "Despite winning the Asian Games title two years ago , Uzbekistan are in the finals as outsiders .",
+        "generated_response": "LOC: Uzbekistan; MISC: Asian Games; ORG: none; PER: Uzbekistan none \n\n### Explanation:\nLOC: Uzbekistan: The location of the event is Uzbekistan. MISC: Asian Games: The event is the Asian Games. ORG: none: None of the organizations are mentioned. PER: Uzbekistan: The person or nation mentioned is Uzbekistan."
+    },
+    {
+        "prompt": "Two goals from defensive errors in the last six minutes allowed Japan to come from behind and collect all three points from their opening meeting against Syria .",
+        "generated_response": "LOC: Japan, Syria; MISC:; ORG: Syria; PER: Japan, Syria - Location: Japan, Syria; MISC:; ORG: Syria; PER: Syria \n\n### Explanation:"
+    },
+    {
+        "prompt": "Takuya Takagi scored the winner in the 88th minute , rising to head a Hiroshige Yanagimoto cross towards the Syrian goal which goalkeeper Salem Bitar appeared to have covered but then allowed to slip into the net .",
+        "generated_response": "MISC: Syrian; ORG: Hiroshige Yanagimoto; PER: Takuya Takagi, Salem Bitar; LOC:"
+    },
+    {
+        "prompt": "It was the second costly blunder by Syria in four minutes .",
+        "generated_response": "LOC: Syria; MISC: second; ORG: none; PER: none. \n\n### Explanation:\nLOC: Syria - Location: Syria; MISC: second - Miscellaneous: number; ORG: none - Organization: none; PER: none - Person: none."
+    },
+    {
+        "prompt": "Defender Hassan Abbas rose to intercept a long ball into the area in the 84th minute but only managed to divert it into the top corner of Bitar 's goal .",
+        "generated_response": "LOC: Bitar; MISC: Area; ORG: Defender; PER: Hassan Abbas, Bitar, Hassan Abbas, Bitar 1."
+    },
+    {
+        "prompt": "Nader Jokhadar had given Syria the lead with a well-struck header in the seventh minute .",
+        "generated_response": "LOC: Syria; MISC: well-struck; ORG: none; PER: Nader Jokhadar."
+    },
+    {
+        "prompt": "Japan then laid siege to the Syrian penalty area for most of the game but rarely breached the Syrian defence .",
+        "generated_response": "LOC: Japan, Syrian; MISC: Syrian; ORG: none; PER: Syrian.\n\n### Explanation:\nLOC: Japan, Syria; MISC: Syrian; ORG: none; PER: Syrian."
+    },
+    {
+        "prompt": "Bitar pulled off fine saves whenever they did .",
+        "generated_response": "LOC: Bitar; MISC: Miscellaneous; ORG: Organization; PER: Person: Bitar"
+    },
+    {
+        "prompt": "Japan coach Shu Kamo said : ' ' The Syrian own goal proved lucky for us .",
+        "generated_response": "LOC: Japan; MISC: Syrian; ORG: none; PER: Shu Kamo."
+    },
+    {
+        "prompt": "The Syrians scored early and then played defensively and adopted long balls which made it hard for us . '",
+        "generated_response": "MISC: Syrians; ORG: none; PER: none"
+    },
+    {
+        "prompt": "'",
+        "generated_response": "ORG: Lloyd's; PER: John Maguire.'"
+    },
+    {
+        "prompt": "Japan , co-hosts of the World Cup in 2002 and ranked 20th in the world by FIFA , are favourites to regain their title here .",
+        "generated_response": "LOC: Japan; MISC: World Cup; ORG: FIFA; PER: 20th, favourites, here.\n\n### Explanation:\nLOC: Japan - Location of the tournament. MISC: World Cup - The tournament is described as a World Cup. ORG: FIFA - The governing body of international soccer. PER: 20th - Japan is ranked 20th in the world by FIFA. favourites - Japan is a favourite to win the tournament. here - The tournament will be held here (in Japan)."
+    },
+    {
+        "prompt": "Hosts UAE play Kuwait and South Korea take on Indonesia on Saturday in Group A matches .",
+        "generated_response": "LOC: UAE, Kuwait, South Korea, Indonesia; MISC: Group A; ORG: none; PER: none.\n\n### Explanation:\nLOC: Location: UAE, Kuwait, South Korea, Indonesia; MISC: Group A is a category used to group teams in the tournament; ORG: none because there is no organization mentioned; PER: none because there are no people mentioned."
+    },
+    {
+        "prompt": "All four teams are level with one point each from one game .",
+        "generated_response": "LOC: Location; MISC: Miscellaneous; ORG: Organization; PER: Person: \n\n### Explanation:\nLOC: Location (no location information is provided in the sentence) MISC: Miscellaneous (no miscellaneous information is provided in the sentence) ORG: Organization (no organization is provided in the sentence) PER: Person (the sentence refers to four teams and their points, so PER is the appropriate type )"
+    },
+    {
+        "prompt": "RUGBY UNION - CUTTITTA BACK FOR ITALY AFTER A YEAR .",
+        "generated_response": "LOC: ITALY; MISC: RUGBY UNION; ORG: none; PER: CUTTITTA, none.\n\n### Explanation:\nLOC: ITALY - Location of the event. MISC: RUGBY UNION - The sport is rugby union. ORG: none - No organization is mentioned. PER: CUTTITTA, none - No person is mentioned."
+    },
+    {
+        "prompt": "ROME 1996-12-06",
+        "generated_response": "LOC: ROME; MISC: 1996-12-06; ORG: None; PER: None \n\n### Explanation:\nLOC: ROME - Location: ROME; MISC: 1996-12-06 - Year: 1996, location: ROME; ORG: None; PER: None"
+    },
+    {
+        "prompt": "Italy recalled Marcello Cuttitta",
+        "generated_response": "LOC: Italy; MISC: Marcello Cuttitta; ORG: none; PER: Marcello Cuttitta."
+    },
+    {
+        "prompt": "on Friday for their friendly against Scotland at Murrayfield more than a year after the 30-year-old wing announced he was retiring following differences over selection .",
+        "generated_response": "LOC: Murrayfield; MISC: Scotland; ORG: 30-year-old; PER: 30-year-old, Murrayfield, Scotland; PER: Scotland; SELECTION; RETIRING; DEFERRES; SELECTION; DIFFERENCES; RETIRING; 30-year-old; 30-year-old; Murrayfield; Scotland; Scotland; Murrayfield; Scotland; Scotland; SELECTION; SELECTION; DIFFERENCES; RETIRING; 30-year-old; 30-year-old; Murrayfield; Scotland; Scotland; Murrayfield; Scotland; Scotland; SELECTION; SELECTION; DI"
+    },
+    {
+        "prompt": "Cuttitta , who trainer George Coste said was certain to play on Saturday week , was named in a 21-man squad lacking only two of the team beaten 54-21 by England at Twickenham last month .",
+        "generated_response": "LOC: Twickenham; MISC: England; ORG: George Coste; PER: Cuttitta, England \n\n### Notes:\nLOC: Twickenham; MISC: England; ORG: George Coste; PER: Cuttitta, England"
+    },
+    {
+        "prompt": "Stefano Bordon is out through illness and Coste said he had dropped back row Corrado Covi , who had been recalled for the England game after five years out of the national team .",
+        "generated_response": "LOC: England; MISC: Corrado Covi; ORG: none; PER: Stefano Bordon, Coste, Corrado Covi, none. \n\n### Explanation:\nLOC: England - a location; MISC: Corrado Covi - a miscellaneous person; ORG: none; PER: Stefano Bordon, Coste, Corrado Covi, none."
+    },
+    {
+        "prompt": "Cuttitta announced his retirement after the 1995 World Cup , where he took issue with being dropped from the Italy side that faced England in the pool stages .",
+        "generated_response": "LOC: England; MISC: World Cup; ORG: Italy; PER: Cuttitta, England, Italy, Italy, England, World Cup; PER: Italy, Cuttitta, England, World Cup, Italy, England, Italy, World Cup, Italy, England, World Cup, Italy, Italy, World Cup, Italy, England, World Cup, Italy, World Cup, Italy, England, World Cup, Italy, World Cup, Italy, World Cup, Italy, World Cup, Italy, World Cup, Italy, World Cup, Italy, World Cup, Italy, World Cup, Italy, World Cup, Italy, World Cup, Italy, World Cup, Italy, World Cup, Italy,"
+    },
+    {
+        "prompt": "Coste said he had approached the player two months ago about a comeback .",
+        "generated_response": "PER: Coste; ORG: None; LOC: None; MISC: None \n\n### Explanation:\nPER: Coste is a person. ORG: None; LOC: None; MISC: None"
+    },
+    {
+        "prompt": "\" He ended the World Cup on the wrong note , \" Coste said .",
+        "generated_response": "MISC: World Cup; ORG:; PER: Coste."
+    },
+    {
+        "prompt": "\" I thought it would be useful to have him back and he said he would be available .",
+        "generated_response": "LOC:; MISC:; ORG:; PER: Yuri Sushko, Yuri Sushko."
+    },
+    {
+        "prompt": "I think now is the right time for him to return . \"",
+        "generated_response": "LOC: Berlin; MISC: Time; ORG: Bundesliga; PER: him, return. \n\n### Explanation:\nLOC: Berlin: Location of the event. MISC: Time: The sentence refers to the time of the event. ORG: Bundesliga: The league in which the event took place. PER: him, return: The PER entity refers to the person's return to the league."
+    },
+    {
+        "prompt": "Squad : Javier Pertile , Paolo Vaccari , Marcello Cuttitta , Ivan Francescato , Leandro Manteri , Diego Dominguez , Francesco Mazzariol , Alessandro Troncon , Orazio Arancio , Andrea Sgorlon , Massimo Giovanelli , Carlo Checchinato , Walter Cristofoletto , Franco Properzi Curti , Carlo Orlandi , Massimo Cuttitta , Giambatista Croci , Gianluca Guidi , Nicola Mazzucato , Alessandro Moscardi , Andrea Castellani .",
+        "generated_response": "PER: 'Person'.'\n\n### Explanation:\nThe sentence refers to a list of soccer players, so the response is 'PER: 'Person'.'"
+    },
+    {
+        "prompt": "SOCCER - LATE GOALS GIVE JAPAN WIN OVER SYRIA .",
+        "generated_response": "LOC: JAPAN, SYRIA; MISC: SOCCER; ORG: none; PER: none. \n\n### Explanation:\nLOC: Japan and Syria are locations. MISC: SOCCER is a sport category. ORG: none (no organization is mentioned in the sentence). PER: none (no person is mentioned in the sentence). \n\n### Source:\nThe sentence was extracted from the following source: 'SOCCER - LATE GOALS GIVE JAPAN WIN OVER SYRIA.'"
+    },
+    {
+        "prompt": "AL-AIN , United Arab Emirates 1996-12-06",
+        "generated_response": "LOC: AL-AIN, United Arab Emirates; MISC: 1996-12-06; ORG: ; PER:  none.\n\n### Notes:\nLOC: AL-AIN, United Arab Emirates; MISC: 1996-12-06; ORG: none; PER: none."
+    },
+    {
+        "prompt": "Two goals in the last six minutes gave holders Japan an uninspiring 2-1 Asian Cup victory over Syria on Friday .",
+        "generated_response": "LOC: Japan, Syria; MISC: Asian Cup; ORG: none; PER: two: Japan, Syria."
+    },
+    {
+        "prompt": "Takuya Takagi headed the winner in the 88th minute of the group C game after goalkeeper Salem Bitar spoiled a mistake-free display by allowing the ball to slip under his body .",
+        "generated_response": "PER: Takuya Takagi, Salem Bitar."
+    },
+    {
+        "prompt": "It was the second Syrian defensive blunder in four minutes .",
+        "generated_response": "MISC: Syrian; ORG: none; PER: none. \n\n### Explanation:\nThe sentence refers to a Syrian team or organisation, but does not mention any person or PER. Therefore, the response is MISC: Syrian, ORG: none, PER: none."
+    },
+    {
+        "prompt": "Defender Hassan Abbas rose to intercept a long ball into the area in the 84th minute but only managed to divert it into the top corner of Bitar 's goal .",
+        "generated_response": "LOC: Bitar; MISC: Area; ORG: Defender; PER: Hassan Abbas, Bitar, Hassan Abbas, Bitar 1."
+    },
+    {
+        "prompt": "Syria had taken the lead from their first serious attack in the seventh minute .",
+        "generated_response": "LOC: Syria; MISC: seventh; ORG: none; PER: none.\n\n### Explanation:\nLOC: Syria - location of the event. MISC: refers to the fact that the event is the first serious attack in the seventh minute of a game. ORG: none - no organization is mentioned. PER: none - no person is mentioned."
+    },
+    {
+        "prompt": "Nader Jokhadar headed a cross from the right by Ammar Awad into the top right corner of Kenichi Shimokawa 's goal .",
+        "generated_response": "LOC: Location; MISC: Miscellaneous; ORG: Organization; PER: Person: Kenichi Shimokawa; PER: Nader Jokhadar, Ammar Awad"
+    },
+    {
+        "prompt": "Japan then laid siege to the Syrian penalty area and had a goal disallowed for offside in the 16th minute .",
+        "generated_response": "LOC: Japan; MISC: Syrian; ORG: none; PER: none. \n\n### Explanation:\nLOC: Japan - location of the match. MISC: Syrian - nationality of the team. ORG: none - the sentence does not refer to any organisation. PER: none - the sentence does not refer to any person."
+    },
+    {
+        "prompt": "A minute later , Bitar produced a good double save , first from Kazuyoshi Miura 's header and then blocked a Takagi follow-up shot .",
+        "generated_response": "LOC: Location; MISC: Miscellaneous; ORG: Organization; PER: Person: Bitar, Kazuyoshi Miura, Takagi."
+    },
+    {
+        "prompt": "Bitar saved well again from Miura in the 37th minute , parrying away his header from a corner .",
+        "generated_response": "LOC: none; MISC: none; ORG: none; PER: Bitar, Miura"
+    },
+    {
+        "prompt": "Japan started the second half brightly but Bitar denied them an equaliser when he dived to his right to save Naoki Soma 's low drive in the 53rd minute .",
+        "generated_response": "LOC: Japan; MISC: Bitar; ORG: none; PER: Naoki Soma \n\n### Explanation:\nLOC: Japan - Location: Japan; MISC: Bitar - Miscellaneous; ORG: none; PER: Naoki Soma - Person."
+    },
+    {
+        "prompt": "Japan : 19 - Kenichi Shimokawa , 2 - Hiroshige Yanagimoto , 3 - Naoki Soma , 4 - Masami Ihara , 5 - Norio Omura , 6 - Motohiro Yamaguchi , 8 - Masakiyo Maezono ( 7 - Yasuto Honda 71 ) , 9 - Takuya Takagi , 10 - Hiroshi Nanami , 11 - Kazuyoshi Miura , 15 - Hiroaki Morishima ( 14 - Masayuki Okano 75 ) .",
+        "generated_response": "LOC: Japan; MISC: Miscellaneous; ORG: Japan Football Association; PER: Kenichi Shimokawa, Hiroshige Yanagimoto, Naoki Soma, Masami Ihara, Norio Omura, Motohiro Yamaguchi, Yasuto Honda, Takuya Takagi, Hiroshi Nanami, Kazuyoshi Miura, Hiroaki Morishima, Masayuki Okano."
+    },
+    {
+        "prompt": "Syria : 24 - Salem Bitar , 3 - Bachar Srour ; 4 - Hassan Abbas , 5 - Tarek Jabban , 6 - Ammar Awad ( 9 - Louay Taleb 69 ) , 8 - Nihad al-Boushi , 10 - Mohammed Afash , 12 - Ali Dib , 13 - Abdul Latif Helou ( 17 - Ammar Rihawiy 46 ) , 14 - Khaled Zaher ; 16 - Nader Jokhadar .",
+        "generated_response": "LOC: Syria; MISC: 24, Miscellaneous; ORG: 69; PER: 10 - Bachar Srour, 3 - Salem Bitar, 5 - Hassan Abbas, 8 - Ammar Awad, 12 - Ali Dib, 13 - Abdul Latif Helou, 14 - Khaled Zaher, 16 - Nader Jokhadar, 17 - Ammar Rihawiy, 10 - Louay Taleb; ORG: 1; PER: 7 - Tarek Jabban, 6 - Hassan Abbas,"
+    },
+    {
+        "prompt": "FREESTYLE SKIING-WORLD CUP MOGUL RESULTS .",
+        "generated_response": "LOC: FREESTYLE SKIING-WORLD CUP MOGUL RESULTS; MISC: WORLD CUP; ORG: none; PER: none. \n\n### Explanation:\nLOC: The sentence refers to a FREESTYLE SKIING-WORLD CUP competition called MOGUL RESULTS. MISC: WORLD CUP is a type of international competition. ORG: none, the sentence does not mention any organization. PER: none, the sentence does not mention any person's name."
+    },
+    {
+        "prompt": "TIGNES , France 1996-12-06",
+        "generated_response": "LOC: TIGNES, France; MISC: 1996-12-06; ORG: ; PER:"
+    },
+    {
+        "prompt": "Results of the World Cup",
+        "generated_response": "MISC: World Cup; ORG: FIDE; PER: Anand, Topalov, Kramnik, Karpov.\n\n### Explanation:\nThe sentence refers to the FIDE World Chess Cup, so the response is MISC: World Cup, ORG: FIDE, PER: Anand, Topalov, Kramnik, Karpov."
+    },
+    {
+        "prompt": "freestyle skiing moguls competition on Friday :",
+        "generated_response": "LOC: Friday; MISC: freestyle skiing; ORG:; PER: none \n\n### Explanation:\nLOC: Friday - Location: the day of the event; MISC: freestyle skiing - The event is a freestyle skiing competition; ORG: none - The event is not taking place at an organization; PER: none - No person is mentioned in the sentence."
+    },
+    {
+        "prompt": "Men",
+        "generated_response": "MISC: 'Men'\nORG: None\nPER: None"
+    },
+    {
+        "prompt": "1. Jesper Ronnback ( Sweden ) 25.76 points",
+        "generated_response": "LOC: Sweden; MISC:; ORG:; PER: Jesper Ronnback ( Sweden ) 25.76 points; PER: Jesper Ronnback ( Sweden ) 25.76 points; ORG:; PER: Jesper Ronnback ( Sweden ) 25.76 points; PER: Jesper Ronnback ( Sweden ) 25.76 points; ORG:; PER: Jesper Ronnback ( Sweden ) 25.76 points; PER: Jesper Ronnback ( Sweden ) 25.76 points; ORG:; PER: Jesper Ronnback ( Sweden"
+    },
+    {
+        "prompt": "2. Andrei Ivanov ( Russia ) 24.88",
+        "generated_response": "LOC: Russia; MISC:; ORG:; PER: Andrei Ivanov, Andrei; PER: 24.88; \n\n### Explanation:\nLOC: Russia - The location of the event is Russia. MISC: - The sentence does not contain any of the following types: ORG, PER. ORG: - The event is not an organization. PER: Andrei Ivanov, Andrei; PER: 24.88;  - Andrei Ivanov is a person who ran 24.88 in a location called Russia."
+    },
+    {
+        "prompt": "3. Ryan Johnson ( Canada ) 24.57",
+        "generated_response": "LOC: Canada; MISC: World Championships; ORG: Athletics Canada; PER: Ryan Johnson, Ryan Johnson ( Canada ) 24.57."
+    },
+    {
+        "prompt": "4. Jean-Luc Brassard ( Canada ) 24.40",
+        "generated_response": "LOC: Canada; MISC:; ORG:; PER: Jean-Luc Brassard, Canada; PER: 24.40."
+    },
+    {
+        "prompt": "5. Korneilus Hole ( Norway ) 23.92",
+        "generated_response": "LOC: Norway; MISC:; ORG:; PER: Korneilus Hole, 23.92; PER:; \n\n### Explanation:\nLOC: Norway - Location; MISC: none; ORG: none; PER: Korneilus Hole, 23.92; PER: none"
+    },
+    {
+        "prompt": "6. Jeremie Collomb-Patton ( France ) 23.87",
+        "generated_response": "LOC: France; MISC:; ORG:; PER: Jeremie Collomb-Patton, France."
+    },
+    {
+        "prompt": "7. Jim Moran ( U.S. ) 23.25",
+        "generated_response": "LOC: U.S.; MISC:; ORG:; PER: Jim Moran, Jim Moran ( U.S. ) 23.25"
+    },
+    {
+        "prompt": "8. Dominick Gauthier ( Canada ) 22.73",
+        "generated_response": "LOC: Canada; MISC: World Championships; ORG: Athletics Federation; PER: Dominick Gauthier."
+    },
+    {
+        "prompt": "9. Johann Gregoire ( France ) 22.58",
+        "generated_response": "LOC: France; MISC:; ORG:; PER: Johann Gregoire, France."
+    },
+    {
+        "prompt": "10. Troy Benson ( U.S. ) 22.56",
+        "generated_response": "LOC: U.S.; MISC: 22.56; ORG: Troy Benson; PER: Troy Benson ( U.S. )"
+    },
+    {
+        "prompt": "Women",
+        "generated_response": "LOC: Women\nMISC: Women\nORG: None\nPER: None"
+    },
+    {
+        "prompt": "1. Tatjana Mittermayer ( Germany ) 24.32",
+        "generated_response": "LOC: Germany; MISC:; ORG:; PER: Tatjana Mittermayer, Germany."
+    },
+    {
+        "prompt": "2. Candice Gilg ( France ) 24.31",
+        "generated_response": "LOC: France; MISC:; ORG:; PER: Candice Gilg, France."
+    },
+    {
+        "prompt": "3. Minna Karhu ( Finland ) 24.05",
+        "generated_response": "LOC: Finland; MISC: Miscellaneous; ORG:; PER: Minna Karhu, 24.05."
+    },
+    {
+        "prompt": "4. Tae Satoya ( Japan ) 23.75",
+        "generated_response": "LOC: Japan; MISC: 4; ORG: none; PER: Tae Satoya, 23.75."
+    },
+    {
+        "prompt": "5. Ann Battellle ( U.S. ) 23.56",
+        "generated_response": "LOC: U.S.; MISC:; ORG:; PER: Ann Battellle, U.S."
+    },
+    {
+        "prompt": "6. Donna Weinbrecht ( U.S. ) 22.48",
+        "generated_response": "LOC: U.S.; MISC:; ORG:; PER: Donna Weinbrecht, U.S."
+    },
+    {
+        "prompt": "7. Liz McIntyre ( U.S. ) 22.00",
+        "generated_response": "LOC: U.S.; MISC: 7; ORG: None; PER: Liz McIntyre."
+    },
+    {
+        "prompt": "8. Elena Koroleva ( Russia ) 21.77",
+        "generated_response": "LOC: Russia; MISC: 8; ORG: none; PER: Elena Koroleva, none."
+    },
+    {
+        "prompt": "9. Ljudmila Dymchenko ( Russia ) 21.59",
+        "generated_response": "LOC: Russia; MISC: 9; ORG:; PER: Ljudmila Dymchenko, 21.59; PER: 21.59."
+    },
+    {
+        "prompt": "10. Katleen Allais ( France ) 21.58",
+        "generated_response": "LOC: France; MISC: 21.58; ORG: ; PER: Katleen Allais."
+    },
+    {
+        "prompt": "SOCCER - ASIAN CUP GROUP C RESULTS .",
+        "generated_response": "MISC: ASIAN CUP, GROUP C; ORG: none; PER: none.\nLOC: none.\n\n### Explanation:\nThe sentence is a simple sentence in English. It does not contain any named entities. Therefore, the response is MISC: ASIAN CUP, GROUP C; ORG: none; PER: none. The sentence does not refer to any location. Therefore, the response is LOC: none."
+    },
+    {
+        "prompt": "AL-AIN , United Arab Emirates 1996-12-06",
+        "generated_response": "LOC: AL-AIN, United Arab Emirates; MISC: 1996-12-06; ORG: ; PER:  none.\n\n### Notes:\nLOC: AL-AIN, United Arab Emirates; MISC: 1996-12-06; ORG: none; PER: none."
+    },
+    {
+        "prompt": "Results of Asian Cup group C matches played on Friday :",
+        "generated_response": "MISC: Asian Cup, C; ORG: none; PER: none.\nLOC: none.\n\n### Explanation:\nThe Asian Cup is an ongoing tournament, so the MISC value is set to 'Asian Cup', and the ORG value is set to 'none' since there are no organizing bodies involved. The PER value is set to 'none' since there are no personal names mentioned in the sentence. The LOC value is set to 'none' since there is no location information provided in the sentence. \n\n### Source:\nThe Asian Cup is an ongoing tournament. \n\n### Notes:\nThe Asian Cup is an on"
+    },
+    {
+        "prompt": "Japan 2 Syria 1 ( halftime 0-1 )",
+        "generated_response": "LOC: Japan, Syria; MISC: halftime; ORG: none; PER: Syria, none.\n\n### Explanation:\nLOC: Location: Japan, Syria; MISC: Miscellaneous; ORG: none; PER: Syria, none."
+    },
+    {
+        "prompt": "Scorers :",
+        "generated_response": "LOC: Location; MISC: Miscellaneous; ORG: Organization; PER: Person: \nPER: \nGR: GR (Group of People ) \nMISC: GR \nORG: F.A.P.R. (Federazione Atletica Padova Ricreativa) \nPER: Bruno Brugger ( B. Brugger ) \nGROUP: GR \nF.A.P.R.: Federazione Atletica Padova Ricreativa"
+    },
+    {
+        "prompt": "Japan - Hassan Abbas 84 own goal , Takuya Takagi 88 .",
+        "generated_response": "LOC: Japan; MISC: own goal; ORG: none; PER: Hassan Abbas, Takuya Takagi."
+    },
+    {
+        "prompt": "Syria - Nader Jokhadar 7",
+        "generated_response": "LOC: Syria; MISC: Nader Jokhadar 7; ORG: none; PER: Nader Jokhadar 7.\n\n### Explanation:\nLOC: Syria is a location. MISC: Nader Jokhadar 7 is a miscellaneous term. ORG: none indicates that there is no organization mentioned in the sentence. PER: Nader Jokhadar 7 is a person name."
+    },
+    {
+        "prompt": "Attendance : 10,000 .",
+        "generated_response": "LOC: Olympic Stadium; MISC: Olympic; ORG: International Association of Athletics Federations; PER: Michael Johnson.\n\n### Comment:\nLOC: Olympic Stadium; MISC: Olympic; ORG: International Association of Athletics Federations; PER: Michael Johnson."
+    },
+    {
+        "prompt": "China 0 Uzbekistan 2 ( halftime 0-0 )",
+        "generated_response": "LOC: China, Uzbekistan; MISC: halftime; ORG: none; PER: China, Uzbekistan none 2."
+    },
+    {
+        "prompt": "Scorers : Shkvyrin Igor 78 , Shatskikh Oleg 90",
+        "generated_response": "LOC: Stadium: N/A; MISC: World Cup; ORG: none; PER: Shkvyrin Igor, Shatskikh Oleg 90.\n\n### Explanation:\nThis is a sentence from a football match in the World Cup tournament, so it is classified as MISC: World Cup. The ORG is none because there is no organising body mentioned in the sentence. The PER is Shkvyrin Igor and Shatskikh Oleg 90."
+    },
+    {
+        "prompt": "Attendence : 3,000",
+        "generated_response": "LOC: Location: MISC: \n\n### Explanation:\nLOC refers to the location of the event. MISC refers to the fact that the sentence is a response to a question about the number of people attending an event. ORG refers to the organization that is being mentioned. PER refers to the people involved in the event. \n\n### PER: \n3,000\n\n### ORG: \nMISC:"
+    },
+    {
+        "prompt": "Standings ( tabulate under played , won , drawn , lost , goals",
+        "generated_response": "LOC: Location; MISC: Miscellaneous; ORG: Organization; PER: Person; PER: [Joel, tabulate, won, drawn, lost, goals] \n\n### Explanation:\nLOC: Location (not applicable) MISC: Miscellaneous PER: Joel ORG: Person PER: [Joel] \n\n### Source:\nThe phrase 'Joel, Joel' is a PER name, referring to the same person. \n\n### Notes:\nThe phrase 'Joel, Joel' is a PER name, referring to the same person."
+    },
+    {
+        "prompt": "for , goals against , points ) :",
+        "generated_response": "LOC: Location; MISC: Miscellaneous; ORG: Organization; PER: Person"
+    },
+    {
+        "prompt": "Uzbekistan 1 1 0 0 2 0 3",
+        "generated_response": "LOC: Uzbekistan; MISC: PER: Uzbekistan 1; ORG: None; PER: 1.\n\n### Explanation:\nLOC: Uzbekistan - Location: Uzbekistan; MISC: PER: Uzbekistan 1 - PER: 1; ORG: None; PER: 2."
+    },
+    {
+        "prompt": "Japan 1 1 0 0 2 1 3",
+        "generated_response": "LOC: Japan; MISC: 1, Miscellaneous; ORG: 3; PER: 2, 1."
+    },
+    {
+        "prompt": "Syria 1 0 0 1 1 2 0",
+        "generated_response": "PER: Syria, 1, 0, 0, 1,"
+    },
+    {
+        "prompt": "China 1 0 0 1 0 2 0",
+        "generated_response": "LOC: China; MISC: 1, Miscellaneous; ORG: 0, Organization; PER: 0, 2, 2.\n\n### Explanation:\nLOC: China; MISC: 1 - Mis"
+    },
+    {
+        "prompt": "CRICKET - PAKISTAN V NEW ZEALAND ONE-DAY SCOREBOARD .",
+        "generated_response": "LOC: PAKISTAN, NEW ZEALAND; MISC: ONE-DAY; ORG: CRICKET; PER: CRICKET - PAKISTAN, NEW ZEALAND."
+    },
+    {
+        "prompt": "[ CORRECTED 14:06 GMT ]",
+        "generated_response": "LOC: GMT; MISC: CORRECTED; ORG: None; PER: GMT"
+    },
+    {
+        "prompt": "SIALKOT , Pakistan 1996-12-06",
+        "generated_response": "LOC: SIALKOT, Pakistan; MISC: 1996-12-06; ORG: none; PER: none \n\n### Explanation:\nLOC: SIALKOT, Pakistan - a location; MISC: 1996-12-06 - a date; ORG: none - no organization; PER: none - no person."
+    },
+    {
+        "prompt": "Scoreboard in the second",
+        "generated_response": "PER"
+    },
+    {
+        "prompt": "one-day cricket international between Pakistan and New Zealand",
+        "generated_response": "LOC: Pakistan, New Zealand; MISC: one-day cricket international; ORG: none; PER: none. \n\n### Explanation:\nLOC: Pakistan and New Zealand are locations of the cricket match. MISC: One-day cricket international is a type of cricket match. ORG: None, as the organizer is not specified. PER: None, as no person is mentioned."
+    },
+    {
+        "prompt": "on Friday :",
+        "generated_response": "LOC: Friday; MISC: ORG:; PER:"
+    },
+    {
+        "prompt": "Pakistan",
+        "generated_response": "LOC: Pakistan; MISC: Pakistan; ORG:; PER: none."
+    },
+    {
+        "prompt": "Saeed Anwar run out 91 ( corrects from 90 )",
+        "generated_response": "LOC: Calcutta; MISC: Calcutta; ORG: Board of Control for Cricket in India; PER: Saeed Anwar, Saeed Anwar."
+    },
+    {
+        "prompt": "Zahoor Elahi b Cairns 86 ( corrects from 87 )",
+        "generated_response": "LOC: Cairns; MISC: ORG:; PER: Zahoor Elahi b Cairns, Cairns; PER: Cairns"
+    },
+    {
+        "prompt": "Ijaz Ahmad c Spearman b Vaughan 59",
+        "generated_response": "LOC: Ijaz Ahmad, Spearman; MISC: b; ORG: Vaughan,; PER: Ijaz Ahmad, Vaughan 59."
+    },
+    {
+        "prompt": "Inzamamul Haq st Germon b Astle 2",
+        "generated_response": "LOC: Germon; MISC: PER: Inzamamul Haq, Astle; ORG: none; PER: Astle \n\n### Explanation:\nLOC: Germon is a location. MISC: PER: Inzamamul Haq, Astle; ORG: none; PER: Astle"
+    },
+    {
+        "prompt": "Wasim Akram b Harris 4",
+        "generated_response": "LOC: Umpire: Wasim Akram, Harris; ORG: Pakistan Cricket Board; PER: Wasim Akram, Harris 4.\n\nORG: Pakistan Cricket Board; PER: Wasim Akram, Harris, Harris 4."
+    },
+    {
+        "prompt": "Shahid Afridi b Harris 2",
+        "generated_response": "PER: Shahid Afridi, Harris; LOC:; MISC: Harris; ORG:;\n\n### Explanation:\nLOC: Harris; ORG:; PER: Shahid Afridi, Harris."
+    },
+    {
+        "prompt": "Moin Khan c Astle b Harris 1",
+        "generated_response": "PER: Moin Khan, Astle, Harris; LOC:; MISC:; ORG:;\n\n### Explanation:\nLOC:; MISC:; ORG:; PER: Moin Khan, Astle, Harris."
+    },
+    {
+        "prompt": "Waqar Younis st Germon b Harris 0",
+        "generated_response": "LOC: Germon; MISC: ORG: Cricket; PER: Waqar Younis, Harris; PER: Waqar Younis 0; ORG: none"
+    },
+    {
+        "prompt": "Saqlain Mushtaq b Harris 2",
+        "generated_response": "LOC: Saqlain Mushtaq, Harris; ORG: Pakistan Cricket Board; PER: Harris, Saqlain Mushtaq; MISC: Pakistan v England match."
+    },
+    {
+        "prompt": "Mushtaq Ahmad not out 5",
+        "generated_response": "PER: Mushtaq Ahmad; LOC:; MISC:; ORG:; \n\n### Explanation:\nPER: Mushtaq Ahmad is a person. LOC: does not refer to a location. MISC: does not refer to a miscellaneous category. ORG: does not refer to an organization."
+    },
+    {
+        "prompt": "Salim Malik not out 1",
+        "generated_response": "LOC: Wordsley; MISC: World Series Cricket; ORG: Pakistan Cricket Board; PER: Salim Malik, World Series Cricket. \n\n### Extra Info:\nMiscellaneous: World Series Cricket; Organization: Pakistan Cricket Board; Person: Salim Malik, World Series Cricket."
+    },
+    {
+        "prompt": "Extras ( lb-8 nb-2 w-14 ) 24",
+        "generated_response": "LOC: lb-8, nb-2, w-14; MISC: Extras; ORG: none; PER: none.\n\n### Explanation:\nLOC: Location: lb-8, nb-2, w-14; MISC: Extras is a type of MISC; ORG: none; PER: none."
+    },
+    {
+        "prompt": "Total ( for 9 wickets in 47 overs ) 277",
+        "generated_response": "LOC: Total; MISC: overs; ORG:; PER: 9 47 277"
+    },
+    {
+        "prompt": "Fall of wicket : 1-177 ( corrects from 1-178 ) 2-225 3-240 4-247 5-252 6-260 7-261 8-269 9-276",
+        "generated_response": "LOC: WORC (WORCester) MISC: COUNTY (COUNTY) ORG: ROYAL (ROYAL LEAGUE) PER: FALL (FALL OF WICKET) \n\n### Explanation:\nLOC: WORC (WORCester) - WORCester is a county in England MISC: COUNTY (COUNTY) - COUNTY is a miscellaneous term ORG: ROYAL (ROYAL LEAGUE) - ROYAL LEAGUE is a miscellaneous term PER: FALL (FALL OF WICKET) - FALL OF WICKET is a term"
+    },
+    {
+        "prompt": "Bowling : Doull 8-1-60-0 ( w-3 ) , Kennedy 3-0-24-0 ( w-7 nb-1 ) ,",
+        "generated_response": "LOC:; MISC: w-3, w-7 nb-1; ORG:; PER: Doull, Kennedy, w-7 nb-1"
+    },
+    {
+        "prompt": "Cairns 8-1-35-1 ( w-2 ) , Vaughan 9-1-55-1 , Harris 10-0-42-5 ( w-1 ) ,",
+        "generated_response": "LOC: Cairns; MISC: w-2, w-1; ORG:; PER: Cairns, Vaughan, Harris, Harris;\n\n### Explanation:\nLOC: Location: Cairns; MISC: Miscellaneous: w-2, w-1; ORG: Organization; PER: Person: Cairns, Vaughan, Harris, Harris."
+    },
+    {
+        "prompt": "Astle 9-0-53-1 ( w-1 nb-1 )",
+        "generated_response": "PER: Astle (Person)"
+    },
+    {
+        "prompt": "New Zealand innings",
+        "generated_response": "LOC: New Zealand; MISC: innings; ORG: none; PER: none \n\n### Explanation:\nLOC: New Zealand refers to the location of the event. MISC: innings refers to the type of event. ORG: none means that there is no organising body involved in the event. PER: none means that there are no individuals mentioned in the sentence."
+    },
+    {
+        "prompt": "B. Young c Moin Khan b Waqar 5",
+        "generated_response": "PER: B. Young, Moin Khan, Waqar; LOC:; MISC:; ORG:;\n\n### Explanation:\nLOC:; MISC:; ORG: Pakistan Cricket Board; PER: B. Young, Moin Khan, Waqar."
+    },
+    {
+        "prompt": "C. Spearman c Moin Khan b Wasim 0",
+        "generated_response": "LOC: Golf Club; MISC: World Cup; ORG: International Cricket Council, Pakistan Cricket Board; PER: C. Spearman, Moin Khan, Wasim."
+    },
+    {
+        "prompt": "A. Parore c Ijaz Ahmad b Saqlain 37",
+        "generated_response": "LOC: Umpire: A. Parore; ORG: Pakistan Cricket Board; PER: Ijaz Ahmad, Saqlain; MISC: Cricket match. \n\n### Explanation:\nLOC: The match is being played in Pakistan. ORG: The Pakistan Cricket Board is the governing body of Pakistani cricket. PER: The participants are A. Parore, Ijaz Ahmad and Saqlain. MISC: The event is a cricket match."
+    },
+    {
+        "prompt": "S. Fleming c and b Afridi 88",
+        "generated_response": "PER: S. Fleming, Afridi; LOC: Pakistan; ORG: World Cup; MISC: 1995 ICC World Cup; PER: Afridi."
+    },
+    {
+        "prompt": "C. Cairns b Saqlain 10",
+        "generated_response": "LOC: Wembley Stadium; MISC: Test match; ORG: England Cricket Board; PER: C. Cairns, Saqlain 10. \n\n### Explanation:\nLOC: Wembley Stadium - The location of the match. MISC: Test match - The type of match. ORG: England Cricket Board - The governing body of the game in England. PER: C. Cairns, Saqlain 10 - The two individuals involved in the match."
+    },
+    {
+        "prompt": "N. Astle c Ijaz Ahmad b Salim Malik 20",
+        "generated_response": "LOC: Golf Club; MISC: Test match; ORG: Pakistan Cricket Board; PER: N. Astle, Ijaz Ahmad, Salim Malik 20. \n\n### Type: ORG\n\nORG: Pakistan Cricket Board"
+    },
+    {
+        "prompt": "C. Harris lbw b Wasim 22",
+        "generated_response": "PER: C. Harris, Wasim; LOC:; MISC:; ORG:;\n\n### Explanation:\nPER: C. Harris refers to the person Christopher Harris; Wasim refers to the person Wasim; LOC: indicates that the event took place at a location; MISC: indicates that the event is miscellaneous; ORG: indicates that the event was organised by an organisation; PER: indicates that the event involved a person."
+    },
+    {
+        "prompt": "L. Germon lbw b Afridi 2",
+        "generated_response": "PER: L. Germon, Afridi; LOC: Afridi; ORG: none; MISC: none \n\n### Explanation:\nLOC: Afridi - the location of the match is not specified. ORG: none - there is no organising body mentioned. MISC: none - there are no miscellaneous details provided. PER: L. Germon, Afridi - the name of the person is L. Germon and Afridi is the name of the player."
+    },
+    {
+        "prompt": "J. Vaughan c Moin Khan b Wasim 13",
+        "generated_response": "PER: J. Vaughan, Moin Khan, Wasim; LOC:; MISC:; ORG:; PER: 13"
+    },
+    {
+        "prompt": "S. Doull c subs ( M. Wasim ) b Waqar 1",
+        "generated_response": "PER: S. Doull, M. Wasim, Waqar; LOC: ; MISC: ; ORG: ; PER: Waqar 1"
+    },
+    {
+        "prompt": "R. Kennedy not out 7",
+        "generated_response": "LOC: LOC; MISC: none; ORG: none; PER: R. Kennedy 7.\n\n### Explanation:\nLOC: Location: none; MISC: none; ORG: none; PER: R. Kennedy 7."
+    },
+    {
+        "prompt": "Extras ( b-9 lb-3 w-12 nb-2 ) 26",
+        "generated_response": "LOC: n/a; MISC: lb-3; ORG: n/a; PER: Extras, b-9, w-12, nb-2 26; PER: n/a \n\n### Explanation:\nLOC: No location information is provided. MISC: 'lb-3' indicates that the unit of measurement is pounds ( lb-3 ). ORG: No organization is mentioned. PER: 'Extras' is a type of team, 'b-9' is a number of players, 'w-12' is a number of games played, 'nb-2' is a number of batteries, and"
+    },
+    {
+        "prompt": "Total ( all out in 42.1 overs ) 231",
+        "generated_response": "LOC: Total ( all out in 42.1 overs ) ORG: Cricket Club MISC: PER: 231 \n\n### Explanation:\nLOC: Total ( all out in 42.1 overs ) - location of the match ORG: Cricket Club - the club where the match was played MISC: PER: 231 - the number of players who were out of the match"
+    },
+    {
+        "prompt": "Fall of wickets : 1-3 2-7 3-125 4-146 5-170 6-190 7-195",
+        "generated_response": "LOC: MISC: ORG: PER:\nLOC: \nMISC: \nORG: \nPER: 1-3, 2-7, 3-125, 4-146, 5-170, 6-190, 7-195"
+    },
+    {
+        "prompt": "8-213 9-216 .",
+        "generated_response": "PER: PER: \n\n### Explanation:\nPER: Person."
+    },
+    {
+        "prompt": "Bowling : Wasim Akram 8.1-0-43-3 ( 9w , 1nb ) , Waqar Younis",
+        "generated_response": "LOC: Pakistan; MISC: World Cup; ORG: Cricket; PER: Wasim Akram, Waqar Younis; PER: Wasim Akram, Waqar Younis."
+    },
+    {
+        "prompt": "6-0-32-2 ( 2w , 1nb ) , Saqlain Mushtaq 8-0-54-2 , Mushtaq Ahmad",
+        "generated_response": "LOC: England; MISC: England; ORG: Pakistan; PER: Saqlain Mushtaq, Mushtaq Ahmad; PER: Saqlain Mushtaq, Mushtaq Ahmad."
+    },
+    {
+        "prompt": "10-0-42-0 ( 1w ) , Shahid Afridi 7-0-40-2 , Salim Malik 2.5-0-8-1 ,",
+        "generated_response": "LOC: Shahid Afridi, Salim Malik; MISC: 1w; ORG: none; PER: Afridi, Salim Malik, Salim Malik, none.\n\n### Explanation:\nLOC: Location: 1w (1 week) ORG: none PER: Shahid Afridi, Salim Malik, Salim Malik, none."
+    },
+    {
+        "prompt": "Ijaz Ahmad 0.1-0-0-0 .",
+        "generated_response": "PER: Ijaz Ahmad; LOC:; MISC:; ORG:; PER:."
+    },
+    {
+        "prompt": "Result : Pakistan won by 46 runs .",
+        "generated_response": "LOC: Pakistan; MISC: Result; ORG: Cricket League; PER: Imran Khan.\n\n### Explanation:\nLOC: Pakistan refers to the location of the match. MISC: Result refers to the type of result of the match. ORG: Cricket League is the organization that is running the tournament. PER: Imran Khan is a person who is mentioned in the sentence as the captain of Pakistan."
+    },
+    {
+        "prompt": "Third one-day match : December 8 , in Karachi .",
+        "generated_response": "LOC: Karachi; MISC: Third; ORG:; PER:"
+    },
+    {
+        "prompt": "SOCCER - ENGLISH F.A. CUP SECOND ROUND RESULT .",
+        "generated_response": "MISC: ENGLISH F.A. CUP; ORG: ; PER: SOCCER. \n\n### Explanation:\nThe sentence refers to the English F.A. Cup second round results. Therefore, the MISC is ENGLISH F.A. CUP, the ORG is, and the PER is SOCCER."
+    },
+    {
+        "prompt": "LONDON 1996-12-06",
+        "generated_response": "LOC: LONDON; MISC: 1996-12-06; ORG: ; PER:"
+    },
+    {
+        "prompt": "Result of an English F.A. Challenge",
+        "generated_response": "LOC: English; MISC: F.A., Challenge; ORG:; PER:. \n\n### Explanation:\nLOC: English refers to the location of the match, F.A. is the Football Association, Challenge is a type of competition; ORG: is the organization of the match, PER: is the person(s) who participated in the match. \n\n### Source:\n\n### Notes:\nThe F.A. Challenge is a competition for amateur teams organised by the Football Association."
+    },
+    {
+        "prompt": "Cup second round match on Friday :",
+        "generated_response": "LOC: Cup; MISC: Friday; ORG: ; PER:"
+    },
+    {
+        "prompt": "Plymouth 4 Exeter 1",
+        "generated_response": "LOC: Plymouth; MISC: Devon; ORG: Rugby Football Union; PER: Exeter, Plymouth 4, Exeter 1 1.\n\n### Comment:\nLOC: Plymouth - refers to the location of the match; MISC: Devon - refers to the county where the teams are from; ORG: Rugby Football Union - is the governing body of the sport; PER: Exeter, Plymouth 4, Exeter 1 - refers to the teams involved in the match."
+    },
+    {
+        "prompt": "SOCCER - BLINKER BAN LIFTED .",
+        "generated_response": "LOC: BLINKER BAN LIFTED; ORG: ; PER: BLINKER BAN LIFTED. \n\n### Explanation:\nLOC: BLINKER BAN LIFTED - Location: BLINKER BAN LIFTED; ORG: ; PER: BLINKER BAN LIFTED. - MISC: BLINKER BAN LIFTED; ORG: ; PER: BLINKER BAN LIFTED."
+    },
+    {
+        "prompt": "LONDON 1996-12-06",
+        "generated_response": "LOC: LONDON; MISC: 1996-12-06; ORG: ; PER:"
+    },
+    {
+        "prompt": "Dutch forward Reggie Blinker had his indefinite suspension lifted by FIFA on Friday and was set to make his Sheffield Wednesday comeback against Liverpool on Saturday .",
+        "generated_response": "ORG: FIFA; PER: Reggie Blinker, Reggie Blinker."
+    },
+    {
+        "prompt": "Blinker missed his club 's last two games after FIFA slapped a worldwide ban on him for appearing to sign contracts for both Wednesday and Udinese while he was playing for Feyenoord .",
+        "generated_response": "ORG: Udinese; PER: Blinker, FIFA, FIFA, Feyenoord; MISC: FIFA; LOC: Udinese."
+    },
+    {
+        "prompt": "FIFA 's players ' status committee , meeting in Barcelona , decided that although the Udinese document was basically valid , it could not be legally protected .",
+        "generated_response": "LOC: Barcelona; MISC: FIFA; ORG: Udinese; PER: [Udinese document]; PER: [FIFA's players, FIFA ] \n\n### Explanation:\nLOC: Barcelona is a location. MISC: FIFA is an international football association. ORG: Udinese is an Italian football club. PER: Udinese document is a document issued by Udinese. PER: FIFA's players is a phrase referring to the players of FIFA."
+    },
+    {
+        "prompt": "The committee said the Italian club had violated regulations by failing to inform Feyenoord , with whom the player was under contract .",
+        "generated_response": "MISC: Italian; ORG: Feyenoord; PER: The committee; PER: with whom the player was under contract. \n\n### Explanation:\nThe sentence refers to a contract between two organisations, Feyenoord and an unnamed Italian club. The person involved in the contract is The committee."
+    },
+    {
+        "prompt": "Blinker was fined 75,000 Swiss francs ( $ 57,600 ) for failing to inform the Engllsh club of his previous commitment to Udinese .",
+        "generated_response": "ORG: Udinese; PER: Blinker, Udinese."
+    },
+    {
+        "prompt": "SOCCER - LEEDS ' BOWYER FINED FOR PART IN FAST-FOOD FRACAS .",
+        "generated_response": "LOC: LEEDS; MISC: FAST-FOOD; ORG: ; PER: BOWYER."
+    },
+    {
+        "prompt": "LONDON 1996-12-06",
+        "generated_response": "LOC: LONDON; MISC: 1996-12-06; ORG: ; PER:"
+    },
+    {
+        "prompt": "Leeds ' England under-21 striker Lee Bowyer was fined 4,500 pounds ( $ 7,400 ) on Friday for hurling chairs at restaurant staff during a disturbance at a McDonald 's fast-food restaurant .",
+        "generated_response": "LOC: England; MISC: McDonald's; ORG: Leeds; PER: Lee Bowyer, $ 7,400; PER: Lee Bowyer."
+    },
+    {
+        "prompt": "Bowyer , 19 , who was caught in the act by security cameras , pleaded guilty to a charge of affray at a court in London .",
+        "generated_response": "LOC: London; MISC: Bowyer; ORG: none; PER: Bowyer."
+    },
+    {
+        "prompt": "He was fined and ordered to pay a total of 175 pounds to two members of staff injured in the fracas in an east London restaurant in October .",
+        "generated_response": "LOC: London; MISC: east; ORG: 75; PER: 175, 2, 75 75 175 175 2 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75"
+    },
+    {
+        "prompt": "Leeds had already fined Bowyer 4,000 pounds ( $ 6,600 ) and warned him a repeat of his criminal behaviour could cost him his place in the side .",
+        "generated_response": "LOC: Leeds; MISC: $; ORG:; PER: Bowyer, 4000 pounds, 6600; PER: Bowyer. \n\n### Type: ORG\n\nORG: Leeds"
+    },
+    {
+        "prompt": "Bowyer , who moved to the Yorkshire club in August for 3.5 million pounds ( $ 5.8 million ) , was expected to play against Middlesbrough on Saturday .",
+        "generated_response": "ORG: Middlesbrough; PER: Bowyer, Bowyer."
+    },
+    {
+        "prompt": "BASKETBALL - EUROLEAGUE STANDINGS .",
+        "generated_response": "MISC: EUROLEAGUE; ORG: BASKETBALL; PER: STANDINGS. \n\n### Explanation:\nLOC: none; MISC: EUROLEAGUE; ORG: BASKETBALL; PER: STANDINGS."
+    },
+    {
+        "prompt": "LONDON 1996-12-06",
+        "generated_response": "LOC: LONDON; MISC: 1996-12-06; ORG: ; PER:"
+    },
+    {
+        "prompt": "Standings in the men 's EuroLeague",
+        "generated_response": "MISC: EuroLeague; ORG: F.C. Barcelona; PER: Mikhail Wright, Vassilis Spanoulis, Dejan Tomasevic.\nLOC: Barcelona."
+    },
+    {
+        "prompt": "basketball championship after Thursday 's matches ( tabulate under",
+        "generated_response": "LOC: LOC; MISC: MISC; ORG: ORG; PER: PER: \n\n### Explanation:\nLOC: Location: PER: Thursday; ORG: ORG: basketball championship; PER: PER:"
+    },
+    {
+        "prompt": "played , won , lost , points ) :",
+        "generated_response": "LOC: Location: MISC: Miscellaneous; ORG: Organization; PER: Person:"
+    },
+    {
+        "prompt": "Group A",
+        "generated_response": "LOC: Group; MISC: Location; ORG: International Basketball Association; PER: Commissioner David J. Stern.'\n\n### Explanation:\nORG: International Basketball Association; PER: Commissioner David J. Stern."
+    },
+    {
+        "prompt": "CSKA Moscow ( Russia 9 6 3 15",
+        "generated_response": "LOC: Russia; ORG: CSKA Moscow; PER: ( Russia )\n\n### Explanation:\nLOC: Russia - The sentence refers to a location in Russia. ORG: CSKA Moscow - CSKA Moscow is an organization name. PER: ( Russia ) - The sentence refers"
+    },
+    {
+        "prompt": "Stefanel Milan ( Italy ) 9 6 3 15",
+        "generated_response": "LOC: Italy; MISC: Stefanel; ORG: none; PER: Milan, Stefanel"
+    },
+    {
+        "prompt": "Maccabi Tel Aviv ( Israel ) 9 5 4 14",
+        "generated_response": "LOC: Israel; MISC:; ORG: Maccabi Tel Aviv; PER: 9 5 4 14; PER: Tel Aviv 9 5 4 14; ORG: Israel; MISC:; PER: Maccabi Tel Aviv; PER: Aviv 9 5 4 14; ORG: Israel; PER: Tel Aviv 9 5 4 14; PER: Aviv 9 5 4 14; ORG: Israel; PER: Maccabi Tel Aviv; PER: Aviv 9 5 4 14;"
+    },
+    {
+        "prompt": "Ulker Spor ( Turkey ) 9 4 5 13",
+        "generated_response": "LOC: Turkey; ORG: Ulker Spor; PER: Spor ( Turkey ) 9 4 5 13; MISC: ( Turkey ) 9 4 5 13; PER: Spor ( Spor ) 9 4 5 13; ORG: Ulker Spor; PER: Spor ( Spor ) 9 4 5 13; MISC: Spor ( Spor ) 9 4 5 13; ORG: Spor ( Spor ) 9 4 5 13; PER: Spor ( Spor ) 9 4 5 1"
+    },
+    {
+        "prompt": "Limoges ( France ) 9 3 6 12",
+        "generated_response": "LOC: France; MISC:; ORG: none; PER: Limoges, none.\n\n### Explanation:\nLOC: France - Location: France; MISC: none - Miscellaneous: none; ORG: none - Organization: none; PER: Limoges, none - Location: Limoges."
+    },
+    {
+        "prompt": "Panionios ( Greece ) 9 3 6 12",
+        "generated_response": "ORG: none; PER: none.\n\n### Explanation:\nORG: none - No organizations are mentioned in the sentence; PER: none - No people are mentioned in the sentence.\n\n### Source:\nMISC: Panionios, Greece\n\n### Date:\n2020-08-28"
+    },
+    {
+        "prompt": "Group B",
+        "generated_response": "LOC: Group B; MISC: ORG:; PER:"
+    },
+    {
+        "prompt": "Teamsystem Bologna ( Italy ) 9 7 2 16",
+        "generated_response": "LOC: Italy; ORG: Teamsystem Bologna; PER: 9 7 2 16; MISC: Italy; PER: Bologna; ORG: Teamsystem 16; PER: 7 2 9; MISC: Bologna; ORG: Teamsystem 16; PER: 9 7 2 16; PER: 7 2 9; MISC: Teamsystem 16; PER: 9 7 2 16; PER: 7 2 9; MISC: Teamsystem 16; PER: 9 7 2 1"
+    },
+    {
+        "prompt": "Olympiakos ( Greece ) 9 5 4 14",
+        "generated_response": "LOC: Greece; MISC: ORG: Olympiakos; PER: none; ORG: none; PER: none \n\n### Explanation:\nLOC: Greece - Location: Greece; MISC: ORG: Olympiakos - Organization: Olympiakos; PER: none; ORG: none; PER: none"
+    },
+    {
+        "prompt": "Cibona Zagreb ( Croatia ) 9 5 4 14",
+        "generated_response": "LOC: Croatia; MISC:; ORG: Cibona Zagreb; PER: 9 5 4 14.\n\n### Explanation:\nLOC: Croatia - Location: Croatia; MISC: none; ORG: Cibona Zagreb - Organization: Cibona Zagreb; PER: 9 5 4 14 - Total: 9 5 4 14."
+    },
+    {
+        "prompt": "Alba Berlin ( Germany ) 9 5 4 14",
+        "generated_response": "LOC: Germany; ORG: Alba Berlin; PER: ( Germany ) 9 5 4 14; MISC: (Miscellaneous) 14; PER: (Person) 9 5 4 14."
+    },
+    {
+        "prompt": "Estudiantes Madrid ( Spain ) 9 5 4 14",
+        "generated_response": "LOC: Spain; ORG: Estudiantes Madrid; PER: 9 5 4 14; MISC: Spain ( country ) \n\n### Explanation:\nLOC: Spain - Location: Spain; ORG: Estudiantes Madrid - Organization: Estudiantes Madrid; PER: 9 5 4 14; MISC: Spain ( country ) - Miscellaneous: Spain ( country )"
+    },
+    {
+        "prompt": "Charleroi ( Belgium ) 9 0 9 9",
+        "generated_response": "LOC: Charleroi, Belgium; MISC: Belgium; ORG: none; PER: 9 0 9 9.\n\n### Explanation:\nLOC: Location: Charleroi, Belgium; MISC: Belgium; ORG: none; PER: 9 (as a location), 9 (as a team), 9 (as a result of a game) 9 (as a total )."
+    },
+    {
+        "prompt": "Group C",
+        "generated_response": "LOC: Group C; MISC: ORG:; PER: none.\n\n### Explanation:\nLOC: Group C refers to the location of the event. MISC: ORG: indicates that the event is related to an organization. PER: none means that there are no personal names mentioned in the sentence."
+    },
+    {
+        "prompt": "Panathinaikos ( Greece ) 9 7 2 16",
+        "generated_response": "LOC: Greece; ORG: Panathinaikos; PER: none.\n\n### Explanation:\nLOC: Greece is a location. ORG: Panathinaikos is an organization. PER: none is a person."
+    },
+    {
+        "prompt": "Ljubljana ( Slovenia ) 9 6 3 15",
+        "generated_response": "LOC: Slovenia; MISC:; ORG: none; PER: Ljubljana, none \n\n### Explanation:\nLOC: Slovenia is a location. MISC: none. ORG: none. PER: Ljubljana, none."
+    },
+    {
+        "prompt": "Villeurbanne ( France ) 9 6 3 15",
+        "generated_response": "LOC: France; MISC: Villeurbanne; ORG: none; PER: none.\n\n### Explanation:\nLOC: France is a country location. MISC: Villeurbanne is a location. ORG: none, the sentence does not refer to any organization. PER: none, the sentence does not refer to any person."
+    },
+    {
+        "prompt": "Barcelona ( Spain ) 9 4 5 13",
+        "generated_response": "LOC: Barcelona, Spain; MISC:; ORG:; PER: 9 4 5 13 \n\n### Explanation:\nLOC: Barcelona, Spain - Location\nMISC: - Miscellaneous\nORG: - Organization\nPER: 9 4 5 13 - Person"
+    },
+    {
+        "prompt": "Split ( Croatia ) 9 4 5 13",
+        "generated_response": "LOC: Split ( Croatia ); MISC: Croatia; ORG: none; PER: 9 4 5 13.\n\n### Explanation:\nLOC: Split ( Croatia ) - Location"
+    },
+    {
+        "prompt": "Bayer Leverkusen ( Germany ) 9 0 9 9",
+        "generated_response": "LOC: Germany; ORG: Bayer Leverkusen; PER: none; MISC: none; PER: none \n\n### Explanation:"
+    },
+    {
+        "prompt": "Group D",
+        "generated_response": "LOC: Group D; MISC: ORG, PER: none \n\n### Explanation:\nLOC: Group D refers to the location of the event. MISC: ORG"
+    },
+    {
+        "prompt": "Efes Pilsen ( Turkey ) 9 7 2 16",
+        "generated_response": "LOC: Turkey; MISC: Pilsen; ORG: Efes; PER: Turkey 9 7 2 16; PER: Turkey\n\n### Explanation:\nLOC: Location: Turkey; MISC:"
+    },
+    {
+        "prompt": "Pau-Orthez ( France ) 9 5 4 14",
+        "generated_response": "LOC: France; MISC: Pau-Orthez; ORG: none; PER: none.\n\n### Explanation:\nLOC: France indicates that the location of the event is in France. MISC: Pau-Orthez is a miscellaneous location. ORG: none indicates that there is no organizing committee. PER: none indicates that there are no individuals mentioned in the sentence."
+    },
+    {
+        "prompt": "Partizan Belgrade ( Yugoslavia ) 9 5 4 14",
+        "generated_response": "LOC: Yugoslavia; MISC: Partizan Belgrade; ORG: none; PER: none.\n\n### Explanation:\nLOC: Yugoslavia is a country location. MISC: Partizan Belgrade is a club location. ORG: none is an organization. PER: none is a person."
+    },
+    {
+        "prompt": "Kinder Bologna ( Italy ) 9 4 5 13",
+        "generated_response": "LOC: Italy; MISC: Kinder Bologna; ORG: none; PER: none.\n\n### Explanation:\nLOC: Italy - Location: Italy; MISC: Kinder Bologna - Organization: Kinder Bologna; ORG: none; PER: none."
+    },
+    {
+        "prompt": "Sevilla ( Spain ) 9 4 5 13",
+        "generated_response": "LOC: Sevilla, Spain; MISC:; ORG:; PER: 9 4 5 13 13.\n\n### Explanation:\nLOC: Sevilla, Spain; MISC: none; ORG: none; PER: 9 4 5 13 13."
+    },
+    {
+        "prompt": "Dynamo Moscow ( Russia ) 9 2 7 11",
+        "generated_response": "LOC: Russia; MISC: Dynamo Moscow; ORG: Russia; PER: Russia.\n\n### Explanation:\nLOC: Russia - Location: Russia; MISC: Dynamo Moscow - Firm name: Dynamo Moscow; ORG: Russia - Country: Russia; PER: Russia - Location: Russia."
+    },
+    {
+        "prompt": "RUGBY UNION - LITTLE TO MISS CAMPESE FAREWELL .",
+        "generated_response": "LOC: UNION; MISC: FAREWELL; ORG: RUGBY; PER: CAMPESE, CAMPESE; PER: LITTLE \n\n### Explanation:\nLOC: UNION - Union refers to the sport of rugby; MISC: FAREWELL - This is a sentence of farewell; ORG: RUGBY - RUGBY is an organization; PER: CAMPESE, CAMPESE - CAMPESE is a name of a person; PER: LITTLE - LITTLE is a name of a person."
+    },
+    {
+        "prompt": "Robert Kitson",
+        "generated_response": "PER: Robert Kitson LOC:"
+    },
+    {
+        "prompt": "LONDON 1996-12-06",
+        "generated_response": "LOC: LONDON; MISC: 1996-12-06; ORG: ; PER:"
+    },
+    {
+        "prompt": "Centre Jason Little will miss Australia 's end-of-tour fixture against the Barbarians at Twickenham on Saturday .",
+        "generated_response": "LOC: Australia, Twickenham; MISC: Barbarians; ORG:; PER: Jason Little; PER:; \n\n### Explanation:\nLOC: Location: Australia, Twickenham; MISC: Miscellaneous; ORG: Barbarians; PER: Jason Little; PER:;"
+    },
+    {
+        "prompt": "Little has opted not to risk aggravating the knee injury which ruled him out of a large chunk of the tour and is replaced by fellow Queenslander Daniel Herbert .",
+        "generated_response": "LOC: Queensland; MISC: tour; ORG: Little; PER: Daniel Herbert; PER: Herbert \n\n### Explanation:\nLOC: Location: Queensland; MISC: Miscellaneous; ORG: Little; PER: Person: Daniel Herbert, Herbert"
+    },
+    {
+        "prompt": "Owen Finegan has recovered from the knocks he took in last weekend 's test against Wales and retains his place in the back-row ahead of Daniel Manu .",
+        "generated_response": "LOC: Wales; MISC: test; ORG:; PER: Owen Finegan, Daniel Manu, Owen Finegan.\n\n### Type: PER\n\n### Dimensions:\nLOC: Wales; MISC: test; ORG:; PER: Owen Finegan, Daniel Manu, Owen Finegan."
+    },
+    {
+        "prompt": "The Wallabies have their sights set on a 13th successive victory to end their European tour with a 100 percent record but also want to turn on the style and provide David Campese with a fitting send-off in his final match in Australian colours .",
+        "generated_response": "ORG: Wallabies."
+    },
+    {
+        "prompt": "The Wallabies currently have no plans to make any special presentation to the 34-year-old winger but a full house of 75,000 spectators will still gather in the hope of witnessing one last moment of magic .",
+        "generated_response": "LOC: The Wallabies; MISC: 34-year-old; ORG: none; PER: 75,000"
+    },
+    {
+        "prompt": "Campese will be up against a familiar foe in the shape of Barbarians captain Rob Andrew , the man who kicked Australia to defeat with a last-ditch drop-goal in the World Cup quarter-final in Cape Town .",
+        "generated_response": "ORG: Australia, Barbarians; PER: Rob Andrew, Campese; PER: Australia 2:3 Barbarians 34:19."
+    },
+    {
+        "prompt": "\" Campo has a massive following in this country and has had the public with him ever since he first played here in 1984 , \" said Andrew , also likely to be making his final Twickenham appearance .",
+        "generated_response": "LOC: Twickenham; MISC: final; ORG: Argentina; PER: Campo, Andrew; PER: Campo, Andrew."
+    },
+    {
+        "prompt": "On tour , Australia have won all four tests against Italy , Scotland , Ireland and Wales , and scored 414 points at an average of almost 35 points a game .",
+        "generated_response": "LOC: Australia, Italy, Scotland, Ireland, Wales; MISC: tour; ORG: Australia, Ireland, Wales; PER: Italy, Scotland, Ireland, Wales"
+    }
+]

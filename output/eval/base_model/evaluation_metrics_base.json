@@ -1,0 +1,121 @@
+{
+    "precision": 0.12195121951219512,
+    "recall": 0.09828009828009827,
+    "f1": 0.108843537414966,
+    "classification_report": {
+        "* LOC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "* LOCATION": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "* MISC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "* MISC (MISCELLANEOUS)": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "* MISCELLANEOUS": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "* ORG": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "* PER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "* PERSON": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "1. LOC (LOCATION)": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "2. MISC (MISCELLANEOUS)": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "2. PER (PERSON)": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "3. ORG (ORGANIZATION)": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "LOC": {
+            "precision": 0.5806451612903226,
+            "recall": 0.13846153846153847,
+            "f1-score": 0.2236024844720497,
+            "support": 130
+        },
+        "MISC": {
+            "precision": 0.06060606060606061,
+            "recall": 0.05714285714285714,
+            "f1-score": 0.05882352941176471,
+            "support": 35
+        },
+        "ORG": {
+            "precision": 0.15789473684210525,
+            "recall": 0.061224489795918366,
+            "f1-score": 0.08823529411764705,
+            "support": 49
+        },
+        "PER": {
+            "precision": 0.85,
+            "recall": 0.08808290155440414,
+            "f1-score": 0.1596244131455399,
+            "support": 193
+        },
+        "micro avg": {
+            "precision": 0.12195121951219512,
+            "recall": 0.09828009828009827,
+            "f1-score": 0.108843537414966,
+            "support": 407
+        },
+        "macro avg": {
+            "precision": 0.10307162242115553,
+            "recall": 0.021556986684669883,
+            "f1-score": 0.033142857571687584,
+            "support": 407
+        },
+        "weighted avg": {
+            "precision": 0.6127565729587646,
+            "recall": 0.09828009828009827,
+            "f1-score": 0.16279652987624602,
+            "support": 407
+        }
+    }
+}

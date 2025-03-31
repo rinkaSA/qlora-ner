@@ -1,0 +1,67 @@
+{
+    "precision": 0.4918032786885246,
+    "recall": 0.36855036855036855,
+    "f1": 0.4213483146067416,
+    "classification_report": {
+        "LOC": {
+            "precision": 0.5,
+            "recall": 0.3384615384615385,
+            "f1-score": 0.4036697247706422,
+            "support": 130
+        },
+        "MISC": {
+            "precision": 0.1951219512195122,
+            "recall": 0.22857142857142856,
+            "f1-score": 0.21052631578947367,
+            "support": 35
+        },
+        "ORG": {
+            "precision": 0.35,
+            "recall": 0.14285714285714285,
+            "f1-score": 0.20289855072463767,
+            "support": 49
+        },
+        "PER": {
+            "precision": 0.5947712418300654,
+            "recall": 0.47150259067357514,
+            "f1-score": 0.5260115606936416,
+            "support": 193
+        },
+        "THE SENTENCE IS A SIMPLE SENTENCE IN ENGLISH. IT DOES NOT CONTAIN ANY NAMED ENTITIES. THEREFORE, THE RESPONSE IS MISC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "THE SENTENCE REFERS TO A SYRIAN TEAM OR ORGANISATION, BUT DOES NOT MENTION ANY PERSON OR PER. THEREFORE, THE RESPONSE IS MISC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "THE SENTENCE REFERS TO THE FIDE WORLD CHESS CUP, SO THE RESPONSE IS MISC": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "micro avg": {
+            "precision": 0.4918032786885246,
+            "recall": 0.36855036855036855,
+            "f1-score": 0.4213483146067416,
+            "support": 407
+        },
+        "macro avg": {
+            "precision": 0.23427045614993963,
+            "recall": 0.16877038579481216,
+            "f1-score": 0.19187230742548506,
+            "support": 407
+        },
+        "weighted avg": {
+            "precision": 0.5006636805058613,
+            "recall": 0.36855036855036855,
+            "f1-score": 0.42090355152873504,
+            "support": 407
+        }
+    }
+}
