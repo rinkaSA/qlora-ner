@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --job-name=qlora_training
 #SBATCH --nodes=1
-#SBATCH --output=logs/qlora_training_%j.out
-#SBATCH --error=logs/qlora_training_%j.err
+#SBATCH --output=logs/qlora_training_enetitytypesprompt%j.out
+#SBATCH --error=logs/qlora_training_entitytypesprompt%j.err
 #SBATCH --partition=alpha            
 #SBATCH --gres=gpu:1          
 #SBATCH --time=05:00:00            
@@ -17,10 +17,12 @@
 
 #source /data/horse/ws/irve354e-uniNer_test/qlora-ner/qlora-ner/.env
 
-nvidia-smi --query-gpu=timestamp,utilization.gpu,utilization.memory,temperature.gpu --format=csv -l 5 > output/gpu_usage_4.log &
+nvidia-smi --query-gpu=timestamp,utilization.gpu,utilization.memory,temperature.gpu --format=csv -l 5 > output/gpu_usage_10-newprompt.log &
 gpu_log_pid=$!
 
-singularity run --nv -B /data/horse/ws/irve354e-uniNer_test/qlora-ner/qlora-ner:/workspace lora-train.sif
+singularity run --nv -B /data/horse/ws/irve354e-uniNer_test/qlora-ner/qlora-ner:/workspace lora-train-eval.sif /opt/venv/bin/python src/quantize_train.py
+# for verbose container logs
+#singularity run --debug --nv -B /data/horse/ws/irve354e-uniNer_test/qlora-ner/qlora-ner:/workspace lora-train-eval.sif /opt/venv/bin/python src/quantize_train.py
 
 #python src/quantize_train.py
 kill $gpu_log_pid
