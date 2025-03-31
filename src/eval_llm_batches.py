@@ -11,6 +11,7 @@ from dotenv import load_dotenv
 from huggingface_hub import login
 import numpy as np
 import re
+import ast
 
 def np_encoder(obj):
     if isinstance(obj, np.integer):
@@ -26,22 +27,35 @@ def parse_response(response_text):
     """
     Parses the generated response to extract entity mentions in a consistent format.
     
-    It handles two formats:
-      1. Base model format:
-         "LOC - China
-          MISC - newcomers
-          ORG - Uzbekistan
-          PER - none"
-          
-      2. PEFT model format:
-         "LOC: Damascus; MISC: Syrian; ORG: Baath Party; PER: Nadim Ladki."
-          
-    Returns:
-      A dictionary mapping entity types ("LOC", "MISC", "ORG", "PER") to lists of entity mentions.
-      Lines where the entity value is "none" are skipped.
-    """
-    entities = {}
+    It handles two cases:
+      1. If the response is already a dictionary-like string (e.g. 
+         "{'MISC': ['German', 'British'], 'ORG': ['European Commission']}")
+         it is parsed using ast.literal_eval.
+      2. Otherwise, it handles the line-based formats:
+         - Base model format: "LOC - China\nMISC - newcomers\nORG - Uzbekistan\nPER - none"
+         - PEFT model format: "LOC: Damascus; MISC: Syrian; ORG: Baath Party; PER: Nadim Ladki."
     
+    Returns a dictionary mapping entity types ("LOC", "MISC", "ORG", "PER") to lists of entity mentions.
+    """
+    stripped = response_text.strip()
+    if stripped.startswith("{") and stripped.endswith("}"):
+        try:
+            parsed = ast.literal_eval(stripped)
+            if isinstance(parsed, dict):
+
+                new_dict = {}
+                for k, v in parsed.items():
+                    key = k.strip().upper()
+                    if isinstance(v, str):
+                        v = [x.strip() for x in v.split(",") if x.strip()]
+                    elif isinstance(v, list):
+                        v = [str(x).strip() for x in v]
+                    new_dict[key] = v
+                return new_dict
+        except Exception as e:
+            pass
+
+    entities = {}
     if "\n" in response_text:
         lines = response_text.strip().splitlines()
     elif ";" in response_text:
@@ -74,6 +88,7 @@ def parse_response(response_text):
                 entities[entity_type] = mentions
                 
     return entities
+
 
 
 def get_bio_tags(sentence, entities):
@@ -133,8 +148,23 @@ def evaluate_ner_pipeline_conll03(model, tokenizer, test_dataset, label_list, ma
     for example in tqdm(test_dataset, desc="Evaluating CoNLL03"):
         sentence = " ".join(example["tokens"])
         gold_tags = [label_list[tag] for tag in example["ner_tags"]]
+        # used for first training but basically  useless...
         #prompt = f"### Instruction:\nExtract named entities from the sentence: '{sentence}'\n\n### Response:"
-        prompt = f"### Instruction:\nYou are an expert of natural language processing annotation, given a sentence, you are going to identify and classify each named entity according to its type: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).: '{sentence}'\n\n### Response:"
+        # 1 st type of prompt
+        '''
+        prompt = f"### Instruction:\nYou are an expert of natural language processing annotation, given a sentence, you are going to identify and classify each named entity according to its type: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person). Use abbreviations.: '{sentence}'\n\n### Response:"
+        # 2nd type few shot
+        '''
+        prompt = ("### Instruction:\n You are an expert in natural language processing annotation. Given a sentence, "
+        "identify and classify each named entity into one of the following types: "
+        "LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).\n\n"
+        "For example, consider the sentence:\n"
+        "'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'\n\n"
+        "Expected output: {'MISC': ['Brazilian'], 'PER': ['Antonio Kandir'], 'ORG': ['Congress']}\n\n"
+        f"Now, given the sentence: {sentence}\n\n### Response:")
+        
+        
+        
 
         prompts_batch.append(prompt)
         gold_sentences_batch.append((sentence, gold_tags))
@@ -196,7 +226,7 @@ def evaluate_ner_pipeline_conll03(model, tokenizer, test_dataset, label_list, ma
 
 def main():
     experiment_name = "QLoRA_Evaluation"
-    run_name = "Evaluation_Run_base_model"
+    run_name = "Evaluation_Run_trained_fewshot"
     load_dotenv()
     token = os.getenv("HUGGINGFACE_HUB_TOKEN")
     if token:
@@ -225,21 +255,21 @@ def main():
         )
         base_model.eval()
         # load the fine-tuned adapter LoRA into the base model
-        #model = PeftModel.from_pretrained(base_model, "./output/qlora-ner-output-10/checkpoint-8770")
-        #model.eval()
-        #model = model.merge_and_unload()
+        model = PeftModel.from_pretrained(base_model, "./output/qlora-ner-output-10-fewshot/checkpoint-7018")
+        model.eval()
+        model = model.merge_and_unload()
 
         test_dataset = load_dataset("conll2003", split="test", trust_remote_code=True).select(range(200))
         label_list = test_dataset.features["ner_tags"].feature.names
 
-        metrics, generated_results = evaluate_ner_pipeline_conll03(base_model, tokenizer, test_dataset, label_list, batch_size=8)
+        metrics, generated_results = evaluate_ner_pipeline_conll03(model, tokenizer, test_dataset, label_list, batch_size=8)
         print("Evaluation Metrics:")
 
-        metrics_filename = "output/eval/evaluation_metrics_base.json"
+        metrics_filename = "output/eval/trained_prompt_fewshot/evaluation_metrics_base.json"
         with open(metrics_filename, "w") as f:
             json.dump(metrics, f, indent=4, default=np_encoder)
 
-        responses_filename = "output/eval/llm_generated_responses_base.json"
+        responses_filename = "output/eval/trained_prompt_fewshot/llm_generated_responses_base.json"
         with open(responses_filename, "w") as f:
             json.dump(generated_results, f, indent=4, default=np_encoder)
 
