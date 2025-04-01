@@ -25,36 +25,45 @@ def np_encoder(obj):
     
 def parse_response(response_text):
     """
-    Parses the generated response to extract entity mentions in a consistent format.
+    Parses the generated response to extract entity mentions.
     
-    It handles two cases:
-      1. If the response is already a dictionary-like string (e.g. 
-         "{'MISC': ['German', 'British'], 'ORG': ['European Commission']}")
-         it is parsed using ast.literal_eval.
-      2. Otherwise, it handles the line-based formats:
-         - Base model format: "LOC - China\nMISC - newcomers\nORG - Uzbekistan\nPER - none"
-         - PEFT model format: "LOC: Damascus; MISC: Syrian; ORG: Baath Party; PER: Nadim Ladki."
+    It first checks if the response begins with a dictionary-like structure (e.g. 
+    "{'LOC': ['JAPAN', 'CHINA']}") and, if so, extracts that dictionary (ignoring any extra text).
+    Otherwise, it falls back to line-based parsing.
     
     Returns a dictionary mapping entity types ("LOC", "MISC", "ORG", "PER") to lists of entity mentions.
     """
     stripped = response_text.strip()
-    if stripped.startswith("{") and stripped.endswith("}"):
-        try:
-            parsed = ast.literal_eval(stripped)
-            if isinstance(parsed, dict):
-
-                new_dict = {}
-                for k, v in parsed.items():
-                    key = k.strip().upper()
-                    if isinstance(v, str):
-                        v = [x.strip() for x in v.split(",") if x.strip()]
-                    elif isinstance(v, list):
-                        v = [str(x).strip() for x in v]
-                    new_dict[key] = v
-                return new_dict
-        except Exception as e:
-            pass
-
+    # If the response starts with "{", attempt to extract the dictionary portion.
+    if stripped.startswith("{"):
+        bracket_count = 0
+        end_index = None
+        for i, char in enumerate(stripped):
+            if char == '{':
+                bracket_count += 1
+            elif char == '}':
+                bracket_count -= 1
+                if bracket_count == 0:
+                    end_index = i
+                    break
+        if end_index is not None:
+            dict_part = stripped[:end_index+1]
+            try:
+                parsed = ast.literal_eval(dict_part)
+                if isinstance(parsed, dict):
+                    new_dict = {}
+                    for k, v in parsed.items():
+                        key = k.strip().upper()
+                        if isinstance(v, str):
+                            v = [x.strip() for x in v.split(",") if x.strip()]
+                        elif isinstance(v, list):
+                            v = [str(x).strip() for x in v]
+                        new_dict[key] = v
+                    return new_dict
+            except Exception:
+                pass  # Fall back to line-based parsing if ast.literal_eval fails.
+    
+    # Fallback: line-based parsing.
     entities = {}
     if "\n" in response_text:
         lines = response_text.strip().splitlines()
@@ -62,7 +71,7 @@ def parse_response(response_text):
         lines = [part.strip() for part in response_text.split(";") if part.strip()]
     else:
         lines = response_text.strip().splitlines()
-
+        
     for line in lines:
         if " - " in line:
             parts = line.split(" - ", 1)
@@ -76,7 +85,6 @@ def parse_response(response_text):
         raw_entity_type, entity_value = parts
         entity_type = raw_entity_type.split(":")[0].split("-")[0].strip().upper()
         entity_value = entity_value.strip().rstrip(".")
-        
         if entity_value.lower() == "none":
             continue
 
@@ -86,8 +94,8 @@ def parse_response(response_text):
                 entities[entity_type].extend(mentions)
             else:
                 entities[entity_type] = mentions
-                
     return entities
+
 
 
 
@@ -265,11 +273,11 @@ def main():
         metrics, generated_results = evaluate_ner_pipeline_conll03(model, tokenizer, test_dataset, label_list, batch_size=8)
         print("Evaluation Metrics:")
 
-        metrics_filename = "output/eval/trained_prompt_fewshot/evaluation_metrics_base.json"
+        metrics_filename = "output/eval/trained_prompt_fewshot/evaluation_metrics.json"
         with open(metrics_filename, "w") as f:
             json.dump(metrics, f, indent=4, default=np_encoder)
 
-        responses_filename = "output/eval/trained_prompt_fewshot/llm_generated_responses_base.json"
+        responses_filename = "output/eval/trained_prompt_fewshot/llm_generated_responses.json"
         with open(responses_filename, "w") as f:
             json.dump(generated_results, f, indent=4, default=np_encoder)
 
