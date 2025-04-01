@@ -1,0 +1,55 @@
+{
+    "precision": 0.9331306990881459,
+    "recall": 0.7542997542997543,
+    "f1": 0.8342391304347826,
+    "classification_report": {
+        "LOC": {
+            "precision": 0.944,
+            "recall": 0.9076923076923077,
+            "f1-score": 0.9254901960784314,
+            "support": 130
+        },
+        "MISC": {
+            "precision": 0.7037037037037037,
+            "recall": 0.5428571428571428,
+            "f1-score": 0.6129032258064516,
+            "support": 35
+        },
+        "ORG": {
+            "precision": 0.9117647058823529,
+            "recall": 0.6326530612244898,
+            "f1-score": 0.746987951807229,
+            "support": 49
+        },
+        "PER": {
+            "precision": 0.9858156028368794,
+            "recall": 0.7202072538860104,
+            "f1-score": 0.8323353293413173,
+            "support": 193
+        },
+        "THE SENTENCE IDENTIFIES FOUR NAMED ENTITIES": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0
+        },
+        "micro avg": {
+            "precision": 0.9331306990881459,
+            "recall": 0.7542997542997543,
+            "f1-score": 0.8342391304347826,
+            "support": 407
+        },
+        "macro avg": {
+            "precision": 0.7090568024845872,
+            "recall": 0.5606819531319902,
+            "f1-score": 0.6235433406066859,
+            "support": 407
+        },
+        "weighted avg": {
+            "precision": 0.9392838121999572,
+            "recall": 0.7542997542997543,
+            "f1-score": 0.8329446353681826,
+            "support": 407
+        }
+    }
+}
