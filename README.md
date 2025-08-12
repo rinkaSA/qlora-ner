@@ -1,113 +1,204 @@
-# QLoRA-NER Project Overview
+# QLoRA-NER Project: Enhancing Named Entity Recognition with Quantized LoRA
 
-## Training Workflow
+## Executive Summary
 
-Based on paper: https://arxiv.org/pdf/2305.14314
+This project demonstrates how Quantized Low-Rank Adaptation (QLoRA) training can dramatically improve performance on Named Entity Recognition (NER) tasks when applied to Large Language Models. Using LLaMA-2 7B chat model, we achieved:
 
-- **Data & Preprocessing:**
-  - Dataset: `datasets/ner_instruct_data.json`
-  - Each example is preprocessed to combine an instruction and a structured response into a single text prompt using the true labels of train dataset partition.
-  
+- **83.4% F1 score** with QLoRA fine-tuning + few-shot prompting
+- **59.0% F1 score** with QLoRA fine-tuning + basic prompting
+- **24.8% F1 score** with few-shot prompting only (no fine-tuning)
+- **10.9% F1 score** baseline (no fine-tuning, basic prompting)
+
+These results clearly demonstrate that combining QLoRA fine-tuning with effective prompt engineering yields the best performance on NER tasks, significantly outperforming either technique alone.
+
+## Project Overview
+
+This project is based on the QLoRA approach introduced in the paper: [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/pdf/2305.14314)
+
+Our goal was to demonstrate that QLoRA training (quantized LoRA adapters training) for LLaMA-2 7B chat model can significantly increase the F1 score on Named Entity Recognition tasks.
+
+## Study Design
+
+We implemented QLoRA training using:
+- **Dataset**: CoNLL-03 (train split for fine-tuning, test split for evaluation)
+- **Base Model**: LLaMA-2 7B chat
+- **Task**: Named Entity Recognition (LOC, MISC, ORG, PER entity types)
+
+### Prompt Engineering
+
+We experimented with two different prompting strategies:
+
+1. **Basic Prompt**:
+   ```
+   You are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).
+   ```
+
+2. **Few-Shot Prompt**:
+   ```
+   You are an expert in natural language processing annotation. Given a sentence, identify and classify each named entity into one of the following types: LOC (Location), MISC (Miscellaneous), ORG (Organization), or PER (Person).
+
+   For example, consider the sentence:
+   'Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday, a ministry spokeswoman said.'
+
+   Expected output: {'MISC': ['Brazilian'], 'PER': ['Antonio Kandir'], 'ORG': ['Congress']}
+
+   Now, given the sentence: {}
+   ```
+
+## Experimental Results
+
+### 1. Base Model (No Fine-tuning, Basic Prompt)
+
+| Category | Precision | Recall | F1-Score | Support |
+|----------|-----------|--------|----------|---------|
+| Overall  | 0.122     | 0.098  | 0.109    | -       |
+| LOC      | 0.581     | 0.138  | 0.224    | 130     |
+| MISC     | 0.061     | 0.057  | 0.059    | 35      |
+| ORG      | 0.158     | 0.061  | 0.088    | 49      |
+| PER      | 0.850     | 0.088  | 0.160    | 193     |
+
+### 2. Fine-tuning with Basic Prompt
+
+| Category | Precision | Recall | F1-Score | Support |
+|----------|-----------|--------|----------|---------|
+| Overall  | 0.646     | 0.543  | 0.590    | -       |
+| LOC      | 0.816     | 0.477  | 0.602    | 130.0   |
+| MISC     | 0.238     | 0.143  | 0.179    | 35.0    |
+| ORG      | 0.579     | 0.449  | 0.506    | 49.0    |
+| PER      | 0.706     | 0.684  | 0.695    | 193.0   |
+
+### 3. Fine-tuning with Few-Shot Prompt
+
+| Category | Precision | Recall | F1-Score | Support |
+|----------|-----------|--------|----------|---------|
+| Overall  | 0.933     | 0.754  | 0.834    | -       |
+| LOC      | 0.944     | 0.908  | 0.925    | 130.0   |
+| MISC     | 0.704     | 0.543  | 0.613    | 35.0    |
+| ORG      | 0.912     | 0.633  | 0.747    | 49.0    |
+| PER      | 0.986     | 0.720  | 0.832    | 193.0   |
+
+### 4. Base Model with Few-Shot Prompt (No Fine-tuning)
+
+| Category | Precision | Recall | F1-Score | Support |
+|----------|-----------|--------|----------|---------|
+| Overall  | 0.232     | 0.265  | 0.248    | -       |
+| LOC      | 0.388     | 0.254  | 0.307    | 130.0   |
+| MISC     | 0.061     | 0.400  | 0.106    | 35.0    |
+| ORG      | 0.135     | 0.102  | 0.116    | 49.0    |
+| PER      | 0.487     | 0.290  | 0.364    | 193.0   |
+
+### Key Findings
+
+1. **QLoRA Fine-tuning Significantly Improves Performance**: Fine-tuning with QLoRA improved F1 score from 10.9% to 59.0% even with basic prompting.
+
+2. **Prompt Engineering Enhances Results**: Few-shot prompting alone improved the base model F1 score from 10.9% to 24.8%.
+
+3. **Combined Approach is Best**: The combination of QLoRA fine-tuning with few-shot prompting yielded the highest F1 score of 83.4%.
+
+4. **Entity Type Performance**: The model performs best on LOC and PER entities, while MISC entities remain the most challenging.
+
+## Technical Implementation
+
+### Data & Preprocessing
+
+- **Dataset**: `datasets/ner_instruct_data.json`
+- Each example combines an instruction and a structured response into a single text prompt using the true labels from the train dataset partition.
 
 ### Model & Tokenizer Initialization
 
-- **Model Loading:**  
-  - The base model is **LLaMA-2 7B Chat** from Meta.
-  - The model is loaded using a 4-bit quantization configuration (via `BitsAndBytesConfig`) which helps in reducing memory usage while maintaining performance.
+- **Model Loading**:  
+  - Base model: **LLaMA-2 7B Chat** from Meta
+  - Loaded using 4-bit quantization configuration (via `BitsAndBytesConfig`) to reduce memory usage while maintaining performance
   
-- **Tokenizer:**  
-  - The corresponding tokenizer is initialized to properly tokenize and pad input text.
-  - The tokenizer’s `eos_token` is set as the padding token.
+- **Tokenizer**:  
+  - Initialized to properly tokenize and pad input text
+  - The tokenizer's `eos_token` is set as the padding token
 
 ### Quantization and Efficient Fine-Tuning with LoRA
 
-- **Quantization:**  
-  - The model is loaded with 4-bit quantization, using NF4 quantization type and double quantization for improved precision.
+- **Quantization**:  
+  - 4-bit quantization with NF4 type and double quantization for improved precision
   
-- **Preparation for k-bit Training:**  
-  - The model is preprocessed with `prepare_model_for_kbit_training` to enable quantization-aware training.
+- **Preparation for k-bit Training**:  
+  - Model preprocessed with `prepare_model_for_kbit_training` to enable quantization-aware training
 
-- **LoRA Adapters:**  
-  - LoRA (Low-Rank Adaptation) is used for parameter-efficient fine-tuning.  
-  - LoRA adapters introduce additional low-rank matrices to specific parts of the network (targeting `"q_proj"` and `"v_proj"` modules) rather than updating all model weights.
-  - Key configuration parameters include:
-    - **r:** Rank of the low-rank matrices.
-    - **lora_alpha:** Scaling factor.
-    - **lora_dropout:** Dropout rate to help regularize the adapters.
-  - This approach reduces the training burden by focusing updates only on the added parameters while the pre-trained weights remain largely frozen.
+- **LoRA Adapters**:  
+  - LoRA (Low-Rank Adaptation) used for parameter-efficient fine-tuning
+  - Introduces additional low-rank matrices to specific network parts (targeting `q_proj` and `v_proj` modules)
+  - Key configuration parameters:
+    - **r**: Rank of the low-rank matrices
+    - **lora_alpha**: Scaling factor
+    - **lora_dropout**: Dropout rate for regularization
+  - Reduces training burden by focusing updates only on added parameters while pre-trained weights remain frozen
 
-## Container Creation & Deployment
+## Deployment Pipeline
 
-- **Local Docker Build:**
-  - A **Dockerfile** defines the environment:
-    - **Base Image:** Uses an NVIDIA CUDA image (`nvidia/cuda:11.7.1-base-ubuntu20.04`)
-    - **Dependencies:** Installs system packages and Python libraries (Torch, Transformers, etc.)
-    - **Working Directory:** Set to `/workspace` and copies project folders (`src/` and `datasets/`)
-    - **Default Command:** Runs the training script.
-  - **Build Command:**
-    ```bash
-    docker build --platform linux/amd64 -t lora-train:latest . (or lora-train-eval -> the newer container versions with broader set of libraries)
-    ```
+### Container Creation
 
-- **Pushing & Pulling:**
-  - **Push to Docker Hub:**
-    - Tag the image (`irv12/lora-train:latest`) and push it. ( OR `irv12/lora-train-eval:latest`)
-    ```bash
-    docker tag lora-train:latest irv12/lora-train:latest
-    docker push irv12/lora-train:latest
-    ```
-  - **On the HPC Cluster:**
-    - Pull the Docker image and convert it into a Singularity image:
-    ```bash
-    singularity build lora-train.sif docker://irv12/lora-train:latest
-    ```
+- **Docker Configuration**:
+  - **Base Image**: NVIDIA CUDA image (`nvidia/cuda:11.7.1-base-ubuntu20.04`)
+  - **Dependencies**: System packages and Python libraries (PyTorch, Transformers, etc.)
+  - **Working Directory**: `/workspace` with project folders (`src/` and `datasets/`)
+  - **Default Command**: Training script
 
-- **Running on the Cluster:**
-  - **SLURM Job Script:** A SLURM script runs the Singularity container with GPU support (using `--nv`) and bind-mounts host project directory (`/data/horse/ws/irve354e-uniNer_test/qlora-ner/qlora-ner`) to `/workspace` inside the container.
-  - **Container Lifecycle:** The container starts, executes the training and stops after the job ends. Output data written to `/workspace` is persisted on the host via the bind mount.
+- **Build Command**:
+  ```bash
+  docker build --platform linux/amd64 -t lora-train:latest .
+  # Or for newer versions with broader library support:
+  # docker build --platform linux/amd64 -t lora-train-eval:latest .
+  ```
 
-# Evaluation of the Fine-Tuned NER Model
+### Deployment Workflow
 
-This section of the script evaluates the performance of the both fine-tuned LLaMA-2 7B Chat model on a Named Entity Recognition (NER) task using the CoNLL03 test dataset and base model. The evaluation workflow combines text generation, response parsing, BIO tagging, and metric computation, all integrated into an MLflow experiment for tracking.
+- **Push to Docker Hub**:
+  ```bash
+  docker tag lora-train:latest irv12/lora-train:latest
+  docker push irv12/lora-train:latest
+  ```
 
----
+- **HPC Cluster Deployment**:
+  ```bash
+  # Convert Docker image to Singularity
+  singularity build lora-train.sif docker://irv12/lora-train:latest
+  ```
 
-## Key Concepts
+- **Execution**:
+  - SLURM job script runs the Singularity container with GPU support (`--nv`)
+  - Bind-mounts host project directory to `/workspace` inside the container
+  - Container executes training and persists output data via the bind mount
 
-- **Text Generation Pipeline:**  
-  The evaluation leverages a text-generation pipeline to prompt the model with sentences from the CoNLL03 dataset. The prompt instructs the model to extract and classify named entities ( LOC, ORG, PER, MISC) in each sentence.
+## Evaluation Framework
 
-- **Response Parsing and BIO Tagging:**  
-  After generation, the raw output is parsed to extract entity mentions. These mentions are then converted into token-level BIO tags, which are compared against the true labels from the dataset.
+The evaluation process assesses both the base and fine-tuned LLaMA-2 7B Chat models on NER tasks using the CoNLL03 test dataset.
 
-- **Metric Computation:**  
-  Using standard NER evaluation metrics (precision, recall, F1-score, and a detailed classification report), the script quantifies the performance of the model on the test set.
+### Evaluation Pipeline
 
-- **Batch Processing:**  
-  To efficiently handle the dataset, the evaluation processes examples in batches. Each batch is sent through the generation pipeline, and the responses are parsed and tagged accordingly. (though the batch size should be increased..)
+1. **Text Generation**:
+   - Prompts the model with sentences from CoNLL03
+   - Instructs the model to extract and classify named entities
 
-- **MLflow Integration:**  
-  The entire evaluation process is tracked with MLflow. Key parameters, computed metrics, and generated responses are logged and saved as artifacts.
+2. **Response Processing**:
+   - Parses raw outputs to extract entity mentions
+   - Converts mentions into token-level BIO tags
+   - Compares against ground truth labels
 
----
+3. **Metrics Calculation**:
+   - Precision, recall, F1-score per entity type
+   - Overall performance metrics
+   - Detailed classification reports
 
-## Workflow Summary
+4. **Optimization**:
+   - Batch processing for efficiency
+   - MLflow integration for experiment tracking
 
-1. **Model Preparation:**  
-   The fine-tuned model (with merged LoRA adapters) is loaded in a quantized state for evaluation.
+### Evaluation Workflow
 
-2. **Data Loading:**  
-   A subset of the CoNLL03 test dataset is loaded and pre-processed, extracting the sentence tokens and corresponding gold NER tags.
+1. **Model Preparation**: Load fine-tuned model with merged LoRA adapters in quantized state
 
-3. **Prompting and Generation:**  
-   For each test sentence, a prompt is created to instruct the model to perform NER. The text-generation pipeline outputs the generated response for each prompt.
+2. **Data Processing**: Load and preprocess CoNLL03 test dataset
 
-4. **Parsing and Tagging:**  
-   The generated responses are parsed to extract named entities, which are then converted into BIO tags matching the tokenization of the input sentences.
+3. **Inference**: Generate NER predictions for test sentences
 
-5. **Evaluation Metrics:**  
-   The predicted BIO tags are compared with the ground-truth tags to compute precision, recall, F1-score, and a detailed classification report using the `seqeval` library. Results are compared fro inference of the model before quantized training (base model) and after. 
+4. **Analysis**: Convert predictions to BIO format and compute metrics
 
-6. **Logging Results:**  
-   Evaluation metrics and generated responses are saved as JSON files and logged into MLflow, along with other run parameters, to ensure a comprehensive record of the evaluation.
-
+5. **Reporting**: Log results and generated responses to MLflow
